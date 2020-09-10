@@ -1,1 +1,1 @@
-# d2hu
+# Diablo II - Hell Unleashed
