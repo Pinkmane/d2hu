@@ -1,0 +1,91 @@
+name	letter	transform	code	nummods	weaponMod1Code	weaponMod1Param	weaponMod1Min	weaponMod1Max	weaponMod2Code	weaponMod2Param	weaponMod2Min	weaponMod2Max	weaponMod3Code	weaponMod3Param	weaponMod3Min	weaponMod3Max	helmMod1Code	helmMod1Param	helmMod1Min	helmMod1Max	helmMod2Code	helmMod2Param	helmMod2Min	helmMod2Max	helmMod3Code	helmMod3Param	helmMod3Min	helmMod3Max	shieldMod1Code	shieldMod1Param	shieldMod1Min	shieldMod1Max	shieldMod2Code	shieldMod2Param	shieldMod2Min	shieldMod2Max	shieldMod3Code	shieldMod3Param	shieldMod3Min	shieldMod3Max
+Chipped Amethyst		18	gcv	3	att	0	40	40	swing2		5	5					str		5	5							0	0	block		6	6	block2		12	12		0	0	0
+Flawed Amethyst		18	gfv	3	att	0	80	80	swing2		10	10					str		10	10							0	0	block		8	8	block2		16	16		0	0	0
+Amethyst		18	gsv	3	att	0	120	120	swing2		15	15					str		15	15							0	0	block		10	10	block2		20	20		0	0	0
+Flawless Amethyst		18	gzv	3	att	0	160	160	swing2		20	20					str		20	20							0	0	block		12	12	block2		24	24		0	0	0
+Perfect Amethyst		17	gpv	3	att	0	200	200	swing2		22	22					str		25	25							0	0	block		15	15	block2		30	30		0	0	0
+StarAmethyst		17	g6v	3	att	0	250	250	swing2		25	25					str		30	30							0	0	block		17	17	block2		34	34		0	0	0
+ArchAmethyst		17	g7v	3	att	0	300	300	swing2		30	30					str		35	35							0	0	block		20	20	block2		40	40		0	0	0
+XAmethyst		17	g8v	3	att	0	400	400	swing2		35	35					str		40	40							0	0	block		25	25	block2		50	50		0	0	0
+Chipped Sapphire		5	gcb	3	dmg-cold	25	2	4	extra-cold		1	1					enr		3	3	mana%		3	3			0	0	res-cold		12	12						0	0	0
+Flawed Sapphire		5	gfb	3	dmg-cold	35	5	10	extra-cold		1	1					enr		6	6	mana%		4	4			0	0	res-cold		16	16						0	0	0
+Sapphire		5	gsb	3	dmg-cold	50	13	17	extra-cold		1	1					enr		9	9	mana%		5	5			0	0	res-cold		20	20						0	0	0
+Flwless Sapphire		5	glb	3	dmg-cold	60	18	25	extra-cold		2	2					enr		12	12	mana%		6	6			0	0	res-cold		24	24						0	0	0
+Perfect Sapphire		6	gpb	3	dmg-cold	75	30	50	extra-cold		2	2					enr		15	15	mana%		7	7			0	0	res-cold		28	28						0	0	0
+StarSapphire		6	g6b	3	dmg-cold	100	60	100	extra-cold		3	3					enr		18	18	mana%		8	8			0	0	res-cold		32	32						0	0	0
+ArchSapphire		6	g7b	3	dmg-cold	125	120	200	extra-cold		3	3					enr		21	21	mana%		9	9			0	0	res-cold		38	38						0	0	0
+XSapphire		6	g8b	3	dmg-cold	150	240	320	extra-cold		4	4					enr		25	25	mana%		10	10			0	0	res-cold		45	45						0	0	0
+Chipped Emerald		11	gcg	3	dmg-pois	50	50	50	extra-pois		1	1					dex		5	5							0	0	res-pois		12	12	res-pois-len		15	15		0	0	0
+Flawed Emerald		11	gfg	3	dmg-pois	75	100	100	extra-pois		1	1					dex		10	10							0	0	res-pois		16	16	res-pois-len		17	17		0	0	0
+Emerald		11	gsg	3	dmg-pois	100	125	125	extra-pois		1	1					dex		15	15							0	0	res-pois		20	20	res-pois-len		19	19		0	0	0
+Flawless Emerald		11	glg	3	dmg-pois	125	250	250	extra-pois		2	2					dex		20	20							0	0	res-pois		24	24	res-pois-len		21	21		0	0	0
+Perfect Emerald		12	gpg	3	dmg-pois	150	500	500	extra-pois		2	2					dex		25	25							0	0	res-pois		28	28	res-pois-len		23	23		0	0	0
+StarEmerald		12	g6g	3	dmg-pois	175	1000	1000	extra-pois		3	3					dex		30	30							0	0	res-pois		32	32	res-pois-len		25	25		0	0	0
+ArchEmerald		12	g7g	3	dmg-pois	200	1500	1500	extra-pois		3	3					dex		35	35							0	0	res-pois		38	38	res-pois-len		27	27		0	0	0
+XEmerald		12	g8g	3	dmg-pois	225	2000	2000	extra-pois		4	4					dex		40	40							0	0	res-pois		45	45	res-pois-len		30	30		0	0	0
+Chipped Ruby		8	gcr	3	dmg-fire	0	3	5	extra-fire		1	1					hp		20	20							0	0	res-fire		12	12						0	0	0
+Flawed Ruby		8	gfr	3	dmg-fire	0	6	12	extra-fire		1	1					hp		30	30							0	0	res-fire		16	16						0	0	0
+Ruby		8	gsr	3	dmg-fire	0	18	25	extra-fire		1	1					hp		40	40							0	0	res-fire		20	20						0	0	0
+Flawless Ruby		8	glr	3	dmg-fire	0	26	34	extra-fire		2	2					hp		70	70							0	0	res-fire		24	24						0	0	0
+Perfect Ruby		9	gpr	3	dmg-fire	0	40	60	extra-fire		2	2					hp		100	100							0	0	res-fire		28	28						0	0	0
+StarRuby		9	g6r	3	dmg-fire	0	80	120	extra-fire		3	3					hp		130	130							0	0	res-fire		32	32						0	0	0
+ArchRuby		9	g7r	3	dmg-fire	0	160	240	extra-fire		3	3					hp		160	160							0	0	res-fire		38	38						0	0	0
+XRuby		9	g8r	3	dmg-fire	0	320	480	extra-fire		4	4					hp		200	200							0	0	res-fire		45	45						0	0	0
+Chipped Diamond		1	gcw	3	dmg-mag		2	4	extra-mag		1	1					ac		30	30	red-dmg		1	1	red-mag		1	1	res-all		7	7						0	0	0
+Flawed Diamond		1	gfw	3	dmg-mag		5	8	extra-mag		1	1					ac		60	60	red-dmg		2	2	red-mag		2	2	res-all		10	10						0	0	0
+Diamond		1	gsw	3	dmg-mag		9	12	extra-mag		1	1					ac		90	90	red-dmg		3	3	red-mag		3	3	res-all		12	12						0	0	0
+Flawless Diamond		1	glw	3	dmg-mag		13	16	extra-mag		2	2					ac		120	120	red-dmg		5	5	red-mag		4	4	res-all		14	14						0	0	0
+Perfect Diamond		0	gpw	3	dmg-mag		20	30	extra-mag		2	2					ac		160	160	red-dmg		7	7	red-mag		5	5	res-all		16	16						0	0	0
+StarDiamond		0	g6w	3	dmg-mag		40	60	extra-mag		3	3					ac		200	200	red-dmg		9	9	red-mag		6	6	res-all		18	18						0	0	0
+ArchDiamond		0	g7w	3	dmg-mag		90	120	extra-mag		3	3					ac		250	250	red-dmg		12	12	red-mag		8	8	res-all		20	20						0	0	0
+XDiamond		0	g8w	3	dmg-mag		180	240	extra-mag		4	4					ac		300	300	red-dmg		15	15	red-mag		10	10	res-all		22	22						0	0	0
+Chipped Topaz		14	gcy	3	dmg-ltng	0	1	10	extra-ltng		1	1					mag%		5	5	gold%		10	10			0	0	res-ltng		12	12						0	0	0
+Flawed Topaz		14	gfy	3	dmg-ltng	0	1	20	extra-ltng		1	1					mag%		7	7	gold%		15	15			0	0	res-ltng		16	16						0	0	0
+Topaz		14	gsy	3	dmg-ltng	0	1	45	extra-ltng		1	1					mag%		10	10	gold%		20	20			0	0	res-ltng		20	20						0	0	0
+Flawless Topaz		14	gly	3	dmg-ltng	0	1	60	extra-ltng		2	2					mag%		12	12	gold%		25	25			0	0	res-ltng		24	24						0	0	0
+Perfect Topaz		13	gpy	3	dmg-ltng	0	1	100	extra-ltng		2	2					mag%		15	15	gold%		30	30			0	0	res-ltng		28	28						0	0	0
+StarTopaz		13	g6y	3	dmg-ltng	0	1	200	extra-ltng		3	3					mag%		20	20	gold%		40	40			0	0	res-ltng		32	32						0	0	0
+ArchTopaz		13	g7y	3	dmg-ltng	0	1	400	extra-ltng		3	3					mag%		25	25	gold%		50	50			0	0	res-ltng		38	38						0	0	0
+XTopaz		13	g8y	3	dmg-ltng	0	1	800	extra-ltng		4	4					mag%		30	30	gold%		60	60			0	0	res-ltng		45	45						0	0	0
+Chipped Skull		2	skc	3	manasteal	0	2	2	lifesteal		2	2	deadly		3	3	res-mag		5	5	regen		25	25	regen-mana		20	20	openwounds		10	10	red-dmg%		3	3		0	0	0
+Flawed Skull		2	skf	3	manasteal	0	2	2	lifesteal		2	2	deadly		4	4	res-mag		6	6	regen		50	50	regen-mana		22	22	openwounds		11	11	red-dmg%		4	4		0	0	0
+Skull		2	sku	3	manasteal	0	2	2	lifesteal		2	2	deadly		5	5	res-mag		7	7	regen		75	75	regen-mana		25	25	openwounds		12	12	red-dmg%		5	5		0	0	0
+Flawless Skull		2	skl	3	manasteal	0	3	3	lifesteal		3	3	deadly		6	6	res-mag		8	8	regen		100	100	regen-mana		28	28	openwounds		13	13	red-dmg%		6	6		0	0	0
+Perfect Skull		3	skz	3	manasteal	0	4	4	lifesteal		4	4	deadly		7	7	res-mag		9	9	regen		125	125	regen-mana		31	31	openwounds		14	14	red-dmg%		7	7		0	0	0
+StarSkull		3	sk6	3	manasteal	0	5	5	lifesteal		5	5	deadly		8	8	res-mag		10	10	regen		150	150	regen-mana		35	35	openwounds		15	15	red-dmg%		8	8		0	0	0
+ArchSkull		3	sk7	3	manasteal	0	6	6	lifesteal		6	6	deadly		9	9	res-mag		12	12	regen		175	175	regen-mana		40	40	openwounds		16	16	red-dmg%		9	9		0	0	0
+XSkull		3	sk8	3	manasteal	0	7	7	lifesteal		7	7	deadly		10	10	res-mag		15	15	regen		200	200	regen-mana		50	50	openwounds		18	18	red-dmg%		10	10		0	0	0
+Expansion																																								
+El Rune	El	18	r01	1	light		1	1	att		50	50					light		1	1	ac%		20	20					light		1	1	ac%		20	20				0
+Eld Rune	Eld	18	r02	1	att-undead		100	100	dmg-undead		100	100					dmg-undead		50	50									block		15	15	dmg-undead		50	50				0
+Tir Rune	Tir	18	r03	1	mana-kill		12	12	cast2		10	10					mana-kill		8	8	cast2		10	10					mana-kill		8	8	cast2		10	10				0
+Nef Rune	Nef	18	r04	1	knock		1	1	dmg-norm		1	2					dmg-norm		1	2									dmg-norm		1	2								0
+Eth Rune	Eth	18	r05	1	reduce-ac		25	25	dmg-norm		1	2					regen-mana		30	30									regen-mana		30	30								0
+Ith Rune	Ith	18	r06	1	heal-hit		2	2	dmg-norm		1	2					dmg-to-mana		20	20									dmg-to-mana		20	20								0
+Tal Rune	Tal	18	r07	1	dmg-pois	100	300	300	extra-pois		1	1					res-pois		20	20	extra-pois		1	1					res-pois		20	20	extra-pois		1	1				
+Ral Rune	Ral	18	r08	1	dmg-fire		20	40	extra-fire		1	1					res-fire		20	20	extra-fire		1	1					res-fire		20	20	extra-fire		1	1				
+Ort Rune	Ort	18	r09	1	dmg-ltng		1	60	extra-ltng		1	1					res-ltng		20	20	extra-ltng		1	1					res-ltng		20	20	extra-ltng		1	1				
+Thul Rune	Thul	18	r10	1	dmg-cold	75	20	40	extra-cold		1	1					res-cold		20	20	extra-cold		1	1					res-cold		20	20	extra-cold		1	1				
+Amn Rune	Amn	18	r11	1	lifesteal		2	2	extra-mag		1	1					res-mag		5	5	extra-mag		1	1					res-mag		5	5	extra-mag		1	1				
+Sol Rune	Sol	18	r12	1	dmg-norm		3	6	red-dmg		6	6					red-dmg		6	6	dmg-norm		3	6					red-dmg		6	6	dmg-norm		3	6				0
+Shael Rune	Shael	18	r13	1	swing2		20	20	move2		20	20					balance2		20	20	move2		20	20					block2		30	30	move2		10	10				0
+Dol Rune	Dol	18	r14	1	heal-kill/lvl		3	3	cast2		20	20					heal-kill/lvl		2	2	cast2		20	20					heal-kill/lvl		2	2	cast2		20	20				0
+Hel Rune	Hel	18	r15	1	ease		-15	-15	dmg-norm		4	8					ease		-15	-15	ac		50	50					ease		-15	-15	ac		50	50				0
+Io Rune	Io	18	r16	1	vit		20	20	regen		50	50					vit		16	16	balance2		20	20					vit		16	16	block		20	20				0
+Lum Rune	Lum	18	r17	1	enr		10	10	mana%		10	10					enr		10	10	extra-all		1	1					enr		10	10	extra-all		1	1				0
+Ko Rune	Ko	18	r18	1	dex		20	20	dmg-norm		4	8					dex		16	16	dmg-norm		4	8					dex		16	16	dmg-norm		4	8				
+Fal Rune	Fal	18	r19	1	str		20	20	dmg-norm		4	8					str		16	16	dmg-norm		4	8					str		16	16	dmg-norm		4	8				
+Lem Rune	Lem	18	r20	1	gold%		50	50	regen		50	50					gold%		50	50	regen		50	50					gold%		50	50	regen		50	50				0
+Pul Rune	Pul	18	r21	1	dmg-demon		200	200	dmg-undead		200	200					regen		100	100	dmg-demon		150	150	dmg-undead		150	150	dmg-demon		150	150	dmg-undead		150	150	regen		100	100
+Um Rune	Um	18	r22	1	openwounds		25	25	dmg-norm		5	10					res-all		18	18									res-all		18	18								0
+Mal Rune	Mal	18	r23	1	red-mag		10	10	res-mag		6	6					red-mag		10	10	res-mag		6	6					red-mag		10	10	res-mag		6	6				0
+Ist Rune	Ist	18	r24	1	mag%		25	25									mag%		25	25									mag%		50	50								0
+Gul Rune	Gul	18	r25	1	ignore-ac		1	1	dmg-pois	50	1000	1000	extra-pois		3	3	extra-pois		2	2	dmg-pois	50	800	1200					extra-pois		2	2	dmg-pois	50	800	1200				
+Vex Rune	Vex	18	r26	1	manasteal		5	5	dmg-fire		80	120	extra-fire		3	3	extra-fire		2	2	dmg-fire		200	400					extra-fire		2	2	dmg-fire		200	400				
+Ohm Rune	Ohm	18	r27	1	dmg%		30	30	dmg-ltng		1	200	extra-ltng		3	3	extra-ltng		2	2	dmg-ltng		1	800					extra-ltng		2	2	dmg-ltng		1	800				
+Lo Rune	Lo	18	r28	1	deadly		15	15	dmg-cold	150	60	100	extra-cold		3	3	extra-cold		2	2	dmg-cold	150	160	340					extra-cold		2	2	dmg-cold	150	160	340				
+Sur Rune	Sur	18	r29	1	lifesteal		5	5	dmg-mag		40	60	extra-mag		3	3	extra-mag		2	2	dmg-mag		120	280					extra-mag		2	2	dmg-mag		120	280				
+Ber Rune	Ber	18	r30	1	red-dmg%		4	4	extra-phys		3	3					red-dmg%		8	8	extra-phys		2	2					resistcurse		6	6	extra-phys		2	2				0
+Jah Rune	Jah	18	r31	1	hp		50	50	regen		200	200					hp		100	100	regen		200	200					hp		100	100	regen		200	200				
+Cham Rune	Cham	18	r32	1	slow		4	4	res-mag		10	10					nofreeze		1	1	res-mag		10	10					nofreeze		1	1	res-mag		10	10				
+Zod Rune	Zod	18	r33	1	indestruct		1	1									indestruct		1	1									indestruct		1	1								0

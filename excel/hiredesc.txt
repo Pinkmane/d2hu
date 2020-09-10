@@ -1,0 +1,15 @@
+Hireling Description	Code	NameStr
+None		
+Fire Arrow	farw	strhirespecial7
+Cold Arrow	carw	strhirespecial6
+Combat	comb	healmerc
+Defensive Auras	def	defmerc
+Offensive Auras	off	offmerc
+Fire Spells	fire	strhirespecial7
+Cold Spells	cold	strhirespecial6
+Lightning Spells	ltng	strhirespecial5
+Poison Spells	pois	poismerc
+Physical Arrow	phys	physmerc
+Wolf Barb	wolf	wolfmerc
+Bear Barb	bear	bearmerc
+Barb Merc	barb	barbmerc

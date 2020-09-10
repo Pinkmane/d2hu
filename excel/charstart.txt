@@ -1,0 +1,4 @@
+Func	Class	StatName	SkillName	ParamVal	*remarks	*eol
+AddStat		gold		0		0
+AddStat		statpts		0		0
+AddStat		newskills		1		0

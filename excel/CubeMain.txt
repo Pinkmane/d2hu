@@ -1,0 +1,908 @@
+description	enabled	ladder	min diff	version	op	param	value	class	numinputs	input 1	input 2	input 3	input 4	input 5	input 6	input 7	output	lvl	plvl	ilvl	mod 1	mod 1 chance	mod 1 param	mod 1 min	mod 1 max	mod 2	mod 2 chance	mod 2 param	mod 2 min	mod 2 max	mod 3	mod 3 chance	mod 3 param	mod 3 min	mod 3 max	mod 4	mod 4 chance	mod 4 param	mod 4 min	mod 4 max	mod 5	mod 5 chance	mod 5 param	mod 5 min	mod 5 max	output b	b lvl	b plvl	b ilvl	b mod 1	b mod 1 chance	b mod 1 param	b mod 1 min	b mod 1 max	b mod 2	b mod 2 chance	b mod 2 param	b mod 2 min	b mod 2 max	b mod 3	b mod 3 chance	b mod 3 param	b mod 3 min	b mod 3 max	b mod 4	b mod 4 chance	b mod 4 param	b mod 4 min	b mod 4 max	b mod 5	b mod 5 chance	b mod 5 param	b mod 5 min	b mod 5 max	output c	c lvl	c plvl	c ilvl	c mod 1	c mod 1 chance	c mod 1 param	c mod 1 min	c mod 1 max	c mod 2	c mod 2 chance	c mod 2 param	c mod 2 min	c mod 2 max	c mod 3	c mod 3 chance	c mod 3 param	c mod 3 min	c mod 3 max	c mod 4	c mod 4 chance	c mod 4 param	c mod 4 min	c mod 4 max	c mod 5	c mod 5 chance	c mod 5 param	c mod 5 min	c mod 5 max	*eol
+Staff of Kings + Viper amulet -> Horadric Staff	1			0	28				3	msf	vip	ore					hst																																																																																							0
+Khalim Flail + Khalim Heart + Khalim Eye + Khalim Brain -> Super Khalim Flail	1			0	28				4	qf1	qhr	qey	qbr				qf2																																																																																							0
+1 Wirt's leg + 1 town portal book -> portal to cow lvl	1			0	28				4	co1	co2	co3	leg				Cow Portal																																																																																							0
+3 health potions + 3 mana potions + 1 standard gem -> full rejuvenate potion				0					7	hpot,qty=3	mpot,qty=3	gem2					rvl																																																																																							0
+3 health potions +  3 mana potions + 1 chipped gem -> rejuvenate potion				0					7	hpot,qty=3	mpot,qty=3	gem0					rvs																																																																																							0
+3 small rejuvs -> one large				0					6	rvs,qty=6							rvl																																																																																							0
+1 perfect gem of each type + 1 amulet -> prismatic amulet				0					7	amu,mag	gpv	gpy	gpb	gpg	gpr	gpw	amu,crf,pre=331	50																																																																																						0
+1 ring + 1 perfect ruby + 1 exploding potions -> garnet ring				0					4	rin,mag	gpr	opm	zas				rin,crf,pre=372	30																																																																																						0
+1 ring + 1 perfect sapphire + 1 thawing potions-> cobalt ring				0					4	rin,mag	gpb	wms	zas				rin,crf,pre=353	30																																																																																						0
+1 ring + 1 perfect topaz + 1 rejuvenation -> coral ring				0					4	rin,mag	gpy	rvs	zas				rin,crf,pre=392	30																																																																																						0
+1 ring + 1 perfect emerald + 1 antidote potions -> jade ring				0					4	rin,mag	gpg	yps	zas				rin,crf,pre=412	30																																																																																						0
+3 rings -> amulet	1			0					3	rin,mag,qty=3							amu,mag		100																																																																																					0
+3 amulets -> ring	1			0					3	amu,mag,qty=3							rin,mag		100																																																																																					0
+1 magic small shield + 1 spiked club + 2 skulls -> shield of spikes				0					5	shld,mag	gemz,qty=2	spc	zas				usetype,crf,suf=162	30		60																																																																																				0
+4 health potion + 1 ruby + 1 magic sword -> sword of the leech				0					7	swor,mag	gemr	hpot,qty=4	zas				usetype,crf,suf=352	30		60																																																																																				0
+1 diamond + 1 kriss + 1 staff + 1 belt -> savage polearm				0					5	kri	gemd	staf	belt	zas			pole,crf,pre=191	50		60																																																																																				0
+1 strangling gas potion + 1 health potion -> antidote potion				0					2	gpl	hpot						yps																																																																																							0
+2 arrows -> bolts				0					2	aqv,qty=2							cqv																																																																																							0
+2 bolts -> arrows				0					2	cqv,qty=2							aqv																																																																																							0
+3 chipped amethysts -> flawed amethyst	1			0					3	gcv,qty=3							gfv																																																																																							0
+3 flawed amethysts -> standard amethyst	1			0					3	gfv,qty=3							gsv																																																																																							0
+3 standard amethysts -> flawless amethyst	1			0					3	gsv,qty=3							gzv																																																																																							0
+3 flawless amethysts -> perfect amethyst	1			0					3	gzv,qty=3							gpv																																																																																							0
+3 chipped rubies -> flawed ruby	1			0					3	gcr,qty=3							gfr																																																																																							0
+3 flawed rubies -> standard ruby	1			0					3	gfr,qty=3							gsr																																																																																							0
+3 standard rubies -> flawless ruby	1			0					3	gsr,qty=3							glr																																																																																							0
+3 flawless rubies -> perfect ruby	1			0					3	glr,qty=3							gpr																																																																																							0
+3 chipped sapphires -> flawed sapphire	1			0					3	gcb,qty=3							gfb																																																																																							0
+3 flawed sapphires -> standard sapphire	1			0					3	gfb,qty=3							gsb																																																																																							0
+3 standard sapphires -> flawless sapphire	1			0					3	gsb,qty=3							glb																																																																																							0
+3 flawless sapphires -> perfect sapphire	1			0					3	glb,qty=3							gpb																																																																																							0
+3 chipped topazes -> flawed topaz	1			0					3	gcy,qty=3							gfy																																																																																							0
+3 flawed topazes -> standard topaz	1			0					3	gfy,qty=3							gsy																																																																																							0
+3 standard topazes -> flawless topaz	1			0					3	gsy,qty=3							gly																																																																																							0
+3 flawless topazes -> perfect topaz	1			0					3	gly,qty=3							gpy																																																																																							0
+3 chipped emeralds -> flawed emerald	1			0					3	gcg,qty=3							gfg																																																																																							0
+3 flawed emeralds -> standard emerald	1			0					3	gfg,qty=3							gsg																																																																																							0
+3 standard emeralds -> flawless emerald	1			0					3	gsg,qty=3							glg																																																																																							0
+3 flawless emeralds -> perfect emerald	1			0					3	glg,qty=3							gpg																																																																																							0
+3 chipped diamonds -> flawed diamond	1			0					3	gcw,qty=3							gfw																																																																																							0
+3 flawed diamonds -> standard diamond	1			0					3	gfw,qty=3							gsw																																																																																							0
+3 standard diamonds -> flawless diamond	1			0					3	gsw,qty=3							glw																																																																																							0
+3 flawless diamonds -> perfect diamond	1			0					3	glw,qty=3							gpw																																																																																							0
+3 chipped skulls -> flawed skull	1			0					3	skc,qty=3							skf																																																																																							0
+3 flawed skulls -> standard skull	1			0					3	skf,qty=3							sku																																																																																							0
+3 standard skulls -> flawless skull	1			0					3	sku,qty=3							skl																																																																																							0
+3 flawless skulls -> perfect skull	1			0					3	skl,qty=3							skz																																																																																							0
+3 rune 01 -> rune 02	1			100					2	r01,qty=2							r02																																																																																							0
+3 rune 02 -> rune 03	1			100					2	r02,qty=2							r03																																																																																							0
+3 rune 03 -> rune 04	1			100					2	r03,qty=2							r04																																																																																							0
+3 rune 04 -> rune 05	1			100					2	r04,qty=2							r05																																																																																							0
+3 rune 05 -> rune 06	1			100					2	r05,qty=2							r06																																																																																							0
+3 rune 06 -> rune 07	1			100					2	r06,qty=2							r07																																																																																							0
+3 rune 07 -> rune 08	1			100					2	r07,qty=2							r08																																																																																							0
+3 rune 08 -> rune 09	1			100					2	r08,qty=2							r09																																																																																							0
+3 rune 09 -> rune 10	1			100					2	r09,qty=2							r10																																																																																							0
+3 perfect gems + 1 magic item -> magic item				100					4	any,mag	gem4,qty=3						usetype,mag			100																																																																																				0
+1 arch gem + 1 magic item -> magic item	1			100					2	any,mag	gem6						usetype,mag			100																																																																																				0
+2 star gems + 1 magic item -> magic item				100					3	any,mag	gem5,qty=2						usetype,mag			100																																																																																				0
+2 xgem + 1 rare item -> 1  rare item				0					4	any,rar	gem7,qty=2	7as					usetype,rar			100																																																																																				0
+3 rune 10 -> rune 11	1			100					2	r10,qty=2							r11																																																																																							0
+3 rune 11 -> rune 12	1			100					2	r11,qty=2							r12																																																																																							0
+3 rune 12 + 1 chipped sapphire -> rune 13	1			100					2	r12,qty=2							r13																																																																																							0
+3 rune 13 + 1 chipped ruby -> rune 14	1			100					2	r13,qty=2							r14																																																																																							0
+3 rune 14 + 1 chipped emerald -> rune 15	1			100					2	r14,qty=2							r15																																																																																							0
+3 rune 15 + 1 chipped diamond -> rune 16	1			100					2	r15,qty=2							r16																																																																																							0
+3 rune 16 + 1 flawed topaz -> rune 17	1			100					2	r16,qty=2							r17																																																																																							0
+3 rune 17 + 1 flawed amethyst -> rune 18	1			100					2	r17,qty=2							r18																																																																																							0
+3 rune 18 + 1 flawed sapphire -> rune 19	1			100					2	r18,qty=2							r19																																																																																							0
+3 rune 19 + 1 flawed ruby -> rune 20	1			100					2	r19,qty=2							r20																																																																																							0
+3 rune 20 + 1 flawed emerald -> rune 21	1			100					2	r20,qty=2							r21																																																																																							0
+3 rune 21 + 1 flawed diamond -> rune 22	1			100					2	r21,qty=2							r22																																																																																							0
+3 rune 22 + 1 standard topaz -> rune 23	1			100					2	r22,qty=2							r23																																																																																							0
+3 rune 23 + 1 standard amethyst -> rune 24	1			100					2	r23,qty=2							r24																																																																																							0
+3 rune 24 + 1 standard sapphire -> rune 25	1			100					2	r24,qty=2							r25																																																																																							0
+3 rune 25 + 1 standard ruby -> rune 26	1			100					2	r25,qty=2							r26																																																																																							0
+3 rune 26 + 1 standard emerald -> rune 27	1			100					2	r26,qty=2							r27																																																																																							0
+3 rune 27 + 1 standard diamond -> rune 28	1			100					2	r27,qty=2							r28																																																																																							0
+3 rune 28 + 1 flawless topaz -> rune 29	1			100					2	r28,qty=2							r29																																																																																							0
+2 rune 29 + 1 flawless amethyst -> rune 30	1			100					2	r29,qty=2							r30																																																																																							0
+2 rune 30 + 1 flawless sapphire -> rune 31	1			100					2	r30,qty=2							r31																																																																																							0
+2 rune 31 + 1 flawless ruby -> rune 32	1			100					2	r31,qty=2							r32																																																																																							0
+2 rune 32 + 1 flawless emerald -> rune 33	1			100					2	r32,qty=2							r33																																																																																							0
+smith rune + weapon -> repair	1			100					2	weap,noe	8as						useitem,rep,rch,qty=500																																																																																							0
+smith rune + armor -> repair	1			100					2	armo,noe	8as						useitem,rep,rch,qty=500																																																																																							0
+Mith Hammer + Socketed Item -> Smash Gems/Runs	1			100					2	any,sock	9as						useitem,uns																																																																																							0
+1 Socket + 1 magic weapon -> socketed, magic weapon	1			0					2	weap,mag	1as,qty=1						useitem				sock			1	1																																																																															0
+1 Socket + 1 magic armor -> socketed, magic armor	1			0					2	armo,mag	1as,qty=1						useitem				sock			1	1																																																																															0
+2 Socket + 1 magic weapon -> socketed, magic weapon	1			0					2	weap,mag	2as,qty=1						useitem				sock			2	2																																																																															0
+2 Socket + 1 magic armor -> socketed, magic armor	1			0					2	armo,mag	2as,qty=1						useitem				sock			2	2																																																																															0
+3 Socket + 1 maguc weapon -> socketed, magic weapon	1			0					2	weap,mag	3as,qty=1						useitem				sock			3	3																																																																															0
+3 Socket + 1 magic armor -> socketed, magic armor	1			0					2	armo,mag	3as,qty=1						useitem				sock			3	3																																																																															0
+4 Socket + 1 maguc weapon -> socketed, magic weapon	1			0					2	weap,mag	4as,qty=1						useitem				sock			4	4																																																																															0
+4 Socket + 1 magic armor -> socketed, magic armor	1			0					2	armo,mag	4as,qty=1						useitem				sock			4	4																																																																															0
+3 perfect amethysts -> star amethyst	1			0					3	gpv,qty=3							g6v																																																																																							0
+3 perfect rubies -> star ruby	1			0					3	gpr,qty=3							g6r																																																																																							0
+3 perfect sapphires -> star sapphire	1			0					3	gpb,qty=3							g6b																																																																																							0
+3 perfect topazes -> star topaz	1			0					3	gpy,qty=3							g6y																																																																																							0
+3 perfect emeralds ->star emerald	1			0					3	gpg,qty=3							g6g																																																																																							0
+3 perfect diamonds -> star diamond	1			0					3	gpw,qty=3							g6w																																																																																							0
+3 perfect skulls -> star skull	1			0					3	skz,qty=3							sk6																																																																																							0
+1 Socket + 1 rare weapon -> socketed, rare weapon	1			0					3	weap,rar	1as,qty=2						useitem				sock			1	1																																																																															0
+1 Socket + 1 rare armor -> socketed, rare armor	1			0					3	armo,rar	1as,qty=2						useitem				sock			1	1																																																																															0
+2 Socket + 1 rare weapon -> socketed, rare weapon	1			0					3	weap,rar	2as,qty=2						useitem				sock			2	2																																																																															0
+2 Socket + 1 rare armor -> socketed, rare armor	1			0					3	armo,rar	2as,qty=2						useitem				sock			2	2																																																																															0
+3 Socket + 1 rare weapon -> socketed, rare weapon	1			0					3	weap,rar	3as,qty=2						useitem				sock			3	3																																																																															0
+3 Socket + 1 rare armor -> socketed, rare armor	1			0					3	armo,rar	3as,qty=2						useitem				sock			3	3																																																																															0
+4 Socket + 1 rare weapon -> socketed, rare weapon	1			0					3	weap,rar	4as,qty=2						useitem				sock			4	4																																																																															0
+4 Socket + 1 rare armor -> socketed, rare armor	1			0					3	armo,rar	4as,qty=2						useitem				sock			4	4																																																																															0
+weapon uni + x socket	1			0					2	weap,uni	5as,qty=1						useitem				sock			1	1																																																																															0
+armor uni + x socket	1			0					2	armo,uni	5as,qty=1						useitem				sock			1	1																																																																															0
+3 Single Sockets -> 1 Double Socket	1			0					3	1as,qty=3							2as																																																																																							0
+3 Double Sockets -> 1 Tripple Socket	1			0					3	2as,qty=3							3as																																																																																							0
+3 Tripple Sockets -> 1 Tripple Socket	1			0					3	3as,qty=3							4as																																																																																							0
+3 Quad Sockets -> 1 Unique Socket	1			0					3	4as,qty=3							5as																																																																																							0
+Mithril Weapon	1			0					2	weap,mag,noe	6as,qty=1						usetype,mag			100																																																																																				0
+Adamant Weapon	1			0					2	weap,rar,noe	7as,qty=1						usetype,rar			100																																																																																				0
+Mithril Armor	1			0					2	armo,mag,noe	6as,qty=1						usetype,mag			100																																																																																				0
+Adamant Armor	1			0					2	armo,rar,noe	7as,qty=1						usetype,rar			100																																																																																				0
+3 Mithril -> 1 Adamant	1			0					3	6as,qty=3							7as																																																																																							0
+weapon set	1			0					2	weap,set	5as,qty=1						useitem				sock			1	1																																																																															0
+armor set	1			0					2	armo,set	5as,qty=1						useitem				sock			1	1																																																																															0
+3 star amethysts -> arch amethyst	1			0					3	g6v,qty=3							g7v																																																																																							0
+3 star rubies -> arch ruby	1			0					3	g6r,qty=3							g7r																																																																																							0
+3 star sapphires -> arch sapphire	1			0					3	g6b,qty=3							g7b																																																																																							0
+3 star topazes -> arch topaz	1			0					3	g6y,qty=3							g7y																																																																																							0
+3 star emeralds -> arch emerald	1			0					3	g6g,qty=3							g7g																																																																																							0
+3 star diamonds -> arch diamond	1			0					3	g6w,qty=3							g7w																																																																																							0
+3 star skulls -> arch skull	1			0					3	sk6,qty=3							sk7																																																																																							0
+3 arch amethysts -> x amethyst	1			0					3	g7v,qty=3							g8v																																																																																							0
+3 arch rubies -> x ruby	1			0					3	g7r,qty=3							g8r																																																																																							0
+3 arch sapphires -> x sapphire	1			0					3	g7b,qty=3							g8b																																																																																							0
+3 arch topazes -> x topaz	1			0					3	g7y,qty=3							g8y																																																																																							0
+3 arch emeralds -> x emerald	1			0					3	g7g,qty=3							g8g																																																																																							0
+3 arch diamonds -> x diamond	1			0					3	g7w,qty=3							g8w																																																																																							0
+3 arch skulls -> x skull	1			0					3	sk7,qty=3							sk8																																																																																							0
+1 Socket + 1 normal weapon -> socketed, normal weapon	1			0					2	weap,nor	1as,qty=1						useitem				sock			1	1																																																																															0
+1 Socket + 1 normal armor -> socketed, normal armor	1			0					2	armo,nor	1as,qty=1						useitem				sock			1	1																																																																															0
+2 Socket + 1 normal weapon -> socketed, normal weapon	1			0					2	weap,nor	2as,qty=1						useitem				sock			2	2																																																																															0
+2 Socket + 1 normal armor -> socketed, normal armor	1			0					2	armo,nor	2as,qty=1						useitem				sock			2	2																																																																															0
+3 Socket + 1 normal weapon -> socketed, normal weapon	1			0					2	weap,nor	3as,qty=1						useitem				sock			3	3																																																																															0
+3 Socket + 1 normal armor -> socketed, normal armor	1			0					2	armo,nor	3as,qty=1						useitem				sock			3	3																																																																															0
+4 Socket + 1 normal weapon -> socketed, normal weapon	1			0					2	weap,nor	4as,qty=1						useitem				sock			4	4																																																																															0
+4 Socket + 1 normal armor -> socketed, normal armor	1			0					2	armo,nor	4as,qty=1						useitem				sock			4	4																																																																															0
+X Socket + 1 normal weapon -> socketed, normal weapon	1			0					2	weap,nor	5as,qty=1						useitem				sock			5	5																																																																															0
+X Socket + 1 normal armor -> socketed, normal armor	1			0					2	armo,nor	5as,qty=1						useitem				sock			5	5																																																																															0
+Remove-CurseRing	1			0					6	CursedRing,qty=1	pg1,qty=1	pg2,qty=1	pg3,qty=1	pg4,qty=1	pg5,qty=1		BlessedRing																																																																																							0
+Remove-CurseAmulet	1			0					6	CursedAmulet,qty=1	pg6,qty=1	pg7,qty=1	pg8,qty=1	pg9,qty=1	p10,qty=1		BlessedAmulet																																																																																							0
+Remove-CurseSword	1			0					6	CursedSword,qty=1	p11,qty=1	p12,qty=1	p13,qty=1	p14,qty=1	p15,qty=1		BlessedSword																																																																																							0
+1 Socket + 1 normal weapon -> socketed, Hiq weapon	1			0					2	weap,hiq	1as,qty=1						useitem				sock			1	1																																																																															0
+1 Socket + 1 normal armor -> socketed, Hiq armor	1			0					2	armo,hiq	1as,qty=1						useitem				sock			1	1																																																																															0
+2 Socket + 1 normal weapon -> socketed, Hiq weapon	1			0					2	weap,hiq	2as,qty=1						useitem				sock			2	2																																																																															0
+2 Socket + 1 normal armor -> socketed, Hiq armor	1			0					2	armo,hiq	2as,qty=1						useitem				sock			2	2																																																																															0
+3 Socket + 1 normal weapon -> socketed, Hiq weapon	1			0					2	weap,hiq	3as,qty=1						useitem				sock			3	3																																																																															0
+3 Socket + 1 normal armor -> socketed, Hiq armor	1			0					2	armo,hiq	3as,qty=1						useitem				sock			3	3																																																																															0
+4 Socket + 1 normal weapon -> socketed, Hiq weapon	1			0					2	weap,hiq	4as,qty=1						useitem				sock			4	4																																																																															0
+4 Socket + 1 normal armor -> socketed, Hiq armor	1			0					2	armo,hiq	4as,qty=1						useitem				sock			4	4																																																																															0
+X Socket + 1 normal weapon -> socketed, Hiq weapon	1			0					2	weap,hiq	5as,qty=1						useitem				sock			5	5																																																																															0
+X Socket + 1 normal armor -> socketed, Hiq armor	1			0					2	armo,hiq	5as,qty=1						useitem				sock			5	5																																																																															0
+1 Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,nor	1as,qty=1						useitem				sock			1	1																																																																															0
+1 Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,nor	1as,qty=1						useitem				sock			1	1																																																																															0
+2 Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,nor	2as,qty=1						useitem				sock			2	2																																																																															0
+2 Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,nor	2as,qty=1						useitem				sock			2	2																																																																															0
+3 Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,nor	3as,qty=1						useitem				sock			3	3																																																																															0
+3 Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,nor	3as,qty=1						useitem				sock			3	3																																																																															0
+4 Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,nor	4as,qty=1						useitem				sock			4	4																																																																															0
+4 Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,nor	4as,qty=1						useitem				sock			4	4																																																																															0
+X Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,nor	5as,qty=1						useitem				sock			5	5																																																																															0
+X Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,nor	5as,qty=1						useitem				sock			5	5																																																																															0
+1 Socket + 1 normal weapon -> socketed, low weapon	1			0					2	weap,low	1as,qty=1						useitem				sock			1	1																																																																															0
+1 Socket + 1 normal armor -> socketed, low armor	1			0					2	armo,low	1as,qty=1						useitem				sock			1	1																																																																															0
+2 Socket + 1 normal weapon -> socketed, low weapon	1			0					2	weap,low	2as,qty=1						useitem				sock			2	2																																																																															0
+2 Socket + 1 normal armor -> socketed, low armor	1			0					2	armo,low	2as,qty=1						useitem				sock			2	2																																																																															0
+3 Socket + 1 normal weapon -> socketed, low weapon	1			0					2	weap,low	3as,qty=1						useitem				sock			3	3																																																																															0
+3 Socket + 1 normal armor -> socketed, low armor	1			0					2	armo,low	3as,qty=1						useitem				sock			3	3																																																																															0
+4 Socket + 1 normal weapon -> socketed, low weapon	1			0					2	weap,low	4as,qty=1						useitem				sock			4	4																																																																															0
+4 Socket + 1 normal armor -> socketed, low armor	1			0					2	armo,low	4as,qty=1						useitem				sock			4	4																																																																															0
+X Socket + 1 normal weapon -> socketed, low weapon	1			0					2	weap,low	5as,qty=1						useitem				sock			5	5																																																																															0
+X Socket + 1 normal armor -> socketed, low armor	1			0					2	armo,low	5as,qty=1						useitem				sock			5	5																																																																															0
+1 Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,hiq	1as,qty=1						useitem				sock			1	1																																																																															0
+1 Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,hiq	1as,qty=1						useitem				sock			1	1																																																																															0
+2 Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,hiq	2as,qty=1						useitem				sock			2	2																																																																															0
+2 Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,hiq	2as,qty=1						useitem				sock			2	2																																																																															0
+3 Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,hiq	3as,qty=1						useitem				sock			3	3																																																																															0
+3 Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,hiq	3as,qty=1						useitem				sock			3	3																																																																															0
+4 Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,hiq	4as,qty=1						useitem				sock			4	4																																																																															0
+4 Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,hiq	4as,qty=1						useitem				sock			4	4																																																																															0
+X Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,hiq	5as,qty=1						useitem				sock			5	5																																																																															0
+X Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,hiq	5as,qty=1						useitem				sock			5	5																																																																															0
+1 Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,low	1as,qty=1						useitem				sock			1	1																																																																															0
+1 Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,low	1as,qty=1						useitem				sock			1	1																																																																															0
+2 Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,low	2as,qty=1						useitem				sock			2	2																																																																															0
+2 Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,low	2as,qty=1						useitem				sock			2	2																																																																															0
+3 Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,low	3as,qty=1						useitem				sock			3	3																																																																															0
+3 Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,low	3as,qty=1						useitem				sock			3	3																																																																															0
+4 Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,low	4as,qty=1						useitem				sock			4	4																																																																															0
+4 Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,low	4as,qty=1						useitem				sock			4	4																																																																															0
+X Socket + 1 normal weapon -> socketed, eth weapon	1			0					2	weap,eth,low	5as,qty=1						useitem				sock			5	5																																																																															0
+X Socket + 1 normal armor -> socketed, eth armor	1			0					2	armo,eth,low	5as,qty=1						useitem				sock			5	5																																																																															0
+1 Socket + 1 crafted weapon -> socketed, crafted weapon	1			0					3	weap,crf	1as,qty=2						useitem				sock			1	1																																																																															0
+1 Socket + 1 crafted armor -> socketed, crafted armor	1			0					3	armo,crf	1as,qty=2						useitem				sock			1	1																																																																															0
+2 Socket + 1crafted weapon -> socketed, crafted weapon	1			0					3	weap,crf	2as,qty=2						useitem				sock			2	2																																																																															0
+2 Socket + 1 crafted armor -> socketed, crafted armor	1			0					3	armo,crf	2as,qty=2						useitem				sock			2	2																																																																															0
+3 Socket + 1 crafted weapon -> socketed, crafted weapon	1			0					3	weap,crf	3as,qty=2						useitem				sock			3	3																																																																															0
+3 Socket + 1 crafted armor -> socketed, crafted armor	1			0					3	armo,crf	3as,qty=2						useitem				sock			3	3																																																																															0
+4 Socket + 1 crafted weapon -> socketed, crafted weapon	1			0					3	weap,crf	4as,qty=2						useitem				sock			4	4																																																																															0
+4 Socket + 1 crafted armor -> socketed, crafted armor	1			0					3	armo,crf	4as,qty=2						useitem				sock			4	4																																																																															0
+1 Mith Hammer + 1 Mith Glyph + Low Weapon -> Normal Weapon	1			0					3	weap,low,noe	9as,qty=1	6as,qty=1					usetype,nor			100																																																																																				0
+1 Mith Hammer + 1 Mith Glyph+ Low Armor -> Normal Armor	1			0					3	armo,low,noe	9as,qty=1	6as,qty=1					usetype,nor			100																																																																																				0
+1 Mith Hammer + 1 Mith Glyph+ Low Eth Weapon -> Normal Eth Weapon	1			0					3	weap,low,eth	9as,qty=1	6as,qty=1					usetype,nor,eth			100																																																																																				0
+1 Mith Hammer + 1 Mith Glyph+ Low Eth Armor -> Normal Eth Armor	1			0					3	armo,low,eth	9as,qty=1	6as,qty=1					usetype,nor,eth			100																																																																																				0
+1 Adam Hammer + 1 Adam Glyph + Normal Weapon -> Hiq Weapon	1			0					3	weap,nor,noe	zas,qty=1	7as,qty=1					usetype,hiq			100																																																																																				0
+1 Adam Hammer + 1 Adam Glyph + Normal Armor -> Hiq Armor	1			0					3	armo,nor,noe	zas,qty=1	7as,qty=1					usetype,hiq			100																																																																																				0
+1 Adan Hammer + 1 Adam Glyph+ Normal Eth Weapon -> Hiq Eth Weapon	1			0					3	weap,nor,eth	zas,qty=1	7as,qty=1					usetype,hiq,eth			100																																																																																				0
+1 Adam Hammer + 1 Adam Glyph + Normal Eth Armor -> Hiq Eth Armor	1			0					3	armo,nor,eth	zas,qty=1	7as,qty=1					usetype,hiq,eth			100																																																																																				0
+r08 + r12 + basic crafted weapon -> exceptional crafted weapon	1			100					4	weap,bas,crf	r08	r12	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r08 + r12 +  basic crafted armor -> exceptional crafted armor	1			100					4	armo,bas,crf	r08	r12	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r07 + r13 + basic crafted weapon -> exceptional crafted weapon	1			100					4	weap,bas,crf	r07	r13	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r07 + r13 +  basic crafted armor -> exceptional crafted armor	1			100					4	armo,bas,crf	r07	r13	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r07 + r13 + basic crafted weapon -> exceptional crafted weapon	1			100					4	weap,bas,crf	r09	r11	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r07 + r13 +  basic crafted armor -> exceptional crafted armor	1			100					4	armo,bas,crf	r09	r11	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r06 + r14 + basic crafted weapon -> exceptional crafted weapon	1			100					4	weap,bas,crf	r06	r14	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r06 + r14 +  basic crafted armor -> exceptional crafted armor	1			100					4	armo,bas,crf	r06	r14	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r18 + r22 + exceptional crafted weapon -> elite crafted weapon	1			100					4	weap,exc,crf	r18	r22	zas				useitem,mod,eli				levelreq			2	2																																																																															0
+r18 + r22 + exceptional crafted armor -> elite crafted armor	1			100					4	armo,exc,crf	r18	r22	zas				useitem,mod,eli				levelreq			2	2																																																																															0
+r17 + r23 + exceptional crafted weapon -> elite crafted weapon	1			100					4	weap,exc,crf	r17	r23	zas				useitem,mod,eli				levelreq			2	2																																																																															0
+r17 + r23 + exceptional crafted armor -> elite crafted armor	1			100					4	armo,exc,crf	r17	r23	zas				useitem,mod,eli				levelreq			2	2																																																																															0
+r08 + r12 + basic unique weapon -> exceptional crafted unique	1			100					4	weap,bas,uni	r08	r12	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r08 + r12 +  basic unique armor -> exceptional unique armor	1			100					4	armo,bas,uni	r08	r12	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r07 + r13 + basic unique weapon -> exceptional unique weapon	1			100					4	weap,bas,uni	r07	r13	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r07 + r13 +  basic unique armor -> exceptional unique armor	1			100					4	armo,bas,uni	r07	r13	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r07 + r13 + basic unique weapon -> exceptional unique weapon	1			100					4	weap,bas,uni	r09	r11	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r07 + r13 +  basic unique armor -> exceptional unique armor	1			100					4	armo,bas,uni	r09	r11	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r06 + r14 + basic unique weapon -> exceptional unique weapon	1			100					4	weap,bas,uni	r06	r14	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r06 + r14 +  basic unique armor -> exceptional unique armor	1			100					4	armo,bas,uni	r06	r14	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r18 + r22 + exceptional unique weapon -> elite unique weapon	1			100					4	weap,exc,uni	r18	r22	zas				useitem,mod,eli				levelreq			2	2																																																																															0
+r18 + r22 + exceptional unique armor -> elite unique armor	1			100					4	armo,exc,uni	r18	r22	zas				useitem,mod,eli				levelreq			2	2																																																																															0
+r17 + r23 + exceptional unique weapon -> elite unique weapon	1			100					4	weap,exc,uni	r17	r23	zas				useitem,mod,eli				levelreq			2	2																																																																															0
+r17 + r23 + exceptional unique armor -> elite unique armor	1			100					4	armo,exc,uni	r17	r23	zas				useitem,mod,eli				levelreq			2	2																																																																															0
+r08 + r12 + basic set weapon -> exceptional set weapon	1			100					4	weap,bas,set	r08	r12	zas				useitem,mod,exc				levelreq			6	2																																																																															0
+r08 + r12 +  basic set armor -> exceptional set armor	1			100					4	armo,bas,set	r08	r12	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r07 + r13 + basic set weapon -> exceptional set weapon	1			100					4	weap,bas,set	r07	r13	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r07 + r13 +  basic set armor -> exceptional set armor	1			100					4	armo,bas,set	r07	r13	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r07 + r13 + basic set weapon -> exceptional set weapon	1			100					4	weap,bas,set	r09	r11	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r07 + r13 +  basic set armor -> exceptional set armor	1			100					4	armo,bas,set	r09	r11	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r06 + r14 + basic set weapon -> exceptional set weapon	1			100					4	weap,bas,set	r06	r14	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r06 + r14 +  basic set armor -> exceptional set armor	1			100					4	armo,bas,set	r06	r14	zas				useitem,mod,exc				levelreq			6	6																																																																															0
+r18 + r22 + exceptional set weapon -> elite set weapon	1			100					4	weap,exc,set	r18	r22	zas				useitem,mod,eli				levelreq			2	2																																																																															0
+r18 + r22 + exceptional set armor -> elite set armor	1			100					4	armo,exc,set	r18	r22	zas				useitem,mod,eli				levelreq			2	2																																																																															0
+r17 + r23 + exceptional set weapon -> elite set weapon	1			100					4	weap,exc,set	r17	r23	zas				useitem,mod,eli				levelreq			2	2																																																																															0
+r17 + r23 + exceptional set armor -> elite set armor	1			100					4	armo,exc,set	r17	r23	zas				useitem,mod,eli				levelreq			2	2																																																																															0
+3 Mithril Hammer -> 1 Adamant Hammer	1			100					3	9as,qty=3							zas																																																																																							0
+Mithril Eth Weapon	1			100					2	weap,mag,eth	6as,qty=1						usetype,mag,eth			100																																																																																				0
+Adamant Eth Weapon	1			100					2	weap,rar,eth	7as,qty=1						usetype,rar,eth			100																																																																																				0
+Mithril Eth Armor	1			100					2	armo,mag,eth	6as,qty=1						usetype,mag,eth			100																																																																																				0
+AdamantEth  Armor	1			100					2	armo,rar,eth	7as,qty=1						usetype,rar,eth			100																																																																																				0
+3 rings -> ramulet	1			100					3	rin,rar,qty=3							amu,rar		100																																																																																					0
+3 amulets -> ring	1			100					3	amu,rar,qty=3							rin,rar		100																																																																																					0
+5 Keys -> Final Key	1		2	100	28				5	key1	key2	key3	key4	key5			EvilKey																																																																																							0
+magic + perfect sapphire -> power	1			100					4	helm,mag,bas	gpb	zas	jew				usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					4	boot,mag,bas	gpb	zas	jew				usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					4	glov,mag,bas	gpb	zas	jew				usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					4	belt,mag,bas	gpb	zas	jew				usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					4	shld,mag,bas	gpb	zas	jew				usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					4	tors,mag,bas	gpb	zas	jew				usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					4	amul,mag	gpb	zas	jew				usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					4	ring,mag	gpb	zas	jew				usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					4	weap,mag,bas	gpb	zas	jew				usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect ruby -> blood	1			100					4	helm,mag,bas	gpr	zas	jew				usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					4	boot,mag,bas	gpr	zas	jew				usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					4	glov,mag,bas	gpr	zas	jew				usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					4	belt,mag,bas	gpr	zas	jew				usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					4	shld,mag,bas	gpr	zas	jew				usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					4	tors,mag,bas	gpr	zas	jew				usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					4	amul,mag	gpr	zas	jew				usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					4	ring,mag	gpr	zas	jew				usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					4	weap,mag,bas	gpr	zas	jew				usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect amethyst -> caster	1			100					4	helm,mag,bas	gpv	zas	jew				usetype,crf		50	50	cast2			10	15	res-all			8	10																																																																										0
+magic + perfect amethyst -> caster	1			100					4	boot,mag,bas	gpv	zas	jew				usetype,crf		50	50	cast2			10	15	res-all			8	10																																																																										0
+magic + perfect amethyst -> caster	1			100					4	glov,mag,bas	gpv	zas	jew				usetype,crf		50	50	cast2			10	15	res-all			8	10																																																																										0
+magic + perfect amethyst -> caster	1			100					4	belt,mag,bas	gpv	zas	jew				usetype,crf		50	50	cast2			10	15	res-all			8	10																																																																										0
+magic + perfect amethyst -> caster	1			100					4	shld,mag,bas	gpv	zas	jew				usetype,crf		50	50	cast2			10	15	res-all			8	10	allskills			0	1																																																																					0
+magic + perfect amethyst -> caster	1			100					4	tors,mag,bas	gpv	zas	jew				usetype,crf		50	50	cast2			10	15	res-all			8	10																																																																										0
+magic + perfect amethyst -> caster	1			100					4	amul,mag	gpv	zas	jew				usetype,crf		50	50	cast2			10	15	res-all			4	6																																																																										0
+magic + perfect amethyst -> caster	1			100					4	ring,mag	gpv	zas	jew				usetype,crf		50	50	cast2			10	15	res-all			4	6																																																																										0
+magic + perfect amethyst -> caster	1			100					4	ajav,mag,bas	gpv	zas	jew				usetype,crf		50	50	pierce			40	50	res-all			8	10																																																																										0
+magic + perfect amethyst -> caster	1			100					4	weap,mag,bas	gpv	zas	jew				usetype,crf		50	50	cast2			20	30	mana%			20	30	allskills			0	1																																																																					0
+magic + perfect emerald -> safety	1			100					4	helm,mag,bas	gpg	zas	jew				usetype,crf		50	50	red-dmg%			5	6	res-ltng			15	20																																																																										0
+magic + perfect emerald -> safety	1			100					4	boot,mag,bas	gpg	zas	jew				usetype,crf		50	50	red-dmg%			5	6	res-fire			15	20																																																																										0
+magic + perfect emerald -> safety	1			100					4	glov,mag,bas	gpg	zas	jew				usetype,crf		50	50	red-dmg%			5	6	res-cold			15	20																																																																										0
+magic + perfect emerald -> safety	1			100					4	belt,mag,bas	gpg	zas	jew				usetype,crf		50	50	red-dmg%			5	6	res-pois			15	20																																																																										0
+magic + perfect emerald -> safety	1			100					4	shld,mag,bas	gpg	zas	jew				usetype,crf		50	50	red-dmg%			8	10	block			10	20																																																																										0
+magic + perfect emerald -> safety	1			100					4	tors,mag,bas	gpg	zas	jew				usetype,crf		50	50	red-dmg%			8	10	block			10	20																																																																										0
+magic + perfect emerald -> safety	1			100					4	amul,mag	gpg	zas	jew				usetype,crf		50	50	red-dmg%			5	6	res-pois-len			30	40																																																																										0
+magic + perfect emerald -> safety	1			100					4	ring,mag	gpg	zas	jew				usetype,crf		50	50	red-mag			10	15	res-pois-len			30	40	vit			4	6																																																																					0
+magic + perfect emerald -> safety	1			100					4	weap,mag,bas	gpg	zas	jew				usetype,crf		50	50	red-dmg%			5	6	vit			10	15																																																																										0
+magic + perfect skull -> death	1			100					4	helm,mag,bas	skz	zas	jew				usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					4	boot,mag,bas	skz	zas	jew				usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					4	glov,mag,bas	skz	zas	jew				usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					4	belt,mag,bas	skz	zas	jew				usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					4	shld,mag,bas	skz	zas	jew				usetype,crf		50	50	deadly			6	7	swing2			10	15	block			10	20	abs-mag%			2	2																																																																0
+magic + perfect skull -> death	1			100					4	tors,mag,bas	skz	zas	jew				usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					4	amul,mag	skz	zas	jew				usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					4	ring,mag	skz	zas	jew				usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					4	weap,mag,bas	skz	zas	jew				usetype,crf		50	50	deadly			6	7	swing2			20	30																																																																										0
+magic + perfect topaz -> elemental	1			100					4	helm,mag,bas	gpy	zas	jew				usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					4	shld,mag,bas	gpy	zas	jew				usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20	block			10	20																																																																0
+magic + perfect topaz -> elemental	1			100					4	glov,mag,bas	gpy	zas	jew				usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					4	belt,mag,bas	gpy	zas	jew				usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					4	boot,mag,bas	gpy	zas	jew				usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					4	tors,mag,bas	gpy	zas	jew				usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					4	amul,mag	gpy	zas	jew				usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					4	ring,mag	gpy	zas	jew				usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					4	weap,mag,bas	gpy	zas	jew				usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20	allskills			1	1																																																																0
+magic + perfect diamond  -> holy	1			100					4	helm,mag,bas	gpw	zas	jew				usetype,crf		50	50	hpregen/lvl		5			res-mag			12	16																																																																										0
+magic + perfect diamond  -> holy	1			100					4	boot,mag,bas	gpw	zas	jew				usetype,crf		50	50	hpregen/lvl		5			res-mag			12	16																																																																										0
+magic + perfect diamond  -> holy	1			100					4	glov,mag,bas	gpw	zas	jew				usetype,crf		50	50	hpregen/lvl		5			res-mag			12	16																																																																										0
+magic + perfect diamond  -> holy	1			100					4	belt,mag,bas	gpw	zas	jew				usetype,crf		50	50	hpregen/lvl		5			res-mag			12	16																																																																										0
+magic + perfect diamond  -> holy	1			100					4	shld,mag,bas	gpw	zas	jew				usetype,crf		50	50	hpregen/lvl		5			res-mag			12	16	block			10	20																																																																					0
+magic + perfect diamond  -> holy	1			100					4	tors,mag,bas	gpw	zas	jew				usetype,crf		50	50	hpregen/lvl		5			res-mag			12	16																																																																										0
+magic + perfect diamond  -> holy	1			100					4	amul,mag	gpw	zas	jew				usetype,crf		50	50	rip			1	1	res-mag			12	16	noheal			1	1																																																																					0
+magic + perfect diamond  -> holy	1			100					4	ring,mag	gpw	zas	jew				usetype,crf		50	50	nofreeze			1	1	res-mag			12	16	att			50	100																																																																					0
+magic + perfect diamond  -> holy	1			100					4	weap,mag,bas	gpw	zas	jew				usetype,crf		50	50	resistcurse			5	10	res-mag			12	16	dmg-mag			100	200																																																																					0
+magic + starstone sapphire -> power	1			100					4	helm,mag,exc	g6b	zas	jew				usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					4	boot,mag,exc	g6b	zas	jew				usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					4	glov,mag,exc	g6b	zas	jew				usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					4	belt,mag,exc	g6b	zas	jew				usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					4	shld,mag,exc	g6b	zas	jew				usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					4	tors,mag,exc	g6b	zas	jew				usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					4	amul,mag	g6b	zas	jew				usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					4	ring,mag	g6b	zas	jew				usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					4	weap,mag,exc	g6b	zas	jew				usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone ruby -> blood	1			100					4	helm,mag,exc	g6r	zas	jew				usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					4	boot,mag,exc	g6r	zas	jew				usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					4	glov,mag,exc	g6r	zas	jew				usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					4	belt,mag,exc	g6r	zas	jew				usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					4	shld,mag,exc	g6r	zas	jew				usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					4	tors,mag,exc	g6r	zas	jew				usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					4	amul,mag	g6r	zas	jew				usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					4	ring,mag	g6r	zas	jew				usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					4	weap,mag,exc	g6r	zas	jew				usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone amethyst -> caster	1			100					4	helm,mag,exc	g6v	zas	jew				usetype,crf		50	50	cast2			20	30	res-all			11	13																																																																										0
+magic + starstone amethyst -> caster	1			100					4	boot,mag,exc	g6v	zas	jew				usetype,crf		50	50	cast2			20	30	res-all			11	13																																																																										0
+magic + starstone amethyst -> caster	1			100					4	glov,mag,exc	g6v	zas	jew				usetype,crf		50	50	cast2			20	30	res-all			11	13																																																																										0
+magic + starstone amethyst -> caster	1			100					4	belt,mag,exc	g6v	zas	jew				usetype,crf		50	50	cast2			20	30	res-all			11	13																																																																										0
+magic + starstone amethyst -> caster	1			100					4	shld,mag,exc	g6v	zas	jew				usetype,crf		50	50	cast2			20	30	res-all			11	13	allskills			1	1																																																																					0
+magic + starstone amethyst -> caster	1			100					4	tors,mag,exc	g6v	zas	jew				usetype,crf		50	50	cast2			20	30	res-all			11	13																																																																										0
+magic + starstone amethyst -> caster	1			100					4	amul,mag	g6v	zas	jew				usetype,crf		50	50	cast2			10	15	res-all			6	8																																																																										0
+magic + starstone amethyst -> caster	1			100					4	ring,mag	g6v	zas	jew				usetype,crf		50	50	cast2			10	15	res-all			6	8																																																																										0
+magic + starstone amethyst -> caster	1			100					4	ajav,mag,exc	g6v	zas	jew				usetype,crf		50	50	pierce			40	50	res-all			11	13																																																																										0
+magic + starstone amethyst -> caster	1			100					4	weap,mag,exc	g6v	zas	jew				usetype,crf		50	50	cast2			30	40	mana%			30	40	allskills			1	1																																																																					0
+magic + starstone emerald -> safety	1			100					4	helm,mag,exc	g6g	zas	jew				usetype,crf		50	50	red-dmg%			7	9	res-ltng			20	25																																																																										0
+magic + starstone emerald -> safety	1			100					4	boot,mag,exc	g6g	zas	jew				usetype,crf		50	50	red-dmg%			7	9	res-fire			20	25																																																																										0
+magic + starstone emerald -> safety	1			100					4	glov,mag,exc	g6g	zas	jew				usetype,crf		50	50	red-dmg%			7	9	res-cold			20	25																																																																										0
+magic + starstone emerald -> safety	1			100					4	belt,mag,exc	g6g	zas	jew				usetype,crf		50	50	red-dmg%			7	9	res-pois			20	25																																																																										0
+magic + starstone emerald -> safety	1			100					4	shld,mag,exc	g6g	zas	jew				usetype,crf		50	50	red-dmg%			12	14	block			20	30																																																																										0
+magic + starstone emerald -> safety	1			100					4	tors,mag,exc	g6g	zas	jew				usetype,crf		50	50	red-dmg%			12	14	block			20	30																																																																										0
+magic + starstone emerald -> safety	1			100					4	amul,mag	g6g	zas	jew				usetype,crf		50	50	red-dmg%			7	9	res-pois-len			40	50																																																																										0
+magic + starstone emerald -> safety	1			100					4	ring,mag	g6g	zas	jew				usetype,crf		50	50	red-mag			16	20	res-pois-len			40	50	vit			6	10																																																																					0
+magic + starstone emerald -> safety	1			100					4	weap,mag,exc	g6g	zas	jew				usetype,crf		50	50	red-dmg%			7	9	vit			20	25																																																																										0
+magic + starstone skull -> death	1			100					4	helm,mag,exc	sk6	zas	jew				usetype,crf		50	50	deadly			8	9	swing2			12	20	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					4	boot,mag,exc	sk6	zas	jew				usetype,crf		50	50	deadly			8	9	swing2			12	20	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					4	glov,mag,exc	sk6	zas	jew				usetype,crf		50	50	deadly			8	9	swing2			12	20	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					4	belt,mag,exc	sk6	zas	jew				usetype,crf		50	50	deadly			8	9	swing2			12	20	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					4	shld,mag,exc	sk6	zas	jew				usetype,crf		50	50	deadly			8	9	swing2			20	30	block			20	30	abs-mag%			3	3																																																																0
+magic + starstone skull -> death	1			100					4	tors,mag,exc	sk6	zas	jew				usetype,crf		50	50	deadly			8	9	swing2			20	30	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					4	amul,mag	sk6	zas	jew				usetype,crf		50	50	deadly			8	9	swing2			12	20	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					4	ring,mag	sk6	zas	jew				usetype,crf		50	50	deadly			8	9	swing2			12	20	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					4	weap,mag,exc	sk6	zas	jew				usetype,crf		50	50	deadly			8	9	swing2			20	30																																																																										0
+magic + starstone topaz -> elemental	1			100					4	helm,mag,exc	g6y	zas	jew				usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					4	shld,mag,exc	g6y	zas	jew				usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30	block			15	30																																																																0
+magic + starstone topaz -> elemental	1			100					4	glov,mag,exc	g6y	zas	jew				usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					4	belt,mag,exc	g6y	zas	jew				usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					4	boot,mag,exc	g6y	zas	jew				usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					4	tors,mag,exc	g6y	zas	jew				usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					4	amul,mag	g6y	zas	jew				usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					4	ring,mag	g6y	zas	jew				usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					4	weap,mag,exc	g6y	zas	jew				usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30	allskills			1	1																																																																0
+magic + starstone diamond  -> holy	1			100					4	helm,mag,exc	g6w	zas	jew				usetype,crf		50	50	hpregen/lvl		7			res-mag			18	24																																																																										0
+magic + starstone diamond  -> holy	1			100					4	boot,mag,exc	g6w	zas	jew				usetype,crf		50	50	hpregen/lvl		7			res-mag			18	24																																																																										0
+magic + starstone diamond  -> holy	1			100					4	glov,mag,exc	g6w	zas	jew				usetype,crf		50	50	hpregen/lvl		7			res-mag			18	24																																																																										0
+magic + starstone diamond  -> holy	1			100					4	belt,mag,exc	g6w	zas	jew				usetype,crf		50	50	hpregen/lvl		7			res-mag			18	24																																																																										0
+magic + starstone diamond  -> holy	1			100					4	shld,mag,exc	g6w	zas	jew				usetype,crf		50	50	hpregen/lvl		7			res-mag			18	24	block			20	30																																																																					0
+magic + starstone diamond  -> holy	1			100					4	tors,mag,exc	g6w	zas	jew				usetype,crf		50	50	hpregen/lvl		7			res-mag			18	24																																																																										0
+magic + starstone diamond  -> holy	1			100					4	amul,mag	g6w	zas	jew				usetype,crf		50	50	rip			1	1	res-mag			18	24	noheal			1	1																																																																					0
+magic + starstone diamond  -> holy	1			100					4	ring,mag	g6w	zas	jew				usetype,crf		50	50	nofreeze			1	1	res-mag			18	24	att			100	150																																																																					0
+magic + starstone diamond  -> holy	1			100					4	weap,mag,exc	g6w	zas	jew				usetype,crf		50	50	resistcurse			10	15	res-mag			18	24	dmg-mag			200	300																																																																					0
+magic + moonstone sapphire -> power	1			100					4	helm,mag,eli	g7b	zas	jew				usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					4	boot,mag,eli	g7b	zas	jew				usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					4	glov,mag,eli	g7b	zas	jew				usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					4	belt,mag,eli	g7b	zas	jew				usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					4	shld,mag,eli	g7b	zas	jew				usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					4	tors,mag,eli	g7b	zas	jew				usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					4	amul,mag	g7b	zas	jew				usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					4	ring,mag	g7b	zas	jew				usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					4	weap,mag,eli	g7b	zas	jew				usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone ruby -> blood	1			100					4	helm,mag,eli	g7r	zas	jew				usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					4	boot,mag,eli	g7r	zas	jew				usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					4	glov,mag,eli	g7r	zas	jew				usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					4	belt,mag,eli	g7r	zas	jew				usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					4	shld,mag,eli	g7r	zas	jew				usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					4	tors,mag,eli	g7r	zas	jew				usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					4	amul,mag	g7r	zas	jew				usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					4	ring,mag	g7r	zas	jew				usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					4	weap,mag,eli	g7r	zas	jew				usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone amethyst -> caster	1			100					4	helm,mag,eli	g7v	zas	jew				usetype,crf		50	50	cast2			30	40	res-all			14	16	allskills			1	1																																																																					0
+magic + moonstone amethyst -> caster	1			100					4	boot,mag,eli	g7v	zas	jew				usetype,crf		50	50	cast2			30	40	res-all			14	16	allskills			1	1																																																																					0
+magic + moonstone amethyst -> caster	1			100					4	glov,mag,eli	g7v	zas	jew				usetype,crf		50	50	cast2			30	40	res-all			14	16	allskills			1	1																																																																					0
+magic + moonstone amethyst -> caster	1			100					4	belt,mag,eli	g7v	zas	jew				usetype,crf		50	50	cast2			30	40	res-all			14	16	allskills			1	1																																																																					0
+magic + moonstone amethyst -> caster	1			100					4	shld,mag,eli	g7v	zas	jew				usetype,crf		50	50	cast2			30	40	res-all			14	16	allskills			1	2																																																																					0
+magic + moonstone amethyst -> caster	1			100					4	tors,mag,eli	g7v	zas	jew				usetype,crf		50	50	cast2			30	40	res-all			14	16	allskills			1	1																																																																					0
+magic + moonstone amethyst -> caster	1			100					4	amul,mag	g7v	zas	jew				usetype,crf		50	50	cast2			15	20	res-all			9	11																																																																										0
+magic + moonstone amethyst -> caster	1			100					4	ring,mag	g7v	zas	jew				usetype,crf		50	50	cast2			15	20	res-all			9	11																																																																										0
+magic + moonstone amethyst -> caster	1			100					4	ajav,mag,eli	g7v	zas	jew				usetype,crf		50	50	pierce			40	50	res-all			14	16																																																																										0
+magic + moonstone amethyst -> caster	1			100					4	weap,mag,eli	g7v	zas	jew				usetype,crf		50	50	cast2			40	50	mana%			40	50	allskills			1	2																																																																					0
+magic + moonstone emerald -> safety	1			100					4	helm,mag,eli	g7g	zas	jew				usetype,crf		50	50	red-dmg%			10	12	res-ltng			30	40																																																																										0
+magic + moonstone emerald -> safety	1			100					4	boot,mag,eli	g7g	zas	jew				usetype,crf		50	50	red-dmg%			10	12	res-fire			30	40																																																																										0
+magic + moonstone emerald -> safety	1			100					4	glov,mag,eli	g7g	zas	jew				usetype,crf		50	50	red-dmg%			10	12	res-cold			30	40																																																																										0
+magic + moonstone emerald -> safety	1			100					4	belt,mag,eli	g7g	zas	jew				usetype,crf		50	50	red-dmg%			10	12	res-pois			30	40																																																																										0
+magic + moonstone emerald -> safety	1			100					4	shld,mag,eli	g7g	zas	jew				usetype,crf		50	50	red-dmg%			15	18	block			30	40																																																																										0
+magic + moonstone emerald -> safety	1			100					4	tors,mag,eli	g7g	zas	jew				usetype,crf		50	50	red-dmg%			15	18	block			30	40																																																																										0
+magic + moonstone emerald -> safety	1			100					4	amul,mag	g7g	zas	jew				usetype,crf		50	50	red-dmg%			10	12	res-pois-len			60	80																																																																										0
+magic + moonstone emerald -> safety	1			100					4	ring,mag	g7g	zas	jew				usetype,crf		50	50	red-mag			21	25	res-pois-len			60	80	vit			12	16																																																																					0
+magic + moonstone emerald -> safety	1			100					4	weap,mag,eli	g7g	zas	jew				usetype,crf		50	50	red-dmg%			10	12	vit			30	35																																																																										0
+magic + moonstone skull -> death	1			100					4	helm,mag,eli	sk7	zas	jew				usetype,crf		50	50	deadly			10	11	swing2			15	25	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					4	boot,mag,eli	sk7	zas	jew				usetype,crf		50	50	deadly			10	11	swing2			15	25	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					4	glov,mag,eli	sk7	zas	jew				usetype,crf		50	50	deadly			10	11	swing2			15	25	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					4	belt,mag,eli	sk7	zas	jew				usetype,crf		50	50	deadly			10	11	swing2			15	25	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					4	shld,mag,eli	sk7	zas	jew				usetype,crf		50	50	deadly			10	11	swing2			30	40	block			30	40	abs-mag%			4	4																																																																0
+magic + moonstone skull -> death	1			100					4	tors,mag,eli	sk7	zas	jew				usetype,crf		50	50	deadly			10	11	swing2			30	40	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					4	amul,mag	sk7	zas	jew				usetype,crf		50	50	deadly			10	11	swing2			15	25	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					4	ring,mag	sk7	zas	jew				usetype,crf		50	50	deadly			10	11	swing2			15	25	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					4	weap,mag,eli	sk7	zas	jew				usetype,crf		50	50	deadly			10	11	swing2			30	40																																																																										0
+magic + moonstone topaz -> elemental	1			100					4	helm,mag,eli	g7y	zas	jew				usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					4	shld,mag,eli	g7y	zas	jew				usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40	block			20	40																																																																0
+magic + moonstone topaz -> elemental	1			100					4	glov,mag,eli	g7y	zas	jew				usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					4	belt,mag,eli	g7y	zas	jew				usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					4	boot,mag,eli	g7y	zas	jew				usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					4	tors,mag,eli	g7y	zas	jew				usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					4	amul,mag	g7y	zas	jew				usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					4	ring,mag	g7y	zas	jew				usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					4	weap,mag,eli	g7y	zas	jew				usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40	allskills			1	1																																																																0
+magic + moonstone diamond  -> holy	1			100					4	helm,mag,eli	g7w	zas	jew				usetype,crf		50	50	hpregen/lvl		9			res-mag			26	30																																																																										0
+magic + moonstone diamond  -> holy	1			100					4	boot,mag,eli	g7w	zas	jew				usetype,crf		50	50	hpregen/lvl		9			res-mag			26	30																																																																										0
+magic + moonstone diamond  -> holy	1			100					4	glov,mag,eli	g7w	zas	jew				usetype,crf		50	50	hpregen/lvl		9			res-mag			26	30																																																																										0
+magic + moonstone diamond  -> holy	1			100					4	belt,mag,eli	g7w	zas	jew				usetype,crf		50	50	hpregen/lvl		9			res-mag			26	30																																																																										0
+magic + moonstone diamond  -> holy	1			100					4	shld,mag,eli	g7w	zas	jew				usetype,crf		50	50	hpregen/lvl		9			res-mag			26	30																																																																										0
+magic + moonstone diamond  -> holy	1			100					4	tors,mag,eli	g7w	zas	jew				usetype,crf		50	50	hpregen/lvl		9			res-mag			26	30																																																																										0
+magic + moonstone diamond  -> holy	1			100					4	amul,mag	g7w	zas	jew				usetype,crf		50	50	rip			1	1	res-mag			26	30	noheal			1	1																																																																					0
+magic + moonstone diamond  -> holy	1			100					4	ring,mag	g7w	zas	jew				usetype,crf		50	50	nofreeze			1	1	res-mag			26	30	att			150	200																																																																					0
+magic + moonstone diamond  -> holy	1			100					4	weap,mag,eli	g7w	zas	jew				usetype,crf		50	50	resistcurse			15	20	res-mag			26	30	dmg-mag			250	500																																																																					0
+craft + Uber sapphire -> power helm	1			100					3	hlm4,mag	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber sapphire -> power boots	1			100					3	bot4,mag	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber sapphire -> power gloves	1			100					3	glv4,mag	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber sapphire -> power belt	1			100					3	blt4,mag	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber sapphire -> power shield	1			100					3	shd4,mag	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber sapphire -> power torso	1			100					3	tor4,mag	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber sapphire -> power javelin	1			100					3	jav4,mag	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18	pierce			50	50																																																																					0
+craft + Uber sapphire -> power weapon	1			100					3	wpn4,mag	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber ruby -> blood boots	1			100					3	bot4,mag	g8r	arc					usetype,crf		50	50	lifesteal			5	6	hp			50	60																																																																										0
+craft + Uber ruby -> blood gloves	1			100					3	glv4,mag	g8r	arc					usetype,crf		50	50	lifesteal			5	6	hp			50	60																																																																										0
+craft + Uber ruby -> blood shield	1			100					3	shd4,mag	g8r	arc					usetype,crf		50	50	lifesteal			5	6	hp			50	60																																																																										0
+craft + Uber ruby -> blood torso	1			100					3	tor4,mag	g8r	arc					usetype,crf		50	50	lifesteal			5	6	hp			50	60																																																																										0
+craft + Uber ruby -> blood javelin	1			100					3	jav4,mag	g8r	arc					usetype,crf		50	50	lifesteal			5	6	hp			50	60	pierce			50	50																																																																					0
+craft + Uber ruby -> blood weapon	1			100					3	wpn4,mag	g8r	arc					usetype,crf		50	50	lifesteal			5	6	hp			50	60																																																																										0
+craft + Uber amethyst -> caster helm	1			100					3	hlm4,mag	g8v	arc					usetype,crf		50	50	cast2			40	50	res-all			17	20	allskills			1	2																																																																					0
+craft + Uber amethyst -> caster boots	1			100					3	bot4,mag	g8v	arc					usetype,crf		50	50	cast2			40	50	res-all			17	20	allskills			1	2																																																																					0
+craft + Uber amethyst -> caster gloves	1			100					3	glv4,mag	g8v	arc					usetype,crf		50	50	cast2			40	50	res-all			17	20	allskills			1	2																																																																					0
+craft + Uber amethyst -> caster belt	1			100					3	blt4,mag	g8v	arc					usetype,crf		50	50	cast2			40	50	res-all			17	20	allskills			1	2																																																																					0
+craft + Uber amethyst -> caster shield	1			100					3	shd4,mag	g8v	arc					usetype,crf		50	50	cast2			40	50	res-all			17	20	allskills			2	2																																																																					0
+craft + Uber amethyst -> caster torso	1			100					3	tor4,mag	g8v	arc					usetype,crf		50	50	cast2			40	50	res-all			17	20	allskills			1	2																																																																					0
+craft + Uber amethyst -> caster casting	1			100					3	orb4,mag	g8v	arc					usetype,crf		50	50	cast2			50	60	mana%			40	50	allskills			2	2																																																																					0
+craft + Uber amethyst -> caster casting	1			100					3	wan4,mag	g8v	arc					usetype,crf		50	50	cast2			50	60	res-all			17	20	allskills			2	2																																																																					0
+craft + Uber emerald -> safety helm	1			100					3	hlm4,mag	g8g	arc					usetype,crf		50	50	red-dmg%			15	20	res-ltng			40	50																																																																										0
+craft + Uber emerald -> safety boots	1			100					3	bot4,mag	g8g	arc					usetype,crf		50	50	red-dmg%			15	20	res-fire			40	50																																																																										0
+craft + Uber emerald -> safety gloves	1			100					3	glv4,mag	g8g	arc					usetype,crf		50	50	red-dmg%			15	20	res-cold			40	50																																																																										0
+craft + Uber emerald -> safety belt	1			100					3	blt4,mag	g8g	arc					usetype,crf		50	50	red-dmg%			15	20	res-pois			40	50																																																																										0
+craft + Uber emerald -> safety shield	1			100					3	shd4,mag	g8g	arc					usetype,crf		50	50	red-dmg%			20	25	block			40	50																																																																										0
+craft + Uber emerald -> safety torso	1			100					3	tor4,mag	g8g	arc					usetype,crf		50	50	red-dmg%			20	25	block			40	50																																																																										0
+craft + Uber emerald -> safety javelin	1			100					3	jav4,mag	g8g	arc					usetype,crf		50	50	red-dmg%			15	20	vit			40	45	pierce			50	50																																																																					0
+craft + Uber emerald -> safety weapon	1			100					3	wpn4,mag	g8g	arc					usetype,crf		50	50	red-dmg%			15	20	vit			40	45																																																																										0
+craft + Uber skull -> death helm	1			100					3	hlm4,mag	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			25	35	heal-kill			80	100																																																																					0
+craft + Uber skull -> death boots	1			100					3	bot4,mag	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			25	35	heal-kill			80	100																																																																					0
+craft + Uber skull -> death gloves	1			100					3	glv4,mag	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			25	35	heal-kill			80	100																																																																					0
+craft + Uber skull -> death belt	1			100					3	blt4,mag	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			25	35	heal-kill			80	100																																																																					0
+craft + Uber skull -> death shield	1			100					3	shd4,mag	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			40	50	block			40	50	abs-mag%			5	5																																																																0
+craft + Uber skull -> death torso	1			100					3	tor4,mag	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			40	50	heal-kill			80	100																																																																					0
+craft + Uber skull -> death javelin	1			100					3	jav4,mag	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			40	50	pierce			50	50																																																																					0
+craft + Uber skull -> death weapon	1			100					3	wpn4,mag	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			40	50																																																																										0
+craft + Uber topaz -> elemental helm	1			100					3	hlm4,mag	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60																																																																					0
+craft + Uber topaz -> elemental shield	1			100					3	shd4,mag	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60	block			30	60																																																																0
+craft + Uber topaz -> elemental gloves	1			100					3	glv4,mag	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60																																																																					0
+craft + Uber topaz -> elemental belt	1			100					3	blt4,mag	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60																																																																					0
+craft + Uber topaz -> elemental boots	1			100					3	bot4,mag	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60																																																																					0
+craft + Uber topaz -> elemental torso	1			100					3	tor4,mag	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60																																																																					0
+craft + Uber topaz -> elemental weapon	1			100					3	wpn4,mag	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60	allskills			1	1																																																																0
+craft + Uber diamond  -> holy helm	1			100					3	hlm4,mag	g8w	arc					usetype,crf		50	50	hpregen/lvl		11			res-mag			35	40																																																																										0
+craft + Uber diamond  -> holy boots	1			100					3	bot4,mag	g8w	arc					usetype,crf		50	50	hpregen/lvl		11			res-mag			35	40																																																																										0
+craft + Uber diamond  -> holy gloves	1			100					3	glv4,mag	g8w	arc					usetype,crf		50	50	hpregen/lvl		11			res-mag			35	40																																																																										0
+craft + Uber diamond  -> holy belt	1			100					3	blt4,mag	g8w	arc					usetype,crf		50	50	hpregen/lvl		11			res-mag			35	40																																																																										0
+craft + Uber diamond  -> holy shield	1			100					3	shd4,mag	g8w	arc					usetype,crf		50	50	hpregen/lvl		11			res-mag			35	40																																																																										0
+craft + Uber diamond  -> holy torso	1			100					3	tor4,mag	g8w	arc					usetype,crf		50	50	hpregen/lvl		11			res-mag			35	40																																																																										0
+craft + Uber diamond  -> holy casting	1			100					3	orb4,mag	g8w	arc					usetype,crf		50	50	cast2			50	60	gold%			100	200	mag%			100	150	move2			40	40																																																																0
+craft + Uber diamond  -> holy casting	1			100					3	wan4,mag	g8w	arc					usetype,crf		50	50	cast2			50	60	gold%			100	200	mag%			100	150	move2			40	40																																																																0
+craft + Uber diamond  -> holy javelin	1			100					3	jav4,mag	g8w	arc					usetype,crf		50	50	pierce			50	50	res-mag			40	50	dmg-mag			400	525																																																																					0
+craft + Uber diamond  -> holy weapon	1			100					3	wpn4,mag	g8w	arc					usetype,crf		50	50	resistcurse			20	25	res-mag			40	50	dmg-mag			400	525																																																																					0
+Uber Sapphire Jewel	1			100					4	jew,mag	arc,qty=2	g8b					usetype,crf		50	50	dmg-min			3	4	dmg-max			6	8																																																																										0
+Uber Ruby Jewel	1			100					4	jew,mag	arc,qty=2	g8r					usetype,crf		50	50	lifesteal			2	3	hp			20	30																																																																										0
+Uber Amethyst Jewel	1			100					4	jew,mag	arc,qty=2	g8v					usetype,crf		50	50	extra-all			2	2																																																																															0
+Uber Emerald Jewel	1			100					4	jew,mag	arc,qty=2	g8g					usetype,crf		50	50	red-dmg%			3	5	res-all			4	8																																																																										0
+Uber Skull Jewel	1			100					4	jew,mag	arc,qty=2	sk8					usetype,crf		50	50	deadly			4	6	swing2			10	12																																																																										0
+Uber Topaz Jewel	1			100					4	jew,mag	arc,qty=2	g8y					usetype,crf		50	50	heal-hit			4	5	castDelayRed%			4	5																																																																										0
+Uber Diamond Jewel	1			100					4	jew,mag	arc,qty=2	g8w					usetype,crf		50	50	res-mag			8	12																																																																															0
+magic + perfect sapphire -> power	1			100					2	helm,crf,bas	gpb						usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					2	boot,crf,bas	gpb						usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					2	glov,crf,bas	gpb						usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					2	belt,crf,bas	gpb						usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					2	shld,crf,bas	gpb						usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					2	tors,crf,bas	gpb						usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					2	amul,crf	gpb						usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					2	ring,crf	gpb						usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect sapphire -> power	1			100					2	weap,crf,bas	gpb						usetype,crf		50	50	dmg-min			2	3	dmg-max			4	6																																																																										0
+magic + perfect ruby -> blood	1			100					2	helm,crf,bas	gpr						usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					2	boot,crf,bas	gpr						usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					2	glov,crf,bas	gpr						usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					2	belt,crf,bas	gpr						usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					2	shld,crf,bas	gpr						usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					2	tors,crf,bas	gpr						usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					2	amul,crf	gpr						usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					2	ring,crf	gpr						usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect ruby -> blood	1			100					2	weap,crf,bas	gpr						usetype,crf		50	50	lifesteal			2	3	hp			20	25																																																																										0
+magic + perfect amethyst -> caster	1			100					2	helm,crf,bas	gpv						usetype,crf		50	50	cast2			10	15	res-all			8	10																																																																										0
+magic + perfect amethyst -> caster	1			100					2	boot,crf,bas	gpv						usetype,crf		50	50	cast2			10	15	res-all			8	10																																																																										0
+magic + perfect amethyst -> caster	1			100					2	glov,crf,bas	gpv						usetype,crf		50	50	cast2			10	15	res-all			8	10																																																																										0
+magic + perfect amethyst -> caster	1			100					2	belt,crf,bas	gpv						usetype,crf		50	50	cast2			10	15	res-all			8	10																																																																										0
+magic + perfect amethyst -> caster	1			100					2	shld,crf,bas	gpv						usetype,crf		50	50	cast2			10	15	res-all			8	10	allskills			0	1																																																																					0
+magic + perfect amethyst -> caster	1			100					2	tors,crf,bas	gpv						usetype,crf		50	50	cast2			10	15	res-all			8	10																																																																										0
+magic + perfect amethyst -> caster	1			100					2	amul,crf	gpv						usetype,crf		50	50	cast2			10	15	res-all			4	6																																																																										0
+magic + perfect amethyst -> caster	1			100					2	ring,crf	gpv						usetype,crf		50	50	cast2			10	15	res-all			4	6																																																																										0
+magic + perfect amethyst -> caster	1			100					2	ajav,crf,bas	gpv						usetype,crf		50	50	pierce			40	50	res-all			8	10																																																																										0
+magic + perfect amethyst -> caster	1			100					2	weap,crf,bas	gpv						usetype,crf		50	50	cast2			20	30	mana%			20	30	allskills			0	1																																																																					0
+magic + perfect emerald -> safety	1			100					2	helm,crf,bas	gpg						usetype,crf		50	50	red-dmg%			5	6	res-ltng			15	20																																																																										0
+magic + perfect emerald -> safety	1			100					2	boot,crf,bas	gpg						usetype,crf		50	50	red-dmg%			5	6	res-fire			15	20																																																																										0
+magic + perfect emerald -> safety	1			100					2	glov,crf,bas	gpg						usetype,crf		50	50	red-dmg%			5	6	res-cold			15	20																																																																										0
+magic + perfect emerald -> safety	1			100					2	belt,crf,bas	gpg						usetype,crf		50	50	red-dmg%			5	6	res-pois			15	20																																																																										0
+magic + perfect emerald -> safety	1			100					2	shld,crf,bas	gpg						usetype,crf		50	50	red-dmg%			8	10	block			10	20																																																																										0
+magic + perfect emerald -> safety	1			100					2	tors,crf,bas	gpg						usetype,crf		50	50	red-dmg%			8	10	block			10	20																																																																										0
+magic + perfect emerald -> safety	1			100					2	amul,crf	gpg						usetype,crf		50	50	red-dmg%			5	6	res-pois-len			30	40																																																																										0
+magic + perfect emerald -> safety	1			100					2	ring,crf	gpg						usetype,crf		50	50	red-mag			10	15	res-pois-len			30	40	vit			4	6																																																																					0
+magic + perfect emerald -> safety	1			100					2	weap,crf,bas	gpg						usetype,crf		50	50	red-dmg%			5	6	vit			10	15																																																																										0
+magic + perfect skull -> death	1			100					2	helm,crf,bas	skz						usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					2	boot,crf,bas	skz						usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					2	glov,crf,bas	skz						usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					2	belt,crf,bas	skz						usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					2	shld,crf,bas	skz						usetype,crf		50	50	deadly			6	7	swing2			10	15	block			10	20	abs-mag%			2	2																																																																0
+magic + perfect skull -> death	1			100					2	tors,crf,bas	skz						usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					2	amul,crf	skz						usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					2	ring,crf	skz						usetype,crf		50	50	deadly			6	7	swing2			10	15	heal-kill			15	25																																																																					0
+magic + perfect skull -> death	1			100					2	weap,crf,bas	skz						usetype,crf		50	50	deadly			6	7	swing2			20	30																																																																										0
+magic + perfect topaz -> elemental	1			100					2	helm,crf,bas	gpy						usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					2	shld,crf,bas	gpy						usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20	block			10	20																																																																0
+magic + perfect topaz -> elemental	1			100					2	glov,crf,bas	gpy						usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					2	belt,crf,bas	gpy						usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					2	boot,crf,bas	gpy						usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					2	tors,crf,bas	gpy						usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					2	amul,crf	gpy						usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					2	ring,crf	gpy						usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20																																																																					0
+magic + perfect topaz -> elemental	1			100					2	weap,crf,bas	gpy						usetype,crf		50	50	gold%			30	40	balance1			10	20	move1			10	20	allskills			1	1																																																																0
+magic + perfect diamond  -> holy	1			100					2	helm,crf,bas	gpw						usetype,crf		50	50	hpregen/lvl		5			res-mag			12	16																																																																										0
+magic + perfect diamond  -> holy	1			100					2	boot,crf,bas	gpw						usetype,crf		50	50	hpregen/lvl		5			res-mag			12	16																																																																										0
+magic + perfect diamond  -> holy	1			100					2	glov,crf,bas	gpw						usetype,crf		50	50	hpregen/lvl		5			res-mag			12	16																																																																										0
+magic + perfect diamond  -> holy	1			100					2	belt,crf,bas	gpw						usetype,crf		50	50	hpregen/lvl		5			res-mag			12	16																																																																										0
+magic + perfect diamond  -> holy	1			100					2	shld,crf,bas	gpw						usetype,crf		50	50	hpregen/lvl		5			res-mag			12	16	block			10	20																																																																					0
+magic + perfect diamond  -> holy	1			100					2	tors,crf,bas	gpw						usetype,crf		50	50	hpregen/lvl		5			res-mag			12	16																																																																										0
+magic + perfect diamond  -> holy	1			100					2	amul,crf	gpw						usetype,crf		50	50	rip			1	1	res-mag			12	16	noheal			1	1																																																																					0
+magic + perfect diamond  -> holy	1			100					2	ring,crf	gpw						usetype,crf		50	50	nofreeze			1	1	res-mag			12	16	att			50	100																																																																					0
+magic + perfect diamond  -> holy	1			100					2	weap,crf,bas	gpw						usetype,crf		50	50	resistcurse			5	10	res-mag			12	16	dmg-mag			100	200																																																																					0
+magic + starstone sapphire -> power	1			100					2	helm,crf,exc	g6b						usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					2	boot,crf,exc	g6b						usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					2	glov,crf,exc	g6b						usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					2	belt,crf,exc	g6b						usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					2	shld,crf,exc	g6b						usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					2	tors,crf,exc	g6b						usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					2	amul,crf	g6b						usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					2	ring,crf	g6b						usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone sapphire -> power	1			100					2	weap,crf,exc	g6b						usetype,crf		50	50	dmg-min			4	6	dmg-max			8	10																																																																										0
+magic + starstone ruby -> blood	1			100					2	helm,crf,exc	g6r						usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					2	boot,crf,exc	g6r						usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					2	glov,crf,exc	g6r						usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					2	belt,crf,exc	g6r						usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					2	shld,crf,exc	g6r						usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					2	tors,crf,exc	g6r						usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					2	amul,crf	g6r						usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					2	ring,crf	g6r						usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone ruby -> blood	1			100					2	weap,crf,exc	g6r						usetype,crf		50	50	lifesteal			3	4	hp			30	35																																																																										0
+magic + starstone amethyst -> caster	1			100					2	helm,crf,exc	g6v						usetype,crf		50	50	cast2			20	30	res-all			11	13																																																																										0
+magic + starstone amethyst -> caster	1			100					2	boot,crf,exc	g6v						usetype,crf		50	50	cast2			20	30	res-all			11	13																																																																										0
+magic + starstone amethyst -> caster	1			100					2	glov,crf,exc	g6v						usetype,crf		50	50	cast2			20	30	res-all			11	13																																																																										0
+magic + starstone amethyst -> caster	1			100					2	belt,crf,exc	g6v						usetype,crf		50	50	cast2			20	30	res-all			11	13																																																																										0
+magic + starstone amethyst -> caster	1			100					2	shld,crf,exc	g6v						usetype,crf		50	50	cast2			20	30	res-all			11	13	allskills			1	1																																																																					0
+magic + starstone amethyst -> caster	1			100					2	tors,crf,exc	g6v						usetype,crf		50	50	cast2			20	30	res-all			11	13																																																																										0
+magic + starstone amethyst -> caster	1			100					2	amul,crf	g6v						usetype,crf		50	50	cast2			10	15	res-all			6	8																																																																										0
+magic + starstone amethyst -> caster	1			100					2	ring,crf	g6v						usetype,crf		50	50	cast2			10	15	res-all			6	8																																																																										0
+magic + starstone amethyst -> caster	1			100					2	ajav,crf,exc	g6v						usetype,crf		50	50	pierce			40	50	res-all			11	13																																																																										0
+magic + starstone amethyst -> caster	1			100					2	weap,crf,exc	g6v						usetype,crf		50	50	cast2			30	40	mana%			30	40	allskills			1	1																																																																					0
+magic + starstone emerald -> safety	1			100					2	helm,crf,exc	g6g						usetype,crf		50	50	red-dmg%			7	9	res-ltng			20	25																																																																										0
+magic + starstone emerald -> safety	1			100					2	boot,crf,exc	g6g						usetype,crf		50	50	red-dmg%			7	9	res-fire			20	25																																																																										0
+magic + starstone emerald -> safety	1			100					2	glov,crf,exc	g6g						usetype,crf		50	50	red-dmg%			7	9	res-cold			20	25																																																																										0
+magic + starstone emerald -> safety	1			100					2	belt,crf,exc	g6g						usetype,crf		50	50	red-dmg%			7	9	res-pois			20	25																																																																										0
+magic + starstone emerald -> safety	1			100					2	shld,crf,exc	g6g						usetype,crf		50	50	red-dmg%			12	14	block			20	30																																																																										0
+magic + starstone emerald -> safety	1			100					2	tors,crf,exc	g6g						usetype,crf		50	50	red-dmg%			12	14	block			20	30																																																																										0
+magic + starstone emerald -> safety	1			100					2	amul,crf	g6g						usetype,crf		50	50	red-dmg%			7	9	res-pois-len			40	50																																																																										0
+magic + starstone emerald -> safety	1			100					2	ring,crf	g6g						usetype,crf		50	50	red-mag			16	20	res-pois-len			40	50	vit			6	10																																																																					0
+magic + starstone emerald -> safety	1			100					2	weap,crf,exc	g6g						usetype,crf		50	50	red-dmg%			7	9	vit			20	25																																																																										0
+magic + starstone skull -> death	1			100					2	helm,crf,exc	sk6						usetype,crf		50	50	deadly			8	9	swing2			12	20	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					2	boot,crf,exc	sk6						usetype,crf		50	50	deadly			8	9	swing2			12	20	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					2	glov,crf,exc	sk6						usetype,crf		50	50	deadly			8	9	swing2			12	20	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					2	belt,crf,exc	sk6						usetype,crf		50	50	deadly			8	9	swing2			12	20	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					2	shld,crf,exc	sk6						usetype,crf		50	50	deadly			8	9	swing2			20	30	block			20	30	abs-mag%			3	3																																																																0
+magic + starstone skull -> death	1			100					2	tors,crf,exc	sk6						usetype,crf		50	50	deadly			8	9	swing2			20	30	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					2	amul,crf	sk6						usetype,crf		50	50	deadly			8	9	swing2			12	20	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					2	ring,crf	sk6						usetype,crf		50	50	deadly			8	9	swing2			12	20	heal-kill			25	35																																																																					0
+magic + starstone skull -> death	1			100					2	weap,crf,exc	sk6						usetype,crf		50	50	deadly			8	9	swing2			20	30																																																																										0
+magic + starstone topaz -> elemental	1			100					2	helm,crf,exc	g6y						usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					2	shld,crf,exc	g6y						usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30	block			15	30																																																																0
+magic + starstone topaz -> elemental	1			100					2	glov,crf,exc	g6y						usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					2	belt,crf,exc	g6y						usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					2	boot,crf,exc	g6y						usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					2	tors,crf,exc	g6y						usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					2	amul,crf	g6y						usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					2	ring,crf	g6y						usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30																																																																					0
+magic + starstone topaz -> elemental	1			100					2	weap,crf,exc	g6y						usetype,crf		50	50	gold%			45	60	balance1			15	30	move1			15	30	allskills			1	1																																																																0
+magic + starstone diamond  -> holy	1			100					2	helm,crf,exc	g6w						usetype,crf		50	50	hpregen/lvl		7			res-mag			18	24																																																																										0
+magic + starstone diamond  -> holy	1			100					2	boot,crf,exc	g6w						usetype,crf		50	50	hpregen/lvl		7			res-mag			18	24																																																																										0
+magic + starstone diamond  -> holy	1			100					2	glov,crf,exc	g6w						usetype,crf		50	50	hpregen/lvl		7			res-mag			18	24																																																																										0
+magic + starstone diamond  -> holy	1			100					2	belt,crf,exc	g6w						usetype,crf		50	50	hpregen/lvl		7			res-mag			18	24																																																																										0
+magic + starstone diamond  -> holy	1			100					2	shld,crf,exc	g6w						usetype,crf		50	50	hpregen/lvl		7			res-mag			18	24	block			20	30																																																																					0
+magic + starstone diamond  -> holy	1			100					2	tors,crf,exc	g6w						usetype,crf		50	50	hpregen/lvl		7			res-mag			18	24																																																																										0
+magic + starstone diamond  -> holy	1			100					2	amul,crf	g6w						usetype,crf		50	50	rip			1	1	res-mag			18	24	noheal			1	1																																																																					0
+magic + starstone diamond  -> holy	1			100					2	ring,crf	g6w						usetype,crf		50	50	nofreeze			1	1	res-mag			18	24	att			100	150																																																																					0
+magic + starstone diamond  -> holy	1			100					2	weap,crf,exc	g6w						usetype,crf		50	50	resistcurse			10	15	res-mag			18	24	dmg-mag			200	300																																																																					0
+magic + moonstone sapphire -> power	1			100					2	helm,crf,eli	g7b						usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					2	boot,crf,eli	g7b						usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					2	glov,crf,eli	g7b						usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					2	belt,crf,eli	g7b						usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					2	shld,crf,eli	g7b						usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					2	tors,crf,eli	g7b						usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					2	amul,crf	g7b						usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					2	ring,crf	g7b						usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone sapphire -> power	1			100					2	weap,crf,eli	g7b						usetype,crf		50	50	dmg-min			8	10	dmg-max			12	14																																																																										0
+magic + moonstone ruby -> blood	1			100					2	helm,crf,eli	g7r						usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					2	boot,crf,eli	g7r						usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					2	glov,crf,eli	g7r						usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					2	belt,crf,eli	g7r						usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					2	shld,crf,eli	g7r						usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					2	tors,crf,eli	g7r						usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					2	amul,crf	g7r						usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					2	ring,crf	g7r						usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone ruby -> blood	1			100					2	weap,crf,eli	g7r						usetype,crf		50	50	lifesteal			4	5	hp			40	45																																																																										0
+magic + moonstone amethyst -> caster	1			100					2	helm,crf,eli	g7v						usetype,crf		50	50	cast2			30	40	res-all			14	16	allskills			1	1																																																																					0
+magic + moonstone amethyst -> caster	1			100					2	boot,crf,eli	g7v						usetype,crf		50	50	cast2			30	40	res-all			14	16	allskills			1	1																																																																					0
+magic + moonstone amethyst -> caster	1			100					2	glov,crf,eli	g7v						usetype,crf		50	50	cast2			30	40	res-all			14	16	allskills			1	1																																																																					0
+magic + moonstone amethyst -> caster	1			100					2	belt,crf,eli	g7v						usetype,crf		50	50	cast2			30	40	res-all			14	16	allskills			1	1																																																																					0
+magic + moonstone amethyst -> caster	1			100					2	shld,crf,eli	g7v						usetype,crf		50	50	cast2			30	40	res-all			14	16	allskills			1	2																																																																					0
+magic + moonstone amethyst -> caster	1			100					2	tors,crf,eli	g7v						usetype,crf		50	50	cast2			30	40	res-all			14	16	allskills			1	1																																																																					0
+magic + moonstone amethyst -> caster	1			100					2	amul,crf	g7v						usetype,crf		50	50	cast2			15	20	res-all			9	11																																																																										0
+magic + moonstone amethyst -> caster	1			100					2	ring,crf	g7v						usetype,crf		50	50	cast2			15	20	res-all			9	11																																																																										0
+magic + moonstone amethyst -> caster	1			100					2	ajav,crf,eli	g7v						usetype,crf		50	50	pierce			40	50	res-all			14	16																																																																										0
+magic + moonstone amethyst -> caster	1			100					2	weap,crf,eli	g7v						usetype,crf		50	50	cast2			40	50	mana%			40	50	allskills			1	2																																																																					0
+magic + moonstone emerald -> safety	1			100					2	helm,crf,eli	g7g						usetype,crf		50	50	red-dmg%			10	12	res-ltng			30	40																																																																										0
+magic + moonstone emerald -> safety	1			100					2	boot,crf,eli	g7g						usetype,crf		50	50	red-dmg%			10	12	res-fire			30	40																																																																										0
+magic + moonstone emerald -> safety	1			100					2	glov,crf,eli	g7g						usetype,crf		50	50	red-dmg%			10	12	res-cold			30	40																																																																										0
+magic + moonstone emerald -> safety	1			100					2	belt,crf,eli	g7g						usetype,crf		50	50	red-dmg%			10	12	res-pois			30	40																																																																										0
+magic + moonstone emerald -> safety	1			100					2	shld,crf,eli	g7g						usetype,crf		50	50	red-dmg%			15	18	block			30	40																																																																										0
+magic + moonstone emerald -> safety	1			100					2	tors,crf,eli	g7g						usetype,crf		50	50	red-dmg%			15	18	block			30	40																																																																										0
+magic + moonstone emerald -> safety	1			100					2	amul,crf	g7g						usetype,crf		50	50	red-dmg%			10	12	res-pois-len			60	80																																																																										0
+magic + moonstone emerald -> safety	1			100					2	ring,crf	g7g						usetype,crf		50	50	red-mag			21	25	res-pois-len			60	80	vit			12	16																																																																					0
+magic + moonstone emerald -> safety	1			100					2	weap,crf,eli	g7g						usetype,crf		50	50	red-dmg%			10	12	vit			30	35																																																																										0
+magic + moonstone skull -> death	1			100					2	helm,crf,eli	sk7						usetype,crf		50	50	deadly			10	11	swing2			15	25	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					2	boot,crf,eli	sk7						usetype,crf		50	50	deadly			10	11	swing2			15	25	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					2	glov,crf,eli	sk7						usetype,crf		50	50	deadly			10	11	swing2			15	25	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					2	belt,crf,eli	sk7						usetype,crf		50	50	deadly			10	11	swing2			15	25	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					2	shld,crf,eli	sk7						usetype,crf		50	50	deadly			10	11	swing2			30	40	block			30	40	abs-mag%			4	4																																																																0
+magic + moonstone skull -> death	1			100					2	tors,crf,eli	sk7						usetype,crf		50	50	deadly			10	11	swing2			30	40	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					2	amul,crf	sk7						usetype,crf		50	50	deadly			10	11	swing2			15	25	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					2	ring,crf	sk7						usetype,crf		50	50	deadly			10	11	swing2			15	25	heal-kill			50	60																																																																					0
+magic + moonstone skull -> death	1			100					2	weap,crf,eli	sk7						usetype,crf		50	50	deadly			10	11	swing2			30	40																																																																										0
+magic + moonstone topaz -> elemental	1			100					2	helm,crf,eli	g7y						usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					2	shld,crf,eli	g7y						usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40	block			20	40																																																																0
+magic + moonstone topaz -> elemental	1			100					2	glov,crf,eli	g7y						usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					2	belt,crf,eli	g7y						usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					2	boot,crf,eli	g7y						usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					2	tors,crf,eli	g7y						usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					2	amul,crf	g7y						usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					2	ring,crf	g7y						usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40																																																																					0
+magic + moonstone topaz -> elemental	1			100					2	weap,crf,eli	g7y						usetype,crf		50	50	gold%			60	80	balance1			20	40	move1			20	40	allskills			1	1																																																																0
+magic + moonstone diamond  -> holy	1			100					2	helm,crf,eli	g7w						usetype,crf		50	50	hpregen/lvl		9			res-mag			26	30																																																																										0
+magic + moonstone diamond  -> holy	1			100					2	boot,crf,eli	g7w						usetype,crf		50	50	hpregen/lvl		9			res-mag			26	30																																																																										0
+magic + moonstone diamond  -> holy	1			100					2	glov,crf,eli	g7w						usetype,crf		50	50	hpregen/lvl		9			res-mag			26	30																																																																										0
+magic + moonstone diamond  -> holy	1			100					2	belt,crf,eli	g7w						usetype,crf		50	50	hpregen/lvl		9			res-mag			26	30																																																																										0
+magic + moonstone diamond  -> holy	1			100					2	shld,crf,eli	g7w						usetype,crf		50	50	hpregen/lvl		9			res-mag			26	30																																																																										0
+magic + moonstone diamond  -> holy	1			100					2	tors,crf,eli	g7w						usetype,crf		50	50	hpregen/lvl		9			res-mag			26	30																																																																										0
+magic + moonstone diamond  -> holy	1			100					2	amul,crf	g7w						usetype,crf		50	50	rip			1	1	res-mag			26	30	noheal			1	1																																																																					0
+magic + moonstone diamond  -> holy	1			100					2	ring,crf	g7w						usetype,crf		50	50	nofreeze			1	1	res-mag			26	30	att			150	200																																																																					0
+magic + moonstone diamond  -> holy	1			100					2	weap,crf,eli	g7w						usetype,crf		50	50	resistcurse			15	20	res-mag			26	30	dmg-mag			250	500																																																																					0
+craft + Uber sapphire -> power helm	1			100					3	hlm4,crf	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber sapphire -> power boots	1			100					3	bot4,crf	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber sapphire -> power gloves	1			100					3	glv4,crf	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber sapphire -> power belt	1			100					3	blt4,crf	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber sapphire -> power shield	1			100					3	shd4,crf	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber sapphire -> power torso	1			100					3	tor4,crf	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber sapphire -> power javelin	1			100					3	jav4,crf	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18	pierce			50	50																																																																					0
+craft + Uber sapphire -> power weapon	1			100					3	wpn4,crf	g8b	arc					usetype,crf		50	50	dmg-min			12	14	dmg-max			16	18																																																																										0
+craft + Uber ruby -> blood boots	1			100					3	bot4,crf	g8r	arc					usetype,crf		50	50	lifesteal			5	6	hp			50	60																																																																										0
+craft + Uber ruby -> blood gloves	1			100					3	glv4,crf	g8r	arc					usetype,crf		50	50	lifesteal			5	6	hp			50	60																																																																										0
+craft + Uber ruby -> blood shield	1			100					3	shd4,crf	g8r	arc					usetype,crf		50	50	lifesteal			5	6	hp			50	60																																																																										0
+craft + Uber ruby -> blood torso	1			100					3	tor4,crf	g8r	arc					usetype,crf		50	50	lifesteal			5	6	hp			50	60																																																																										0
+craft + Uber ruby -> blood javelin	1			100					3	jav4,crf	g8r	arc					usetype,crf		50	50	lifesteal			5	6	hp			50	60	pierce			50	50																																																																					0
+craft + Uber ruby -> blood weapon	1			100					3	wpn4,crf	g8r	arc					usetype,crf		50	50	lifesteal			5	6	hp			50	60																																																																										0
+craft + Uber amethyst -> caster helm	1			100					3	hlm4,crf	g8v	arc					usetype,crf		50	50	cast2			40	50	res-all			17	20	allskills			1	2																																																																					0
+craft + Uber amethyst -> caster boots	1			100					3	bot4,crf	g8v	arc					usetype,crf		50	50	cast2			40	50	res-all			17	20	allskills			1	2																																																																					0
+craft + Uber amethyst -> caster gloves	1			100					3	glv4,crf	g8v	arc					usetype,crf		50	50	cast2			40	50	res-all			17	20	allskills			1	2																																																																					0
+craft + Uber amethyst -> caster belt	1			100					3	blt4,crf	g8v	arc					usetype,crf		50	50	cast2			40	50	res-all			17	20	allskills			1	2																																																																					0
+craft + Uber amethyst -> caster shield	1			100					3	shd4,crf	g8v	arc					usetype,crf		50	50	cast2			40	50	res-all			17	20	allskills			2	2																																																																					0
+craft + Uber amethyst -> caster torso	1			100					3	tor4,crf	g8v	arc					usetype,crf		50	50	cast2			40	50	res-all			17	20	allskills			1	2																																																																					0
+craft + Uber amethyst -> caster casting	1			100					3	orb4,crf	g8v	arc					usetype,crf		50	50	cast2			50	60	res-all			17	20	allskills			2	2																																																																					0
+craft + Uber amethyst -> caster casting	1			100					3	wan4,crf	g8v	arc					usetype,crf		50	50	cast2			50	60	res-all			17	20	allskills			2	2																																																																					0
+craft + Uber emerald -> safety helm	1			100					3	hlm4,crf	g8g	arc					usetype,crf		50	50	red-dmg%			15	20	res-ltng			40	50																																																																										0
+craft + Uber emerald -> safety boots	1			100					3	bot4,crf	g8g	arc					usetype,crf		50	50	red-dmg%			15	20	res-fire			40	50																																																																										0
+craft + Uber emerald -> safety gloves	1			100					3	glv4,crf	g8g	arc					usetype,crf		50	50	red-dmg%			15	20	res-cold			40	50																																																																										0
+craft + Uber emerald -> safety belt	1			100					3	blt4,crf	g8g	arc					usetype,crf		50	50	red-dmg%			15	20	res-pois			40	50																																																																										0
+craft + Uber emerald -> safety shield	1			100					3	shd4,crf	g8g	arc					usetype,crf		50	50	red-dmg%			20	25	block			40	50																																																																										0
+craft + Uber emerald -> safety torso	1			100					3	tor4,crf	g8g	arc					usetype,crf		50	50	red-dmg%			20	25	block			40	50																																																																										0
+craft + Uber emerald -> safety javelin	1			100					3	jav4,crf	g8g	arc					usetype,crf		50	50	red-dmg%			15	20	vit			40	45	pierce			50	50																																																																					0
+craft + Uber emerald -> safety weapon	1			100					3	wpn4,crf	g8g	arc					usetype,crf		50	50	red-dmg%			15	20	vit			40	45																																																																										0
+craft + Uber skull -> death helm	1			100					3	hlm4,crf	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			25	35	heal-kill			80	100																																																																					0
+craft + Uber skull -> death boots	1			100					3	bot4,crf	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			25	35	heal-kill			80	100																																																																					0
+craft + Uber skull -> death gloves	1			100					3	glv4,crf	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			25	35	heal-kill			80	100																																																																					0
+craft + Uber skull -> death belt	1			100					3	blt4,crf	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			25	35	heal-kill			80	100																																																																					0
+craft + Uber skull -> death shield	1			100					3	shd4,crf	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			40	50	block			40	50	abs-mag%			5	5																																																																0
+craft + Uber skull -> death torso	1			100					3	tor4,crf	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			40	50	heal-kill			80	100																																																																					0
+craft + Uber skull -> death javelin	1			100					3	jav4,crf	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			40	50	pierce			50	50																																																																					0
+craft + Uber skull -> death weapon	1			100					3	wpn4,crf	sk8	arc					usetype,crf		50	50	deadly			12	14	swing2			40	50																																																																										0
+craft + Uber topaz -> elemental helm	1			100					3	hlm4,crf	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60																																																																					0
+craft + Uber topaz -> elemental shield	1			100					3	shd4,crf	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60	block			30	60																																																																0
+craft + Uber topaz -> elemental gloves	1			100					3	glv4,crf	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60																																																																					0
+craft + Uber topaz -> elemental belt	1			100					3	blt4,crf	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60																																																																					0
+craft + Uber topaz -> elemental boots	1			100					3	bot4,crf	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60																																																																					0
+craft + Uber topaz -> elemental torso	1			100					3	tor4,crf	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60																																																																					0
+craft + Uber topaz -> elemental weapon	1			100					3	wpn4,crf	g8y	arc					usetype,crf		50	50	gold%			90	120	balance1			30	60	move1			30	60	allskills			1	1																																																																0
+craft + Uber diamond  -> holy helm	1			100					3	hlm4,crf	g8w	arc					usetype,crf		50	50	hpregen/lvl		11			res-mag			35	40																																																																										0
+craft + Uber diamond  -> holy boots	1			100					3	bot4,crf	g8w	arc					usetype,crf		50	50	hpregen/lvl		11			res-mag			35	40																																																																										0
+craft + Uber diamond  -> holy gloves	1			100					3	glv4,crf	g8w	arc					usetype,crf		50	50	hpregen/lvl		11			res-mag			35	40																																																																										0
+craft + Uber diamond  -> holy belt	1			100					3	blt4,crf	g8w	arc					usetype,crf		50	50	hpregen/lvl		11			res-mag			35	40																																																																										0
+craft + Uber diamond  -> holy shield	1			100					3	shd4,crf	g8w	arc					usetype,crf		50	50	hpregen/lvl		11			res-mag			35	40																																																																										0
+craft + Uber diamond  -> holy torso	1			100					3	tor4,crf	g8w	arc					usetype,crf		50	50	hpregen/lvl		11			res-mag			35	40																																																																										0
+craft + Uber diamond  -> holy casting	1			100					3	orb4,crf	g8w	arc					usetype,crf		50	50	cast2			50	60	gold%			100	200	mag%			200	300	move2			40	40																																																																0
+craft + Uber diamond  -> holy casting	1			100					3	wan4,crf	g8w	arc					usetype,crf		50	50	cast2			50	60	gold%			100	200	mag%			200	300	move2			40	40																																																																0
+craft + Uber diamond  -> holy javelin	1			100					3	jav4,crf	g8w	arc					usetype,crf		50	50	pierce			50	50	res-mag			40	50	dmg-mag			400	525																																																																					0
+craft + Uber diamond  -> holy weapon	1			100					3	wpn4,crf	g8w	arc					usetype,crf		50	50	resistcurse			20	25	res-mag			40	50	dmg-mag			400	525																																																																					0
+r01	1			100					2	r02,qty=1	isc						r01																																																																																							0
+r02	1			100					2	r03,qty=1	isc						r02																																																																																							0
+r03	1			100					2	r04,qty=1	isc						r03																																																																																							0
+r04	1			100					2	r05,qty=1	isc						r04																																																																																							0
+r05	1			100					2	r06,qty=1	isc						r05																																																																																							0
+r06	1			100					2	r07,qty=1	isc						r06																																																																																							0
+r07	1			100					2	r08,qty=1	isc						r07																																																																																							0
+r08	1			100					2	r09,qty=1	isc						r08																																																																																							0
+r09	1			100					2	r10,qty=1	isc						r09																																																																																							0
+r10	1			100					2	r11,qty=1	isc						r10																																																																																							0
+r11	1			100					2	r12,qty=1	isc						r11																																																																																							0
+r12	1			100					2	r13,qty=1	isc						r12																																																																																							0
+r13	1			100					2	r14,qty=1	isc						r13																																																																																							0
+r14	1			100					2	r15,qty=1	isc						r14																																																																																							0
+r15	1			100					2	r16,qty=1	isc						r15																																																																																							0
+r16	1			100					2	r17,qty=1	isc						r16																																																																																							0
+r17	1			100					2	r18,qty=1	isc						r17																																																																																							0
+r18	1			100					2	r19,qty=1	isc						r18																																																																																							0
+r19	1			100					2	r20,qty=1	isc						r19																																																																																							0
+r20	1			100					2	r21,qty=1	isc						r20																																																																																							0
+r21	1			100					2	r22,qty=1	isc						r21																																																																																							0
+r22	1			100					2	r23,qty=1	isc						r22																																																																																							0
+r23	1			100					2	r24,qty=1	isc						r23																																																																																							0
+r24	1			100					2	r25,qty=1	isc						r24																																																																																							0
+r25	1			100					2	r26,qty=1	isc						r25																																																																																							0
+r26	1			100					2	r27,qty=1	isc						r26																																																																																							0
+r27	1			100					2	r28,qty=1	isc						r27																																																																																							0
+r28	1			100					2	r29,qty=1	isc						r28																																																																																							0
+r29	1			100					2	r30,qty=1	isc						r29																																																																																							0
+r30	1			100					2	r31,qty=1	isc						r30																																																																																							0
+r31	1			100					2	r32,qty=1	isc						r31																																																																																							0
+r32	1			100					2	r33,qty=1	isc						r32																																																																																							0
+Create Key To Mancer	1			100					4	BlessedRing	BlessedAmulet	BlessedSword	SkCharm				r01																																																																																							0
+eth craft weapon				100					2	weap,crf,eli	r32						usetype,mod		50	50	ethereal			1	1																																																																															0
+magic weapon -> normal	1			100					3	weap,mag,noe	9as	zas					usetype,nor			100																																																																																				0
+magic armor -> normal	1			100					3	armo,mag,noe	9as	zas					usetype,nor			100																																																																																				0
+eth magic armor -> eth normal	1			100					3	armo,mag,eth	9as	zas					usetype,nor,eth			100																																																																																				0
+eth magic weapon -> eth normal	1			100					3	weap,mag,eth	9as	zas					usetype,nor,eth			100																																																																																				0
+Add Ormus Reward Norm	1			100	18	366	0		2	Warp Book	orm1						usetype,mod				ormus_norm			1	1																																																																															0
+Add Ormus Reward NM	1			100	18	367	0		2	Warp Book	orm2						usetype,mod				ormus_nm			1	1																																																																															0
+Add Ormus Reward Hell	1			100	18	368	0		2	Warp Book	orm3						usetype,mod				ormus_hell			1	1																																																																															0
+Soulstealer Reward Failsafe	1			100	18	366	0		2	Warp Book	wtp1						usetype,mod																													wtp1																																																										0
+Scarlet Reward Failsafe	1			100	18	367	0		2	Warp Book	wtp2						usetype,mod																													wtp2																																																										0
+Sorrowlord Reward Failsafe	1			100	18	368	0		2	Warp Book	wtp3						usetype,mod																													wtp3																																																										0
+Add Soulstealer Reward	1			100	18	370	0		2	Warp Book	wtp1						usetype,mod				trial1_done			1	1	hp%/lvl			2	2	mana%/lvl			2	2																																																																					0
+Add Scarlet Reward	1			100	18	371	0		2	Warp Book	wtp2						usetype,mod				trial2_done			1	1	levelreq			16	16	hp%/lvl			2	2	mana%/lvl			2	2																																																																0
+Add Sorrow Reward Hell	1			100	18	372	0		2	Warp Book	wtp3						usetype,mod				trial3_done			1	1	levelreq			24	24	dmg%-allskills		1	50	50																																																																					0
+EnableDaybreakNormal				100	18	92	0		4	DaybreakSoul	dsn0	dsn1	dsn2				DaybreakSoul				aura		514	1	1	levelreq			54	54																																																																										0
+EnableDaybreakNN				100	18	92	59		5	DaybreakSoul	dsn3	dsn4	dsn5	dsn6			DaybreakSoul				aura		514	2	2	levelreq			74	74	res-mag			10	10	hp-mana			60	60	res-all			5	5																																																											0
+EnableDaybreakHell	1			100	18	92	0		5	DaybreakSoul	dsn7	dsn8	dsn9	dsnx			DaybreakSoul				aura		514	3	3	levelreq			84	84	res-mag			15	15	hp-mana			80	80	res-all			10	10																																																											0
+Complete Legion Normal				100	18	92	54		2	DaybreakSoul	dbc1						DaybreakSoul				levelreq			59	59	res-mag			10	10	hp-mana			60	60	res-all			5	5																																																																0
+Complete Legion NM				100	18	92	74		2	DaybreakSoul	dbc2						DaybreakSoul				levelreq			79	79	res-mag			15	15	hp-mana			80	80	res-all			10	10																																																																0
+Complete Legion Hell	1			100	18	92	84		2	DaybreakSoul	dbc3						DaybreakSoul				levelreq			89	89	res-mag			20	20	hp-mana			100	100	res-all			15	15	allskills			1	1																																																											0
+Complete Ear Charm	1			100	18	7	60		2	ear2,uni	hp						useitem	99			hp			60	60	mana			60	60																																																																										0
+Create Stat Potion				100					3	Normal Eastern Ash	Normal Northern Ash	Normal Western Ash					stp1	99																																																																																						0
+Create Skill Potion				100					3	Nightmare Eastern Ash	Nightmare Northern Ash	Nightmare Western Ash					skp1	99																																																																																						0
+Norm East Ash				100					3	FuryCury's Eye	Nazgul's Eye	DrRod's Eye					Normal Eastern Ash	99																																																																																						0
+NM East Ash				100					3	FuryCury's Brain	Nazgul's Brain	DrRod's Brain					Nightmare Eastern Ash	99																																																																																						0
+Hell East Ash	1			100					3	FuryCury's Heart	Nazgul's Heart	DrRod's Heart					Hell Eastern Ash	99																																																																																						0
+Norm North Ash				100					3	Pious' Eye	Alexius' Eye	Martel-'s Eye					Normal Northern Ash	99																																																																																						0
+NM North Ash				100					3	Pious' Brain	Alexius' Brain	Martel-'s Brain					Nightmare Northern Ash	99																																																																																						0
+Hell North Ash	1			100					3	Pious' Heart	Alexius' Heart	Martel-'s Heart					Hell Northern Ash	99																																																																																						0
+Norm West Ash				100					3	Asteroth's Eye	Sandy's Eye	Kannli's Eye					Normal Western Ash	99																																																																																						0
+NM West Ash				100					3	Asteroth's Brain	Sandy's Brain	Kannli's Brain					Nightmare Western Ash	99																																																																																						0
+Hell West Ash	1			100					3	Asteroth's Heart	Sandy's Heart	Kannli's Heart					Hell Western Ash	99																																																																																						0
+r08 + r12 + basic set weapon -> exceptional rare weapon	1			100					4	weap,bas,rar	r08	r12	zas				useitem,mod,exc			100	levelreq			2	2																																																																															0
+r08 + r12 +  basic set armor -> exceptional rare armor	1			100					4	armo,bas,rar	r08	r12	zas				useitem,mod,exc			100	levelreq			2	2																																																																															0
+r07 + r13 + basic set weapon -> exceptional rare weapon	1			100					4	weap,bas,rar	r07	r13	zas				useitem,mod,exc			100	levelreq			2	2																																																																															0
+r07 + r13 +  basic set armor -> exceptional rare armor	1			100					4	armo,bas,rar	r07	r13	zas				useitem,mod,exc			100	levelreq			2	2																																																																															0
+r07 + r13 + basic set weapon -> exceptional rare weapon	1			100					4	weap,bas,rar	r09	r11	zas				useitem,mod,exc			100	levelreq			2	2																																																																															0
+r07 + r13 +  basic set armor -> exceptional rare armor	1			100					4	armo,bas,rar	r09	r11	zas				useitem,mod,exc			100	levelreq			2	2																																																																															0
+r06 + r14 + basic set weapon -> exceptional rare weapon	1			100					4	weap,bas,rar	r06	r14	zas				useitem,mod,exc			100	levelreq			2	2																																																																															0
+r06 + r14 +  basic set armor -> exceptional rare armor	1			100					4	armo,bas,rar	r06	r14	zas				useitem,mod,exc			100	levelreq			2	2																																																																															0
+r18 + r22 + exceptional set weapon -> elite rare weapon	1			100					4	weap,exc,rar	r18	r22	zas				useitem,mod,eli			100	levelreq			2	2																																																																															0
+r18 + r22 + exceptional set armor -> elite rare armor	1			100					4	armo,exc,rar	r18	r22	zas				useitem,mod,eli			100	levelreq			2	2																																																																															0
+r17 + r23 + exceptional set weapon -> elite rare weapon	1			100					4	weap,exc,rar	r17	r23	zas				useitem,mod,eli			100	levelreq			2	2																																																																															0
+r17 + r23 + exceptional set weapon -> elite rare weapon	1			100					4	armo,exc,rar	r17	r23	zas				useitem,mod,eli			100	levelreq			2	2																																																																															0
+Legacy of Blood	1			100					5	Bloodypage1	Bloodypage2	Bloodypage3	Bloodypage4	Bloodypage5			Legacy of Blood	105																																																																																						0
+Hell Ash Reward	1			100					3	Hell Eastern Ash	Hell Northern Ash	Hell Western Ash					stp1	99																												skp1	99																																																									0
+el_rune	1			100	24	411	50		2	cmx1	r01						useitem				el_rune			1	1																																																																															0
+eld_rune	1			100	24	412	50		2	cmx1	r02						useitem				eld_rune			1	1																																																																															0
+tir_rune	1			100	24	413	50		2	cmx1	r03						useitem				tir_rune			1	1																																																																															0
+nef_rune	1			100	24	414	50		2	cmx1	r04						useitem				nef_rune			1	1																																																																															0
+eth_rune	1			100	24	415	50		2	cmx1	r05						useitem				eth_rune			1	1																																																																															0
+ith_rune	1			100	24	416	50		2	cmx1	r06						useitem				ith_rune			1	1																																																																															0
+tal_rune	1			100	24	417	50		2	cmx1	r07						useitem				tal_rune			1	1																																																																															0
+ral_rune	1			100	24	418	50		2	cmx1	r08						useitem				ral_rune			1	1																																																																															0
+ort_rune	1			100	24	419	50		2	cmx1	r09						useitem				ort_rune			1	1																																																																															0
+thul_rune	1			100	24	420	50		2	cmx1	r10						useitem				thul_rune			1	1																																																																															0
+amn_rune	1			100	24	421	50		2	cmx1	r11						useitem				amn_rune			1	1																																																																															0
+sol_rune	1			100	24	422	50		2	cmx2	r12						useitem				sol_rune			1	1																																																																															0
+shael_rune	1			100	24	423	50		2	cmx2	r13						useitem				shael_rune			1	1																																																																															0
+dol_rune	1			100	24	424	50		2	cmx2	r14						useitem				dol_rune			1	1																																																																															0
+hel_rune	1			100	24	425	50		2	cmx2	r15						useitem				hel_rune			1	1																																																																															0
+io_rune	1			100	24	426	50		2	cmx2	r16						useitem				io_rune			1	1																																																																															0
+lum_rune	1			100	24	427	50		2	cmx2	r17						useitem				lum_rune			1	1																																																																															0
+ko_rune	1			100	24	428	50		2	cmx2	r18						useitem				ko_rune			1	1																																																																															0
+fal_rune	1			100	24	429	50		2	cmx2	r19						useitem				fal_rune			1	1																																																																															0
+lem_rune	1			100	24	430	50		2	cmx2	r20						useitem				lem_rune			1	1																																																																															0
+pul_rune	1			100	24	431	50		2	cmx2	r21						useitem				pul_rune			1	1																																																																															0
+um_rune	1			100	24	432	50		2	cmx2	r22						useitem				um_rune			1	1																																																																															0
+mal_rune	1			100	24	433	50		2	cmx3	r23						useitem				mal_rune			1	1																																																																															0
+ist_rune	1			100	24	434	50		2	cmx3	r24						useitem				ist_rune			1	1																																																																															0
+gul_rune	1			100	24	435	50		2	cmx3	r25						useitem				gul_rune			1	1																																																																															0
+vex_rune	1			100	24	436	50		2	cmx3	r26						useitem				vex_rune			1	1																																																																															0
+ohm_rune	1			100	24	437	50		2	cmx3	r27						useitem				ohm_rune			1	1																																																																															0
+lo_rune	1			100	24	438	50		2	cmx3	r28						useitem				lo_rune			1	1																																																																															0
+sur_rune	1			100	24	439	50		2	cmx3	r29						useitem				sur_rune			1	1																																																																															0
+ber_rune	1			100	24	440	50		2	cmx3	r30						useitem				ber_rune			1	1																																																																															0
+jah_rune	1			100	24	441	50		2	cmx3	r31						useitem				jah_rune			1	1																																																																															0
+cham_rune	1			100	24	442	50		2	cmx3	r32						useitem				cham_rune			1	1																																																																															0
+zod_rune	1			100	24	443	50		2	cmx3	r33						useitem				zod_rune			1	1																																																																															0
+rr01	1			100	23	411	1		2	cmx1	rr01						useitem				el_rune			-1	-1																					r01																																																										0
+rr02	1			100	23	412	1		2	cmx1	rr02						useitem				eld_rune			-1	-1																					r02																																																										0
+rr03	1			100	23	413	1		2	cmx1	rr03						useitem				tir_rune			-1	-1																					r03																																																										0
+rr04	1			100	23	414	1		2	cmx1	rr04						useitem				nef_rune			-1	-1																					r04																																																										0
+rr05	1			100	23	415	1		2	cmx1	rr05						useitem				eth_rune			-1	-1																					r05																																																										0
+rr06	1			100	23	416	1		2	cmx1	rr06						useitem				ith_rune			-1	-1																					r06																																																										0
+rr07	1			100	23	417	1		2	cmx1	rr07						useitem				tal_rune			-1	-1																					r07																																																										0
+rr08	1			100	23	418	1		2	cmx1	rr08						useitem				ral_rune			-1	-1																					r08																																																										0
+rr09	1			100	23	419	1		2	cmx1	rr09						useitem				ort_rune			-1	-1																					r09																																																										0
+rr10	1			100	23	420	1		2	cmx1	rr10						useitem				thul_rune			-1	-1																					r10																																																										0
+rr11	1			100	23	421	1		2	cmx1	rr11						useitem				amn_rune			-1	-1																					r11																																																										0
+rr12	1			100	23	422	1		2	cmx2	rr12						useitem				sol_rune			-1	-1																					r12																																																										0
+rr13	1			100	23	423	1		2	cmx2	rr13						useitem				shael_rune			-1	-1																					r13																																																										0
+rr14	1			100	23	424	1		2	cmx2	rr14						useitem				dol_rune			-1	-1																					r14																																																										0
+rr15	1			100	23	425	1		2	cmx2	rr15						useitem				hel_rune			-1	-1																					r15																																																										0
+rr16	1			100	23	426	1		2	cmx2	rr16						useitem				io_rune			-1	-1																					r16																																																										0
+rr17	1			100	23	427	1		2	cmx2	rr17						useitem				lum_rune			-1	-1																					r17																																																										0
+rr18	1			100	23	428	1		2	cmx2	rr18						useitem				ko_rune			-1	-1																					r18																																																										0
+rr19	1			100	23	429	1		2	cmx2	rr19						useitem				fal_rune			-1	-1																					r19																																																										0
+rr20	1			100	23	430	1		2	cmx2	rr20						useitem				lem_rune			-1	-1																					r20																																																										0
+rr21	1			100	23	431	1		2	cmx2	rr21						useitem				pul_rune			-1	-1																					r21																																																										0
+rr22	1			100	23	432	1		2	cmx2	rr22						useitem				um_rune			-1	-1																					r22																																																										0
+rr23	1			100	23	433	1		2	cmx3	rr23						useitem				mal_rune			-1	-1																					r23																																																										0
+rr24	1			100	23	434	1		2	cmx3	rr24						useitem				ist_rune			-1	-1																					r24																																																										0
+rr25	1			100	23	435	1		2	cmx3	rr25						useitem				gul_rune			-1	-1																					r25																																																										0
+rr26	1			100	23	436	1		2	cmx3	rr26						useitem				vex_rune			-1	-1																					r26																																																										0
+rr27	1			100	23	437	1		2	cmx3	rr27						useitem				ohm_rune			-1	-1																					r27																																																										0
+rr28	1			100	23	438	1		2	cmx3	rr28						useitem				lo_rune			-1	-1																					r28																																																										0
+rr29	1			100	23	439	1		2	cmx3	rr29						useitem				sur_rune			-1	-1																					r29																																																										0
+rr30	1			100	23	440	1		2	cmx3	rr30						useitem				ber_rune			-1	-1																					r30																																																										0
+rr31	1			100	23	441	1		2	cmx3	rr31						useitem				jah_rune			-1	-1																					r31																																																										0
+rr32	1			100	23	442	1		2	cmx3	rr32						useitem				cham_rune			-1	-1																					r32																																																										0
+rr33	1			100	23	443	1		2	cmx3	rr33						useitem				zod_rune			-1	-1																					r33																																																										0
+Respecfail	1	1		100			1		1	isc							isc																																																																																							0
+respecgood	1			100			1		1	isc							rspc																																																																																							0

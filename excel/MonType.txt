@@ -1,0 +1,99 @@
+type	equiv1	equiv2	equiv3	strsing	strplur	*eol
+						0
+Undead				Undead	Undead	0
+Demon				Demon	Demon	0
+Insect				Insect	Insect	0
+Human				Human	Human	0
+Construct				Construct	Construct	0
+Behemoth				Behemoth	Behemoth	0
+Deity				Deity	Deity	0
+Dragon				Dragon	Dragon	0
+Elemental				ElementalMonType	ElementalMonType	0
+Beast				Beast	Beast	0
+DemonDeity	Demon	Deity		DemonDeity	DemonDeity	0
+UndeadDeity	Undead	Deity		UndeadDeity	UndeadDeity	0
+DragonDeity	Dragon	Deity		DragonDeity	DragonDeity	0
+InsectDeity	Insect	Deity		InsectDeity	InsectDeity	0
+HumanDeity	Human	Deity		HumanDeity	HumanDeity	0
+BeastDeity	Beast	Deity		BeastDeity	BeastDeity	0
+UndeadHuman	Undead	Human		UndeadHuman	UndeadHuman	0
+UndeadConstruct	Undead	Construct		UndeadConstruct	UndeadConstruct	0
+UndeadElemental	Undead	Elemental		UndeadElemental	UndeadElemental	0
+UndeadDemon	Undead	Demon		UndeadDemon	UndeadDemon	0
+UndeadBeast	Undead	Beast		UndeadBeast	UndeadBeast	0
+UndeadBehemoth	Undead	Behemoth		UndeadBehemoth	UndeadBehemoth	0
+UndeadInsect	Undead	Insect		UndeadInsect	UndeadInsect	0
+HumanDemon	Human	Demon		HumanDemon	HumanDemon	0
+DemonBehemoth	Demon	Behemoth		DemonBehemoth	DemonBehemoth	0
+HumanBehemoth	Human	Behemoth		HumanBehemoth	HumanBehemoth	0
+DragonHuman	Dragon	Human		DragonHuman	DragonHuman	0
+DragonDemon	Dragon	Demon		DragonDemon	DragonDemon	0
+DragonBehemoth	Dragon	Behemoth		DragonBehemoth	DragonBehemoth	0
+DragonBeast	Dragon	Beast		DragonBeast	DragonBeast	0
+DragonElemental	Dragon	Elemental		DragonElemental	DragonElemental	0
+DragonInsect	Dragon	Insect		DragonInsect	DragonInsect	0
+ConstructBehemoth	Construct	Behemoth		ConstructBehemoth	ConstructBehemoth	0
+ElementalBehemoth	Elemental	Behemoth		ElementalBehemoth	ElementalBehemoth	0
+InsectBehemoth	Insect	Behemoth		InsectBehemoth	InsectBehemoth	0
+BeastBehemoth	Beast	Behemoth		BeastBehemoth	BeastBehemoth	0
+InsectElemental	Insect	Elemental		InsectElemental	InsectElemental	0
+ElementalConstruct	Elemental	Construct		ElementalConstruct	ElementalConstruct	0
+DemonConstruct	Demon	Construct		DemonConstruct	DemonConstruct	0
+BeastConstruct	Beast	Construct		BeastConstruct	BeastConstruct	0
+HumanElemental	Human	Elemental		HumanElemental	HumanElemental	0
+BeastElemental	Beast	Elemental		BeastElemental	BeastElemental	0
+BeastHuman	Beast	Human		BeastHuman	BeastHuman	0
+lowundead	Undead					0
+highundead	Undead					0
+skeleton	Undead	Human				0
+zombie	Undead					0
+bighead	Demon			Afflicted	Afflicted	0
+foulcrow						0
+fallen	Demon			Fallen	Fallen	0
+brute	Behemoth			Yeti	Yeti	0
+sandraider	Human	Behemoth				0
+wraith	Undead					0
+corruptrogue	Demon	Human				0
+baboon						0
+goatman	Demon					0
+quillrat						0
+sandmaggot	Insect	Behemoth				0
+clawviper	Dragon	Demon				0
+sandleaper						0
+pantherwoman						0
+swarm	Insect			HellSwarm	HellSwarm	0
+scarab	Insect			Insect	Insect	0
+mummy	Undead					0
+Unraveler	Undead	Behemoth				0
+vulture						0
+mosquito	Insect			Insect	Insect	0
+willowisp	Elemental	Undead		UndeadElemental	UndeadElemental	0
+arach	Insect			Insect	Insect	0
+thornhulk	Elemental	Behemoth		ElementalBehemoth	ElementalBehemoth	0
+vampire	Undead					0
+batdemon	Demon					0
+fetish	Demon			Fetish	Fetish	0
+blunderbore	Demon	Behemoth				0
+undeadfetish	Undead	Demon		Undead Fetish	Undead Fetish	0
+zakarum	Human					0
+frogdemon						0
+tentacle						0
+fingermage	Undead					0
+golem	Construct					0
+vilekind	Demon					0
+regurgitator	Demon					0
+doomknight	Undead	Demon				0
+councilmember	Demon					0
+megademon	Demon					0
+bovine						0
+siegebeast	Behemoth					0
+snowyeti	Behemoth			Yeti	Yeti	0
+minion						0
+succubus	Demon					0
+overseer	Demon					0
+imp	Demon					0
+frozenhorror						0
+bloodlord	Demon					0
+deathmauler						0
+putriddefiler	Demon					0
+ancient	Human	Deity				0

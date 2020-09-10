@@ -1,0 +1,26 @@
+*Level Name	ID	Starfield	Snow	Parralax	Light	LightQuestID	end
+Act 1 - Cave 1	8	0	0	0	1	1	0
+Act 2 - Arcane	74	1	0	0	0	0	0
+Act 5 - Mountain Top	120	0	0	1	0	0	0
+Act 5 - Town	109	0	1	0	0	0	0
+Act 5 - Siege 1	110	0	1	0	0	0	0
+Act 5 - Barricade 1	111	0	1	0	0	0	0
+Act 5 - Barricade 2	112	0	1	0	0	0	0
+Act 5 - Barricade Snow	117	0	1	0	0	0	0
+Act 5 - Mountain Top	120	0	1	0	0	0	0
+Act 5 - Temple Entrance	121	0	1	0	0	0	0
+Act 2 - Arcane2	133	1	0	0	0	0	0
+Act 2 - Arcane3	137	1	0	0	0	0	0
+Act 5 - Chaos	156	0	0	1	0	0	0
+Act 5 - Chaos2	157	0	0	1	0	0	0
+Act 5 - Abyss	160	1	0	0	0	0	0
+Act 5 - Shenk	184	0	0	1	0	0	0
+Act 5 - Shadow 5	190	0	1	0	0	0	0
+Act 5 - Shadow 6	191	1	0	0	0	0	0
+Act 4- GatesOfArimyth	202	1	0	0	0	0	0
+Act 4 - Arimyth Hall 1	211	1	0	0	0	0	0
+Act 4 - Arimyth Hall 2	212	1	0	0	0	0	0
+Act 4 - Arimyth Hall 3	213	1	0	0	0	0	0
+Act 4 - Arimyth West	221	1	0	0	0	0	0
+Act 4 - Arimyth North	222	1	0	0	0	0	0
+Act 4 - Arimyth East	223	1	0	0	0	0	0

@@ -1,0 +1,32 @@
+*Name	HcIDx	Function	StringOnly	ValueOnly	MouseX1	MouseX2	MouseY1	MouseY2	StringID	StatID	Calc	Font	StringColor	StringX1	StringX2	StringY	ValueFont	ValueColor	RiN	ValueX1	ValueX2	ValueY	BoxX1	BoxX2	BoxY1	BoxY2	Border	Frame	Red	Green	Blue	Alpha	DrawMode	eol
+StrBox	1	2			197	308	623	643															203	238	625	645	0		255	0	0	255	5	0
+BaseStr	2	3			197	308	623	643			stat('strength'.base)	6	0				1	0		214	240	626	197	308	623	643	0		255	0	0	255	5	0
+EnrBox	3	2			19	128	546	565															21	58	548	565	0		255	0	0	255	5	0
+BaseEnr	4	3			19	128	546	565			stat('energy'.base)	6	0				1	0		33	58	548	21	58	548	565	0		255	0	0	255	5	0
+VitBox	5	2			381	489	546	565															383	419	548	565	0		255	0	0	255	5	0
+BaseVit	6	3			381	489	546	565			stat('vitality'.base)	6	0				1	0		398	417	548	383	419	548	565	0		255	0	0	255	5	0
+DexBox	7	2			197	308	469	487															203	238	469	487	0		255	0	0	255	5	0
+BaseDex	8	3			197	308	469	487			stat('dexterity'.base)	6	0				1	0		214	240	470	197	308	469	487	0		255	0	0	255	5	0
+MrMAX	9	2			20	174	164	185															20	56	168	185	0		255	0	0	255	5	0
+MrMAXBox	10	3			20	174	164	185	maxmr		maxmagicresist+75	6	0	60	148	166	1	4		29	56	169	20	56	164	185	0		255	0	0	255	5	0
+DrawPopupBoxMR2	11	2			20	174	164	185			stat('passive_critical_strike'.accr)												61	174	166	186	0		255	0	0	255	4	0
+DrawPopupBoxDR	12	2			20	174	134	153															20	56	135	153	0		255	0	0	255	5	0
+DrawPopupStringDR	13	3			20	174	134	153	maxdr		60	6	4	54	138	135	1	4		30	56	138	20	56	134	153	0		255	0	0	255	5	0
+DrawPopupBoxDR2	14	2			20	174	134	153															61	174	135	155	0		255	0	0	255	4	0
+DoubleDamage	15	1									min(100,stat('item_deadlystrike'.accr) + ((100 - stat('item_deadlystrike'.accr)) * stat('passive_critical_strike'.accr)) /100)						1	0		44	44	381					0		255	0	0	255	5	0
+Deadly	16	3			20	120	376	397	ds%		stat('item_deadlystrike'.accr)	4	0	300	300	90	4	0		180	180	90					0		255	0	0	255	2	0
+Critical	17	3			20	120	376	397	cs%		stat('passive_critical_strike'.accr)	4	0	300	300	75	4	0		180	180	75					0		255	0	0	255	2	0
+descbox	18	2			20	120	376	397															151	361	59	115	2		255	0	0	255	5	0
+descbox	19	2			340	490	510	530															151	361	59	115	2		255	153	51	255	5	0
+baselife	20	3			340	490	510	530	baselife		100*stat('maxhp'.accr)/(100+stat('item_maxhp_percent'.accr))/256	4	0	316	316	96	4	0		180	180	96					0		255	0	0	255	2	0
+life%	21	3			340	490	510	530	maxlife%		stat('item_maxhp_percent'.accr)	4	0	297	297	81	4	0		180	180	81					0		255	0	0	255	2	0
+replenish	22	3			340	490	510	530	hpregen		stat('hpregen'.accr)	4	0	302	302	66	4	0		180	180	66					0		255	0	0	255	2	0
+descbox	23	2			18	170	510	530															151	361	59	115	2		255	0	0	255	5	0
+basemana	24	3			18	170	510	530	basemana		100*stat('maxmana'.accr)/(100+stat('item_maxmana_percent'.accr))/256	4	0	310	310	96	4	0		180	180	96					0		255	0	0	255	2	0
+mana%	25	3			18	170	510	530	maxmana%		stat('item_maxmana_percent'.accr)	4	0	291	291	81	4	0		180	180	81					0		255	0	0	255	2	0
+manaregen	26	3			18	170	510	530	manaregen		stat('manarecoverybonus'.accr)	4	0	301	301	66	4	0		180	180	66					0		255	0	0	255	2	0
+descbox	27	2			260	370	377	396															151	361	59	115	2		255	0	0	255	5	0
+effectivemagicfindunique	28	3			260	370	377	396	unifind		(250*stat('item_magicbonus'.accr))/(250+stat('item_magicbonus'.accr))	4	0	280	280	90	4	0		180	180	90					0		255	0	0	255	2	0
+effectivemagicfindset	29	3			260	370	377	396	setfind		(500*stat('item_magicbonus'.accr))/(500+stat('item_magicbonus'.accr))	4	0	290	290	75	4	0		180	180	75					0		255	0	0	255	2	0
+lifeonstrike	30	3			370	490	470	490	lifeperhitdesc		stat('item_healonstrike'.accr)	4	0	297	297	81	4	0		180	180	81					0		255	0	0	255	2	0
+descbox	31	2			370	490	470	490															151	361	59	115	2		255	153	51	255	5	0
