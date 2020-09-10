@@ -1,0 +1,182 @@
+Name	Rune Name	complete	server	itype1	itype2	itype3	itype4	itype5	itype6	etype1	etype2	etype3	*runes	Rune1	Rune2	Rune3	Rune4	Rune5	Rune6	T1Code1	T1Param1	T1Min1	T1Max1	T1Code2	T1Param2	T1Min2	T1Max2	T1Code3	T1Param3	T1Min3	T1Max3	T1Code4	T1Param4	T1Min4	T1Max4	T1Code5	T1Param5	T1Min5	T1Max5	T1Code6	T1Param6	T1Min6	T1Max6	T1Code7	T1Param7	T1Min7	T1Max7	eol
+Runeword1	Ancient's Pledge	1		shld										r08	r09	r07				block		60	60	res-all		10	10	ac/lvl	32			hp/lvl	32			allskills		1	1	vit		15	20	res-cold		22	22	0
+Runeword6	Black	1		mele	h2h	jave								r10	r16	r04				red-dmg%		10	15	dmg%		200	300	swing2		40	40	red-mag		12	12	att		200	200	crush		4	4	melee-skill	604	6	1	0
+Runeword44	Fury	1		mele	h2h									r30	r25	r05				dmg%		400	500	swing2		50	50	deadly		50	50	aura	Fanaticism2	8	8	lifesteal		5	5	crush		4	4	dmg-norm		15	40	0
+Runeword54	Holy Thunder	1		mele										r05	r08	r09	r07			dmg%		150	200	dmg-ltng		1	300	dmg-max		4	4	skill	118	4	4	swing2		40	40									0
+Runeword55	Honor	1		mele										r11	r01	r06	r03	r12		dmg%		150	200	indestruct		1	1	allskills		1	1	att		200	200	deadly		25	25	dmg/lvl	8			swing2		50	50	0
+Runeword65	King's Grace	1		mele	h2h									r11	r08	r10				dmg%		150	200	allskills		1	1	cast2		20	20	swing2		60	60	crush		4	4	gold%		40	60					0
+Runeword72	Leaf	1		staf										r03	r08					fireskill		3	3	ac/lvl		16	16	res-cold		33	33	res-all		30	30	cast2		30	30	balance2		30	30	extra-fire		9	9	0
+Runeword74	Lionheart	1		pelt	phlm	ashd								r15	r17	r19				red-dmg%		15	15	ac%		300	400	res-all		20	30	gethit-skill	Taunt	33	10	hp/lvl	40											0
+Runeword75	Lore	1		helm										r09	r12					enr		20	20	allskills		1	1	light		2	2	mana-kill		5	5	res-all		15	15	red-mag		10	10	hp/lvl	32			0
+Runeword81	Malice	1		mele	h2h									r06	r01	r05				openwounds		100	100	dmg-ac		-100	-100	noheal		1	1	dmg%		150	200	swing2		40	40	deadly		20	20					0
+Runeword82	Melody	1		miss	jave	thro								r13	r18	r04				dmg%		200	300	skilltab	0	3	3	skill	9	3	3	skill	32	3	3	skill	17	3	3	swing2		40	40	extra-all		4	4	0
+Runeword83	Memory	1		staf										r17	r16	r12	r05			mana%		33	33	enr		30	30	res-all		33	33	cast2		20	20	sor		4	4	extra-elem		10	10	skill	58	5	5	0
+Runeword88	Nadir	1		helm										r04	r03					dex		10	10	ac%		300	400	hp/lvl	20			gethit-skill	199	6	13	gold%		50	100	red-dmg%		5	5	str		10	10	0
+Runeword116	Radiance	1		helm										r04	r12	r06				allskills		1	1	enr		30	30	vit		15	25	red-mag		5	10	mana%		33	33	res-all		20	20	balance2		30	30	0
+Runeword120	Rhyme	1		shld										r13	r05					block2		30	30	block		40	40	res-all		40	40	hp/lvl	32			gold%		50	100	mag%		50	50	allskills		1	1	0
+Runeword126	Silence	1		weap									DolEldIstTirVex	r14	r02	r24	r03	r26		dmg%		300	350	melee-skill	608	6	1	swing2		60	60	att		200	200	res-all		40	50	allskills		3	3	balance2		20	20	0
+Runeword128	Smoke	1		tors										r04	r17					ac-miss		250	250	ac%		300	400	res-all		50	50	hp/lvl	40			dex		15	15	gethit-skill	605	10	1	move2		40	40	0
+Runeword133	Stealth	1		tors										r07	r05					swing2		25	25	dex		10	10	res-all		15	15	move2		25	25	hp/lvl	20			balance2		25	25					0
+Runeword134	Steel	1		mele	h2h									r03	r01					swing2		30	30	dmg-norm		2	4	openwounds		50	50	dmg%		150	200													0
+Runeword139	Strength	1		mele	h2h									r11	r03					str		20	20	dmg%		150	200	crush		4	4	swing2		60	60	skilltab	20	2	3	skilltab	9	2	3	skilltab	12	2	3	0
+Runeword154	Venom	1		weap	h2h									r07	r14	r23				extra-pois		8	8	att		250	250	swing2		60	60	dmg%		200	300	skill	Venom	4	4	enr		20	20	allskills		2	2	0
+Runeword160	Wealth	1		tors	helm									r20	r18	r03				gold%		200	200	mag%		50	50	ac%		300	400	res-all		25	25	allskills		1	1	hp/lvl	40			enr		20	20	0
+Runeword162	White	1		wand	head									r14	r16					skilltab	7	4	4	red-mag		6	6	cast2		15	15	enr		15	15	skill	78	3	3	skill	67	2	2	skill	93	2	2	0
+Runeword170	Zephyr	1		miss	thro	jave								r09	r05					move2		50	50	swing2		50	50	dmg%		150	200	dmg-norm		5	6	gethit-skill	611	10	10	oskill	Pierce	3	3					0
+Runeword14	Bound by Duty	1		tors									ShaelBerJahShael	r13	r30	r31	r13			res-all		75	75	ac%		300	400	res-mag		20	20	all-stats		30	30	hp%		15	15	allskills		2	2	hp/lvl		40	40	0
+Runeword9	Bramble	1		tors									RalOhmSurEth	r08	r27	r29	r05			balance2		100	100	cast2		30	40	allskills		2	2	hp/lvl	40			enr		40	50	move2		30	30	res-all		40	60	0
+Runeword11	Breath of the Dying	1		weap									VexHelJahEthZod	r26	r15	r31	r05	r33		dmg-norm		30	90	aura	Fanaticism2	10	10	kill-skill	609	15	60	allskills		4	4	dmg%		490	510	all-stats		30	30	crush		5	5	0
+Runeword13	Call to Arms			weap									AmnRalMalIstOhm	r11	r08	r23	r24	r27		skill	Prayer	4	7	skill	Holy Bolt	4	7	skill	Fanaticism2	4	7	allskills		1	1	cast2		40	60	mana%		20	30	aura	Purify2	12	15	0
+Runeword17	Crescent Moon	1		h2h									ShaelUmTir	r13	r22	r03				extra-ltng		7	7	dex		10	10	dmg%		200	300	res-all		15	25	balance2		50	50	swing2		60	60	allskills		2	2	0
+Runeword22	Delirium	1		helm									LemIstIo	r20	r24	r16				melee-skill	Confuse	24	18	res-all		20	30	gethit-skill	Terror	5	13	ac		200	300	gethit-skill	Mind Blast	5	30	allskills		3	3	hp/lvl	32			0
+Runeword26	Doomsayer	1		mele									HelOhmUmLoCham	r15	r27	r22	r28	r32		dmg%		400	500	aura	Holy Freeze	20	20	swing2		100	100	melee-skill	601	20	50	extra-cold		14	14	allskills		2	2	crush		4	4	0
+Runeword33	Enigma	1		tors									JahIthBer	r30	r06	r31				ac%		300	400	res-all		40	60	hp%		10	10	allskills		2	2	oskill	128	1	1	str		15	15	dex		25	25	0
+Runeword137	Stone	1		tors									ShaelUmPulLum	r13	r22	r21	r17			ac%		300	400	gethit-skill	607	20	5	red-dmg%		20	20	hp%		15	15	str		10	10	vit		25	25	balance2		60	60	0
+Runeword36	Eternity	1		mele									AmnBerIstSolSur	r11	r30	r24	r12	r29		dmg%		400	500	indestruct		1	1	slow		5	5	swing2		80	80	noheal		1	1	crush		4	4	nofreeze		1	1	0
+Runeword37	Exile's Path	1		ashd									VexOhmIstDol	r26	r27	r24	r14			pal		2	2	indestruct		1	1	ac%		350	450	block		40	40	skilltab	10	3	3	red-dmg%		20	20	crush		1	1	0
+Runeword39	Famine	1		mele	jave								FalOhmOrtJah	r19	r27	r09	r30			dmg%		400	500	lifesteal		5	5	swing2		100	100	allskills		3	3	deadly		33	33	openwounds		33	33	crush		4	4	0
+Runeword48	Hand of Justice	1		weap									JahBerAmnLo	r31	r30	r11	r28			swing2		100	100	dmg%		400	500	aura	Holy Fire	20	20	crush		4	4	melee-skill	602	8	40	extra-fire		16	16	vit		20	20	0
+Runeword51	Heart of the Oak	1		weap									KoVexPulThul	r18	r26	r21	r10			cast2		25	25	dex		5	10	enr		5	10	allskills		3	3	vit		5	10	extra-phys		10	10	res-all		30	40	0
+Runeword66	Kingslayer	1		mele									MalUmGulFal	r23	r22	r25	r19			swing2		60	60	dmg%		300	400	reduce-ac		25	25	dmg-norm		10	30	crush		4	4	oskill	Vengeance	10	10	gold%		50	100	0
+Runeword95	Passion	1		mele									DolOrtEldLem	r14	r09	r02	r20			dmg%		280	320	oskill	Zeal	5	5	crush		4	4	oskill	Berserk	5	5	swing2		30	30	dmg/lvl	4							0
+Runeword45	Gloom	1		tors									FalUmPul	r19	r22	r21				ac%		100	150	res-all		27	27	enr		20	20	hp%		10	10	allskills		1	1	red-dmg%		10	10	nofreeze		1	1	0
+Runeword122	Sanctuary	1		shld									KoKoMal	r18	r18	r23				block		40	40	block2		60	60	ac%		300	400	red-dmg%		15	20	res-all		40	60	skill-rand	3	6	215	skill-rand	3	6	215	0
+Runeword16	Chaos	1		h2h									ZodJahBer	r33	r31	r30				lifesteal		10	15	dmg%		490	510	crush		4	4	swing2		100	100	dmg-max		70	70	ass		6	6	extra-pois		16	16	0
+Runeword4	The Beast	1		mele										r31	r03	r22	r23	r17		swing2		70	70	aura	Fanaticism2	6	6	dmg%		325	350	state	wolf	1	1	lifesteal		5	10	hp%		15	15	crush		4	4	0
+Runeword123	Serendipity																																															0
+Runeword124	Shadow	1		mele	h2h								IthShael	r06	r13					swing2		100	100	move2		30	30	att		150	150	balance2		60	60	dmg%		150	200	deadly		25	25	indestruct		1	1	0
+Runeword125	Shadow of Doubt	1		h2h									JahLumTir	r31	r17	r03				ass		3	3	res-all		33	33	cast2		30	30	swing2		66	66	enr		20	20	extra-all		14	14	dmg%		400	500	0
+Runeword127	Siren's Song			weap									ZodChamUm	r33	r32	r22				allskills		5	5	dmg%		490	510	dmg/lvl	6			dmg%/lvl	24			all-stats		30	40	swing2		100	100	melee-skill	611	8	60	0
+Runeword129	Sorrow	1		mele	h2h	jave							ZodJahCham	r33	r31	r32				allskills		4	4	crush		5	5	dmg%		490	510	aura	123	8	12	swing2		100	100	lifesteal		7	12	hp/lvl	24			0
+Runeword130	Spirit	1		weap	shld								TalThulOrtAmn	r07	r10	r09	r11			allskills		1	1	cast2		25	35	balance2		40	40	hp/lvl	20			mana		100	150	enr		10	10	extra-elem		3	3	0
+Runeword131	Splendor	1		shld	helm								EthLum	r05	r17					allskills		1	1	cast2		30	30	block2		30	30	res-all		20	30	hp/lvl	32			block		30	30					0
+Runeword132	Starlight	1		staf									OrtDolLumOhm	r09	r14	r17	r27			skilltab	4	6	6	cast2		50	50	ac		100	200	vit		20	20	res-all		40	50	balance2		50	50	extra-ltng		20	20	0
+Runeword135	Still Water	1		staf									ThulDolLumLo	r10	r14	r17	r28			skilltab	5	6	6	swing2		66	66	aura	Holy Freeze	8	12	dmg%		350	450	res-all		40	50	balance2		50	50	extra-cold		20	20	0
+Runeword30	Duress	1		tors									ShaelUmThul	r13	r22	r10				crush		1	1	dmg%		75	100	dex		20	25	hp/lvl	30			res-all		12	17	ac%		150	200	hp%		10	10	0
+Runeword138	Storm	1		staf										r03	r10					coldskill		3	3	ac/lvl		16	16	res-ltng		33	33	extra-cold		9	9	res-all		30	30	cast2		30	30					0
+Runeword140	Tempest	1		tors									OrtOrtShael	r09	r09	r13				res-all		20	25	cast2		20	20	extra-ltng		5	5	ltngskill		1	1	enr		10	10	red-mag		10	15	hp/lvl	20			0
+Runeword141	Temptation	1		jave	thro								ZodChamBer	r33	r32	r30				dmg-max		70	70	aura	Fanaticism2	8	12	dmg%		490	510	swing2		100	100	att		400	500	lifesteal		7	12	crush		5	5	0
+Runeword142	Terror	1		mele	h2h								HelDol	r15	r14					allskills		1	1	skill	War Cry	2	3	vit		10	15	cast2		30	30	enr		10	15	extra-mag		4	4	skill	Blade Sentinel	2	3	0
+Runeword90	Nightfall	1		shld									ZodShaelShaelShael	r33	r13	r13	r13			oskill	Cloak of Shadows	1	1	dex		50	60	red-dmg%		10	15	res-mag		20	30	abs-elem%		2	2	res-all		50	60	ac%		400	500	0
+Runeword91	Oath	1		mele									ShaelPulMalLum	r13	r21	r23	r17			dmg-demon		100	100	swing2		100	100	dmg%		300	400	red-mag		12	18	oskill	Heart of Wolverine	3	4	dex		12	16	crush		5	5	0
+Runeword92	Obedience	1		mele									HelKoThulEthFal	r15	r18	r10	r05	r19		regen		33	33	swing2		50	50	dmg%		350	400	dmg-fire		100	300	ac		150	200	res-all		20	30	allskills		2	2	0
+Runeword93	Oblivion	1		wand									ZodJah	r33	r31					nec		5	5	hp%		5	5	balance2		50	50	cast2		40	60	reanimate	4	6	6	enr		50	50	extra-mag		16	16	0
+Runeword94	Obsession	1		mele									ZodEldHelPul	r33	r02	r15	r21			dmg%		490	510	allskills		4	4	melee-skill	604	6	1	swing2		80	80	dmg-norm		26	92	aura	Concentration2	14	16	crush		5	5	0
+Runeword49	Harmony	1		miss	thro	jave							TirIthSolKo	r03	r06	r12	r18			move2		50	50	dmg%		300	400	skill	Valkyrie	3	3	dmg-elem	50	90	180	oskill	Valkyrie	4	6	swing2		30	30	dmg-max		20	20	0
+Runeword50	Hatred	1		pole	2Spe								ZodBerLoVexShael	r33	r30	r28	r26	r13		allskills		6	6	red-dmg%		25	30	dmg%		490	510	melee-skill	604	6	1	swing2		100	100	crush		10	10	dmg-max		100	100	0
+Runeword40	Flickering Flame	1		staf									RalDolLumVex	r08	r14	r17	r26			fireskill		6	6	swing2		66	66	dmg%		300	400	extra-fire		20	20	rep-dur	10			res-all		40	50	vit		20	20	0
+Runeword41	Fortitude	1		tors									ElSolDolLo	r01	r12	r14	r28			red-dmg%		20	30	ac%		300	400	dmg%		100	100	res-all		20	30	hp/lvl	40			gethit-skill	Frozen Armor	4	20	dex		20	20	0
+Runeword42	Fortune's Favor	1		head									ZodLoDolHel	r33	r28	r14	r15			nec		6	6	res-all		50	60	mag%		100	200	cast2		50	50	extra-all		12	12	hp%		25	25	enr		50	50	0
+Runeword89	Nature's Kingdom	1		pelt									UmJahLumMal	r22	r31	r17	r23			allskills		2	2	res-all		12	18	skill	162	2	3	skill	172	2	3	skill	182	2	3	move2		30	30	dex		25	25	0
+Runeword46	Glory	1		tors									EldEthRal	r02	r05	r08				dmg-undead		100	120	dmg-demon		100	120	str		10	10	balance2		30	30	red-dmg%		10	10	hp/lvl	20			dex		10	10	0
+Runeword38	Faith	1		miss	jave	thro							OhmJahLemEld	r27	r30	r20	r02			aura	Fanaticism2	10	10	allskills		2	2	dmg%		400	500	att%		300	300	res-all		20	20	reanimate	1	5	5	swing2		40	40	0
+Runeword43	Amity																																															0
+Runeword2	Armageddon																																															0
+Runeword3	Authority	1		wand									ZodIst	r33	r24					nec		5	5	skilltab	8	1	2	skill	74	2	4	aura	Fanaticism2	8	12	cast2		60	60	hp		300	400	mana%		40	40	0
+Runeword5	Beauty																																															0
+Runeword7	Blood	1		mele	h2h								LoOhmUm	r28	r27	r22				dmg%		300	400	swing2		50	50	dmg-norm		10	25	heal-kill		50	100	melee-skill	606	6	1	lifesteal		5	10	crush		4	4	0
+Runeword8	Bone	1		tors									SolUmUm	r12	r22	r22				red-mag		15	25	res-all		20	25	nec		2	2	cast2		30	30	hp		250	350	enr		15	20	extra-mag		8	8	0
+Runeword10	Brand	1		miss	jave	thro							JahLoMalGul	r30	r28	r23	r25			hit-skill	604	6	1	nofreeze		1	1	dmg-demon		300	300	dmg%		350	450	dmg-undead		300	300	knock		1	1	swing2		60	60	0
+Runeword12	Broken Promise	1		wand	knif								ZodBer	r33	r30					poisskill		5	5	swing2		100	100	enr		30	30	red-dmg%		10	10	extra-pois		16	16	hp%		5	5	dmg%		400	500	0
+Runeword15	Chance																																															0
+Runeword136	Sting																																															0
+Runeword18	Darkness	1		h2h									ZodJahLo	r33	r30	r28				ass		6	6	aura	Fanaticism2	8	8	dmg%		490	510	swing2		80	80	crush		5	5	dmg-max		100	100	hp%		10	10	0
+Runeword19	Daylight	1		shld									SurOhmSol	r29	r27	r12				allskills		2	2	res-all		30	40	hp/lvl	32			block2		60	60	dex		10	10	block		30	30	aura	Holy Shock 2	20	20	0
+Runeword20	Death	1		mele									HelElVexOrtGul	r15	r01	r26	r09	r25		kill-skill	614	10	40	swing2		30	40	indestruct		1	1	dmg%		350	450	light		-10	-10	deadly		33	33	reanimate	4	10	10	0
+Runeword21	Deception	1		h2h									MalLumTir	r23	r17	r03				ass		2	2	cast2		30	30	enr		15	20	res-all		20	20	dmg%		300	400	extra-mag		6	6	extra-phys		6	6	0
+Runeword23	Desire	1		miss									ZodUmOhmVexNef	r33	r22	r27	r26	r04		allskills		5	5	dex		60	80	dmg%		490	510	crush		5	5	swing2		100	100	dmg-norm		60	120	lifesteal		10	15	0
+Runeword24	Decay	1		wand	knif								TalTir	r07	r03					move2		30	30	regen-mana		60	60	enr		10	10	poisskill		2	2													0
+Runeword32	Destiny	1		mele	jave								UmEldPul	r22	r02	r21				allskills		2	2	enr		15	15	extra-pois		8	8	dmg%		300	400	swing2		60	60	dex		20	20	str		10	10	0
+Runeword25	Destruction	1		mele									VexLoBerJahKo	r26	r28	r31	r30	r18		melee-skill	600	8	50	melee-skill	616	8	50	swing2		100	100	melee-skill	602	8	50	dmg%		400	500	melee-skill	608	6	1	indestruct		1	1	0
+Runeword27	Dragon	1		shld									SurVexSol	r29	r26	r12				allskills		2	2	res-all		30	40	hp/lvl	32			block2		60	60	dex		10	10	aura	Holy Fire 2	20	20	block		30	30	0
+Runeword28	GraveRobber	1		wand									ElEth	r01	r05					mag%		70	80	gold%		100	120	skill	80	1	2	skill	69	2	3	skill	70	1	2									0
+Runeword29	Dream	1		helm									IoJahPul	r16	r31	r21				gethit-skill	Confuse	10	20	aura	Holy Shock	20	20	hp%		15	20	ac		444	444	allskills		3	3	res-all		30	30	slow		5	5	0
+Runeword56	Dweomer	1		wand									VexKo	r26	r18					nec		3	3	cast2		20	20	balance2		40	40	enr		15	15	extra-all		10	10	reanimate	134	5	5					0
+Runeword31	Edge	1		miss	jave	thro							TirTalAmn	r03	r07	r11				aura	Purify2	10	10	swing2		40	40	dmg-demon		300	300	dmg-undead		300	300	cheap		5	5	all-stats		10	10					0
+Runeword34	Enlightenment	1		tors									PulRalSol	r21	r08	r12				enr		20	20	red-mag		15	25	sor		2	2	res-all		15	25	mana/lvl	40			mana%		20	30	extra-elem		8	8	0
+Runeword35	Envy	1		h2h									JahEthFal	r30	r05	r19				ass		2	2	skill	192	3	5	dmg%		300	400	cast2		30	30	swing2		60	60	res-mag		20	20	crush		4	4	0
+Runeword52	Heaven's Will	1		mace	scep	hamm							ZodChamLo	r33	r32	r28				allskills		5	5	cast2		60	60	res-all		40	60	gethit-skill	618	10	60	hpregen/lvl	24			enr		30	30	extra-mag		16	16	0
+Runeword53	Holy Tears	1		miss	jave	thro							PulLumBerMal	r21	r17	r30	r23			dmg%		400	500	dex		15	15	swing2		70	70	dmg-mag		200	400	hit-skill	618	8	40	hit-skill	607	6	1	crush		4	4	0
+Runeword57	Biting Winds	1		pelt									ZodDolCham	r33	r14	r32				dru		5	5	hp%		10	15	cast2		60	60	res-all		40	60	enr		50	50	extra-all		12	12	oskill	128	1	1	0
+Runeword58	Hunger	1		head									PulRalEldFal	r21	r08	r02	r19			ac%		200	300	nec		2	2	cast2		15	15	enr		15	15	extra-all		8	8	skilltab	6	2	4	res-all		40	50	0
+Runeword59	Ice	1		miss	jave	thro							AmnShaelJahLo	r11	r13	r30	r28			swing2		50	50	hit-skill	611	4	40	swing2		40	60	dmg%		350	450	extra-cold		12	12	enr		15	20	crush		4	4	0
+Runeword60	Infinity	1		weap									BerMalBerIst	r31	r23	r31	r24			melee-skill	615	8	50	aura	Conviction	10	10	swing2		70	70	dmg%		350	450	melee-skill	614	8	50	hp/lvl	16			extra-ltng		28	28	0
+Runeword61	Innocence	1		helm									ElEldEl	r01	r02	r01				ac		25	50	move2		40	40	all-stats		5	5	gold%		50	100	mag%		50	50	regen		33	33	res-all		10	10	0
+Runeword62	Insight	1		weap									RalTirTalSol	r08	r03	r07	r12			dmg%		200	300	att%		200	300	aura	Meditation	10	15	all-stats		5	5	cast2		35	35	mag%		50	50					0
+Runeword63	Jealousy	1		staf									ZodShaelVexOhmShael	r33	r13	r26	r27	r13		allskills		7	7	dmg%		490	510	swing2		120	120	res-all		80	100	extra-all		30	30	red-dmg%		30	40	dmg-max		120	120	0
+Runeword64	Judgment	1		hamm	mace	scep							ZodSurLoOhm	r33	r29	r28	r27			allskills		4	4	melee-skill	618	8	60	dmg%		450	500	dmg-norm		40	60	crush		6	6	swing2		100	100	res-all		40	50	0
+Runeword67	Knight's Vigil	1		shld									ShaelUmIo	r13	r22	r16				swing2		30	40	block		20	20	ac%		200	240	res-mag		10	15	res-all		15	20	red-dmg%		15	20	block2		30	30	0
+Runeword69	Last Wish	1		mele									BerOhmChamZodLo	r30	r27	r32	r33	r28		res-all		30	40	crush		5	5	deadly		25	25	aura	Might	14	16	dmg%		450	500	swing2		60	60	dmg-norm		20	70	0
+Runeword70	Law																																															0
+Runeword71	Lawbringer	1		mele	h2h								AmnLemKo	r11	r20	r18				aura	Sanctuary	10	10	rip		1	1	extra-mag		5	5	allskills		2	2	dmg%		300	400	swing2		60	60	gethit-skill	607	10	1	0
+Runeword73	Lightning																																															0
+Runeword77	Loyalty	1		weap	h2h								DolSolKo	r14	r12	r18				dmg%		300	400	heal-kill		15	25	dmg-undead		100	200	swing2		60	60	dmg/lvl		1	1	lifesteal		4	4	hp		60	80	0
+Runeword78	Lust	1		tors									LemIstLemIst	r20	r24	r20	r24			res-all		30	40	move2		66	66	allskills		1	1	swing2		33	33	mag%		50	100	gold%		50	100	hp/lvl	40			0
+Runeword79	Madness	1		h2h									DolLumTir	r14	r17	r03				skilltab	19	1	2	cast2		30	30	res-all		20	20	extra-mag		4	5	dmg%		300	400									0
+Runeword84	Mist	1		tors									ThulThulShael	r10	r10	r13				res-all		20	25	cast2		20	20	extra-cold		5	5	coldskill		1	1	enr		10	10	red-mag		10	15	hp/lvl	20			0
+Runeword85	Morning Dew	1		orb									EthEld	r05	r02					dmg%		150	200	swing2		60	60	dmg-fire		30	60	oskill	Zeal	1	1	block		10	10	block2		20	20	dex		10	10	0
+Runeword86	Mystery	1		weap	h2h								AmnSolIth	r11	r12	r06				dmg%		150	450	swing2		25	50	res-all		6	12	enr		6	12	vit		6	12	str		6	12	dex		6	12	0
+Runeword87	Myth	1		tkni	taxe								ChamBer	r32	r30					allskills		3	3	dmg-norm		40	40	dmg%		400	500	crush		4	4	swing2		100	100	deadly		25	25	pierce		99	99	0
+Runeword95	Patience	1		pelt									EldMalEthKo	r02	r23	r05	r18			ac%		200	300	dru		2	2	enr		20	20	extra-all		5	5	hp%		10	10	res-all		25	35	red-dmg%		10	10	0
+Runeword97	Pattern																																															0
+Runeword98	Peace	1		tors									ShaelThulAmn	r13	r10	r11				dex		15	15	res-all		20	25	ama		2	2	ac%		150	200	extra-all		5	5	hp/lvl	20			enr		10	10	0
+Runeword100	Penitence	1		ashd									EldVexOhmLo	r02	r26	r27	r28			res-all		40	40	allskills		2	2	red-dmg%		10	10	res-pois-len		75	75	skill	111	3	4	skill	117	3	4	block		30	30	0
+Runeword101	Peril	1		tors	shld								IoAmnNef	r16	r11	r04				hp/lvl	32			red-dmg%		10	15	bar		2	2	res-all		20	25	dmg%		50	50	move2		20	20	dmg-norm		5	10	0
+Runeword102	Pestilence	1		mele	wand	h2h							UmTal	r22	r07					extra-pois		8	8	allskills		1	1	swing2		60	60	dmg%		300	400	noheal		1	1	att		200	300					0
+Runeword103	Phoenix	1		shld									VexOhmLo	r26	r27	r28				extra-fire		10	10	gethit-skill	616	10	55	balance2		100	100	res-all		50	60	block		40	40	dmg%		150	150	block2		60	60	0
+Runeword104	Piety																																															0
+Runeword105	Pillar of Faith	1		scep									ZodBerVex	r33	r32	r26				allskills		5	7	skill	111	5	7	dmg%		450	500	att		400	500	swing2		100	100	red-dmg%		15	15	hp%		5	5	0
+Runeword106	Plague	1		tors									TalIoTalShael	r07	r07	r13				res-all		20	25	cast2		20	20	extra-pois		5	5	poisskill		2	2	enr		10	10	red-mag		10	15	hp/lvl	20			0
+Runeword107	Praise	1		swor									ZodKoBer	r33	r18	r31				allskills		5	5	cast2		60	60	hp%		10	10	fireskill		2	2	extra-phys		16	16	balance2		50	50	extra-fire		16	16	0
+Runeword108	Prayer																																															0
+Runeword109	Pride	1		weap									CharmOhmIoLo	r32	r27	r16	r28			allskills		2	2	aura	Concentration2	20	20	att%		200	200	swing2		100	100	crush		4	4	dmg%		400	500					0
+Runeword110	Principle	1		tors									RalGulEld	r08	r25	r02				hp/lvl	40			pal		2	2	extra-all		8	8	res-all		20	25	ac%		200	300	red-dmg%		10	15	hp%		10	10	0
+Runeword111	Prowess in Battle	1		ashd									ZodBerJahBer	r33	r30	r31	r30			hp%		10	10	ac%		400	500	pal		6	6	block		60	60	dex		20	20	red-dmg%		15	20	all-stats		20	30	0
+Runeword112	Prudence	1		tors									MalTir	r23	r03					balance2		60	60	ac%		150	200	res-all		30	40	hp/lvl	40			vit		20	20	red-dmg%		15	20	rep-dur	25			0
+Runeword113	Punishment	1		helm									SurOhmVexLo	r29	r27	r26	r28			skilltab	10	3	3	res-all		30	30	hp/lvl	32			ac		400	500	extra-all		8	8	dex		15	15	red-dmg%		12	12	0
+Runeword114	Purity	1		ashd									BerIstBerMal	r31	r24	r31	r23			aura	Meditation	20	20	res-all		30	30	red-dmg%		15	15	res-mag		15	15	skill	101	3	5	hpregen/lvl	16			skilltab	11	3	3	0
+Runeword115	Question																																															0
+Runeword117	Rain	1		tors									OrtMalIth	r09	r23	r06				enr		20	20	dmg%		75	100	dru		2	2	res-all		25	30	ac%		150	200	skill	177	3	3	hp%		15	20	0
+Runeword118	Reason																																															0
+Runeword119	Red	1		tors									RalRalShael	r08	r08	r13				res-all		20	25	cast2		20	20	extra-fire		5	5	fireskill		1	1	enr		10	10	red-mag		10	15	hp/lvl	20			0
+Runeword121	Rift	1		mele									HelKoLemGul	r15	r18	r20	r25			melee-skill	614	8	40	melee-skill	611	8	40	swing2		70	70	dmg%		300	400	all-stats		15	15	melee-skill	616	8	40	enr		30	30	0
+Runeword76	The Lovers																																															0
+Runeword143	Thirst	1		orb									ZodVexVex	r33	r26	r26				dmg%		490	500	oskill	Weapon Mastery	10	10	swing2		100	100	oskill	Vengeance	20	20	state	wolf	1	1	hp%		30	30	extra-fire		10	10	0
+Runeword68	Thirst for Knowledge	1		orb									ZodCham	r33	r32					sor		5	5	aura	Conviction	20	20	hp%		8	10	cast2		60	60	extra-elem		16	16	res-all		40	60	mana%		60	60	0
+Runeword144	Thought	1		orb									DolTir	r14	r03					sor		2	2	aura	might	7	10	enr		25	25	vit		10	10	move2		10	10	res-all		15	15	mana%		15	15	0
+Runeword145	Thunder	1		staf										r03	r09					skilltab	4	3	3	ac/lvl		16	16	res-fire		33	33	enr		30	30	res-all		30	30	cast2		30	30					0
+Runeword146	Time	1		staf									ZodJahLum	r33	r31	r17				allskills		7	7	res-all		80	100	oskill	Lower Resist	1	1	cast2		100	100	res-mag		40	40	hp%		20	20	extra-all		40	40	0
+Runeword147	Tradition	1		orb									ShaelRal	r13	r08					dmg%		150	200	dex		15	15	swing2		60	60	dmg-fire		60	120	extra-fire		8	8	block		20	20	oskill	Vengeance	1	1	0
+Runeword148	Treachery	1		tors									ShaelThulLem	r13	r10	r20				res-all		20	25	ac%		150	200	ass		2	2	extra-all		8	8	hp/lvl	40			enr		20	20	vit		20	20	0
+Runeword149	Trust	1		phlm									ZodShaelJahShael	r33	r13	r31	r13			ac%		400	500	bar		6	6	red-dmg%		20	25	hp%		20	25	res-all		30	40	str		30	30	aura	might	5	5	0
+Runeword150	Truth	1		phlm									GulEldKoSol	r25	r02	r18	r12			ac%		200	300	bar		2	2	red-dmg%		15	15	hp%		15	15	res-all		20	30	all-stats		10	15	extra-mag		6	6	0
+Runeword151	Unbending Will	1		weap									ZodIoBerLum	r33	r16	r30	r17			allskills		2	2	skilltab	15	4	4	res-all		20	30	aura	Fanaticism2	5	5	cast2		30	40	move2		30	30	red-dmg%		10	15	0
+Runeword152	Valor	1		axe	h2h								ZodJahLo	r33	r31	r28				allskills		5	5	melee-skill	617	8	60	dmg%		450	500	extra-cold		18	18	swing2		100	100	all-stats		20	20	deadly		25	25	0
+Runeword153	Vengeance	1		spea	pole								ZodJahLoOhmShaelShael	r33	r31	r28	r27	r13	r13	allskills		5	5	oskill	Vengeance	1	1	dmg%		400	500	move2		30	30	swing2		80	80	crush		10	10	dmg-max		80	80	0
+Runeword155	Victory	1		helm									BerZodBer	r30	r33	r30				allskills		3	3	ac%		400	500	red-dmg		60	60	hp%		20	25	res-all		40	50	dmg%		100	100	all-stats		25	30	0
+Runeword156	Voice	1		weap									HelSurLo	r15	r29	r28				skill	180	3	4	skill	164	3	4	all-stats		10	15	enr		30	30	extra-phys		12	12	cast2		30	40	allskills		2	2	0
+Runeword157	Void	1		knif									ZodChamJah	r33	r32	r31				allskills		5	5	oskill	Decrepify	1	1	extra-all		16	16	cast2		60	60	balance2		60	60	heal-kill		60	80	res-all		40	50	0
+Runeword158	War	1		tors									ZodChamBerJah	r33	r32	r30	r31			allskills		1	1	hp%		30	30	hp/lvl	80			ac%		400	500	red-dmg%		15	15	res-all		50	50					0
+Runeword159	Water																																															0
+Runeword161	Whisper	1		staf									DolTirMalIst	r14	r03	r23	r24			skilltab	7	4	4	skilltab	19	4	4	cast2		30	40	extra-mag		16	16	res-all		40	50	skill	93	3	5	skill	188	3	5	0
+Runeword47	Widowmaker	1		mele									ZodJahShaelShaelShael	r33	r31	r13	r13	r13		dmg%		490	510	swing2		107	107	deadly		25	25	crush		5	5	lifesteal		10	10	dex		30	30	dmg-norm		20	70	0
+Runeword163	Wind	1		weap									SurEl	r29	r01					melee-skill	611	8	40	move2		100	100	swing2		100	100	dmg%		350	450	balance2		50	50	gethit-skill	611	10	40					0
+Runeword164	Wings of Hope	1		ashd									JahChamMalJah	r31	r32	r23	r31			ac%		500	500	res-all		66	66	skilltab	10	5	5	block		35	35	red-dmg%		30	30	extra-all		12	12	red-mag		13	13	0
+Runeword99	Winter	1		mele									LemKoElEld	r20	r18	r01	r02			melee-skill	601	8	30	melee-skill	617	8	30	dmg%		300	400	allskills		2	2	dmg-cold	250	250	500	enr		20	20	swing2		35	35	0
+Runeword165	Wisdom	1		orb									IstKo	r24	r18					sor		3	3	cast2		40	40	enr		20	20	dex		15	15	extra-elem		10	10	res-all		20	25	mana%		20	30	0
+Runeword166	Woe	1		shld									SurLoSol	r29	r28	r12				allskills		2	2	res-all		30	40	hp/lvl	32			block2		60	60	dex		10	10	block		30	30	aura	Holy Freeze 2	20	20	0
+Runeword167	Wonder			mele									ThulShaelKoLoShael	r10	r13	r18	r28	r13		melee-skill	617	8	50	swing2		20	20	extra-cold		8	8	dmg-cold	250	250	500	enr		20	20	nofreeze		1	1	dmg%		300	400	0
+Runeword168	Wrath	1		miss	jave	thro							PulLumBerFal	r21	r17	r30	r19			gethit-skill	617	10	55	hit-skill	606	6	1	dmg%		400	500	dmg-norm		15	35	crush		4	4	dmg-mag		250	500	swing2		70	70	0
+Runeword2	Armageddon	1		h2h	axe								ZodOhmGul	r33	r27	r25				allskills		5	5	extra-fire		20	20	dmg%		490	510	all-stats		20	20	swing2		100	100	deadly		25	25	melee-skill	616	8	60	0
+Runeword169	Youth	1		h2h	axe								ZodOhmBer	r33	r27	r30				allskills		5	5	dmg%		490	510	all-stats		20	20	extra-ltng		18	18	melee-skill	614	8	60	deadly		25	25	swing2		100	100	0
+Runeword171	Allurement	1		orb	staf								TirEld	r03	r02					sor		1	1	cast2		10	10	enr		15	15	stam		25	25				 									0
+Runeword172	Shadows and Dust	1		tors									EthIoShael	r05	r16	r13				allskills		1	1	ac%		75	100	str		10	10	hp/lvl	32			res-all		25	30	melee-skill	611	8	15	dex		25	25	0
+Runeword173	Vizjerei's Denouement	1		tors									ShaelAmnEl	r13	r11	r01				magskill		1	1	hp/lvl	20			res-all		20	20	cast2		15	25	enr		20	20	extra-mag		5	5	res-mag		5	10	0
+Runeword174	Rage's Purity	1		mele									JahPulChamEld	r31	r21	r32	r02			allskills		2	2	dmg%		400	500	melee-skill	604	6	1	swing2		80	80	crush		4	4	deadly		25	25	rep-dur	25			0
+Runeword175	The Sword of a Thousand Truths	1		swor									ZodBerZodJahZodCham	r33	r30	r33	r31	r33	r32	allskills		5	5	dmg%		490	510	dmg-max		100	100	swing2		100	100	all-stats		30	30	hp%		10	10	extra-all		20	20	0
+Runeword176	Effervescence	1		wand									ThulTir	r10	r03					skilltab	7	1	1	skill	67	1	2	skill	84	1	2	enr		15	15	extra-mag		4	5	cast2		10	15	gold%		50	50	0
+Runeword177	Pig Roaster	1		jave									PulGulEth	r21	r25	r05				ama		2	2	dmg%		350	450	ac%		100	200	swing2		60	60	crush		4	4	dmg%/lvl	16			str		15	15	0
+Runeword178	Apocalypse	1		weap	tors								ZodJahLoZod	r33	r31	r28	r33			allskills		5	5	dmg%		400	500	gethit-skill	603	15	60	gethit-skill	611	15	60	swing2		100	100	crush		4	4	res-all		30	30	0
+Runeword179	Invictus	1		pole	2Spe								ZodPulShaelChamZod	r33	r21	r13	r32	r33		dmg%		490	510	swing2		100	100	crush		12	12	att/lvl	24			lifesteal		10	10	deadly		25	25	dmg-norm		60	120	0
+Runeword180	Scorpion	1		tors	pelt								IthTalSol	r06	r07	r12				ac%		100	150	extra-pois		5	5	skill	14	2	2	skill	173	2	2	skill	200	2	2	red-dmg%		5	5	res-all		20	20	0
+Runeword181	Blight	1		ajav	h2h								TalSolAmn	r07	r12	r11				dmg%		200	250	dmg/lvl	4			poisskill		2	2	swing2		40	40	red-dmg%		5	5	res-all		10	10	extra-pois		5	5	0

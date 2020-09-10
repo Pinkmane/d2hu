@@ -1,0 +1,215 @@
+monster	oninit	level	item1	loc1	mod1	item2	loc2	mod2	item3	loc3	mod3	eol
+bloodraven	1	1	bx1	head	7							0
+flyingscimitar	1	0	scm	rarm	6							0
+valkyrie		31	vk5	rarm	2							0
+valkyrie		27	ci2	head	2	uhm	head	2				0
+valkyrie		26	vk4	rarm	2							0
+valkyrie		25	uul	tors	2							0
+valkyrie		23	amu	neck	2							0
+valkyrie		21	uhb	feet	2							0
+valkyrie		19	utg	glov	2							0
+valkyrie		17	vk3	rarm	2							0
+valkyrie		16	xul	tors	2							0
+valkyrie		14	ci0	head	2	xhm	head	2				0
+valkyrie		13	amu	neck	2							0
+valkyrie		12	uhc	belt	2							0
+valkyrie		11	rin	rrin	2							0
+valkyrie		10	rin	lrin	2							0
+valkyrie		8	vk2	rarm	2							0
+valkyrie		7	aar	tors	2							0
+valkyrie		5	hbl	belt	2							0
+valkyrie		4	hbt	feet	2							0
+valkyrie		3	rin	lrin	2							0
+valkyrie		2	hgl	glov	2							0
+valkyrie		1	ci0	head	2	ghm	head	2				0
+valkyrie		1	vk1	rarm	2							0
+valkyrie		1	ful	tors	2							0
+shadowwarrior		31	7tw	larm	6							0
+shadowwarrior		30	7tw	rarm	6							0
+shadowwarrior		29	uhg	glov	2							0
+shadowwarrior		27	uhn	tors	2							0
+shadowwarrior		26	7ar	rarm	6							0
+shadowwarrior		25	9qr	larm	6							0
+shadowwarrior		24	uhb	feet	2							0
+shadowwarrior		23	uhc	belt	2							0
+shadowwarrior		22	by6	head	2							0
+shadowwarrior		21	9lw	rarm	6							0
+shadowwarrior		20	9lw	larm	6							0
+shadowwarrior		19	xhg	glov	2							0
+shadowwarrior		18	xhb	feet	2							0
+shadowwarrior		17	zhb	belt	2							0
+shadowwarrior		16	9cs	larm	6							0
+shadowwarrior		15	9xf	rarm	6							0
+shadowwarrior		14	amu	neck	2							0
+shadowwarrior		13	xhn	tors	2							0
+shadowwarrior		12	rin	lrin	2							0
+shadowwarrior		11	xsk	head	2							0
+shadowwarrior		10	rin	rrin	2							0
+shadowwarrior		9	9ar	rarm	6							0
+shadowwarrior		8	skr	larm	6							0
+shadowwarrior		7	hbl	belt	2							0
+shadowwarrior		6	hbt	feet	2							0
+shadowwarrior		5	amu	neck	2							0
+shadowwarrior		4	btl	rarm	6							0
+shadowwarrior		3	rin	lrin	2							0
+shadowwarrior		2	hgl	glov	2							0
+shadowwarrior		1	chn	tors	6							0
+shadowwarrior		1	rin	rrin	2							0
+shadowwarrior		1	msk	head	2							0
+shadowwarrior		1	clw	larm	6							0
+shadowwarrior		1	ces	rarm	6							0
+shadowmaster		31	7qr	larm	6							0
+shadowmaster		30	7tw	rarm	6							0
+shadowmaster		29	uhg	glov	2							0
+shadowmaster		27	upl	tors	2							0
+shadowmaster		26	7ar	rarm	6							0
+shadowmaster		25	9qr	larm	6							0
+shadowmaster		24	uhb	feet	2							0
+shadowmaster		23	uhc	belt	2							0
+shadowmaster		22	ci3	head	2							0
+shadowmaster		21	9qr	rarm	6							0
+shadowmaster		20	9tw	larm	6							0
+shadowmaster		19	xhg	glov	2							0
+shadowmaster		18	xhb	feet	2							0
+shadowmaster		17	zhb	belt	2							0
+shadowmaster		16	9tw	larm	6							0
+shadowmaster		15	9lw	rarm	6							0
+shadowmaster		14	amu	neck	2							0
+shadowmaster		13	xpl	tors	2							0
+shadowmaster		12	rin	lrin	2							0
+shadowmaster		11	ci2	head	2							0
+shadowmaster		10	rin	rrin	2							0
+shadowmaster		9	9cs	rarm	6							0
+shadowmaster		7	9xf	larm	6							0
+shadowmaster		7	hbl	belt	2							0
+shadowmaster		6	hbt	feet	2							0
+shadowmaster		6	hgl	glov	2							0
+shadowmaster		5	amu	neck	2							0
+shadowmaster		4	9ar	rarm	6							0
+shadowmaster		3	rin	lrin	2							0
+shadowmaster		2	spl	tors	2							0
+shadowmaster		1	rin	rrin	2							0
+shadowmaster		1	ci0	head	2							0
+shadowmaster		1	btl	rarm	6							0
+shadowmaster		1	skr	larm	6							0
+samhain	1	1	bx7	head	7							0
+mephisto	1	1	bx4	head	7							0
+councilmember1	1	1	bx9	head	7							0
+councilmember2	1	1	by2	head	7							0
+councilmember3	1	1	by3	head	7							0
+griswold	1	1	bx1	head	7							0
+countess	1	1	bx1	head	7							0
+smith	1	1	bx1	head	7							0
+vampire6	1	1	bx1	head	7							0
+andariel	1	1	bx2	head	7							0
+radament	1	1	bx1	head	7							0
+juggernaut	1	1	bx1	head	7							0
+maggotqueen1	1	1	bx1	head	7							0
+cantor6	1	1	bx1	head	7							0
+reanimatedhorde6	1	1	bx1	head	7							0
+summoner	1	1	by4	head	7							0
+duriel	1	1	bx3	head	7							0
+sszak	1	1	bx1	head	7							0
+hatestorm	1	1	bx1	head	7							0
+tentaclehead3	1	1	bx1	head	7							0
+vilemother5	1	1	bx1	head	7							0
+izual	1	1	bx1	head	7							0
+hephasto	1	1	bx1	head	7							0
+amon	1	1	bx8	head	7							0
+moloch	1	1	bx8	head	7							0
+deseis	1	1	bx8	head	7							0
+diablo	1	1	bx5	head	7							0
+overseer1	1	1	bx1	head	7							0
+acaste	1	1	bx1	head	7							0
+nihlathakboss	1	1	by5	head	7							0
+whitedragon	1	1	bx1	head	7							0
+baphomet	1	1	bx8	head	7							0
+boneking	1	1	bx8	head	7							0
+asmodeus	1	1	bx8	head	7							0
+glasya	1	1	bx8	head	7							0
+shadowlord	1	1	bx8	head	7							0
+baalcrab	1	1	bx6	head	7							0
+chimera	1	1	bx1	head	7							0
+madae	1	1	bx1	head	7							0
+construct	1	1	bx1	head	7							0
+councilmember4	1	1	by1	head	7							0
+councilmember5	1	1	bx1	head	7							0
+councilmember6	1	1	bx1	head	7							0
+titan2	1	1	bx8	head	7							0
+belial	1	1	bx8	head	7							0
+azmodan	1	1	bx8	head	7							0
+shadowspirit1	1	1	bx2	head	7							0
+shadowspirit2	1	1	bx3	head	7							0
+shadowspirit3	1	1	bx4	head	7							0
+shadowspirit4	1	1	bx5	head	7							0
+shadowspirit5	1	1	bx6	head	7							0
+amazon	1	1	bx8	head	7							0
+sorceress	1	1	bx8	head	7							0
+barbarian	1	1	bx8	head	7							0
+paladin	1	1	bx8	head	7							0
+necromancer	1	1	bx8	head	7							0
+druid	1	1	bx8	head	7							0
+assassin	1	1	bx8	head	7							0
+kingcow	1	1	bx8	head	7							0
+antidruid	1	1	bx1	head	7							0
+ankheg	1	1	bx1	head	7							0
+lazarus	1	1	bx8	head	7							0
+soulstealerboss	1	1	bx8	head	7							0
+soulmancerfinal	1	1	bx8	head	7							0
+legionguardnecro	1	1	bx8	head	7							0
+scarlet	1	1	bx8	head	7							0
+sorrowlord	1	1	bx8	head	7							0
+pious	1	1	bx8	head	7							0
+alexius	1	1	bx8	head	7							0
+martel	1	1	bx8	head	7							0
+kannli	1	1	bx8	head	7							0
+asteroth	1	1	bx8	head	7							0
+coolplayer	1	1	bx8	head	7							0
+furycury	1	1	bx8	head	7							0
+drrodriguez	1	1	bx8	head	7							0
+nazgul	1	1	bx8	head	7							0
+Alp	1	1	by8	head	7							0
+Anzu	1	1	bz2	head	7							0
+Bartuc1	1	1	by8	head	7							0
+BlackJade	1	1	bx1	head	7							0
+Red Vex	1	1	bx1	head	7							0
+vampire9	1	1	by9	head	7							0
+skmage_pois7	1	1	by9	head	7							0
+blunderbore6	1	1	by9	head	7							0
+doomknight7	1	1	by9	head	7							0
+marilithgg	1	1	by9	head	7							0
+Catman1	1	1	by9	head	7							0
+D1SkeletonBow7	1	1	by9	head	7							0
+frogdemon4	1	1	by9	head	7							0
+oblivionwyrm	1	1	by9	head	7							0
+D1MagmaDemon3	1	1	by9	head	7							0
+D1MagmaDemon2	1	1	by9	head	7							0
+Eyemonster2	1	1	by9	head	7							0
+Catman2	1	1	by9	head	7							0
+GodsmanGuard1	1	1	by9	head	7							0
+D1StormDemon3	1	1	by9	head	7							0
+Blademaster1	1	1	by9	head	7							0
+D1BlackSpider6	1	1	by9	head	7							0
+D1Succubus6	1	1	by9	head	7							0
+bugbearWL	1	1	by9	head	7							0
+skmage_pois8	1	1	by9	head	7							0
+suicideminion9	1	1	by9	head	7							0
+PitFiend1	1	1	by9	head	7							0
+lindwyrm	1	1	bx1	head	7							0
+hod	1	1	bx1	head	7							0
+chekka	1	1	bx1	head	7							0
+yelsne	1	1	bx1	head	7							0
+tentacle3	1	1	bx8	head	7							0
+tentaclehead3	1	1	bx8	head	7							0
+Ignis, Echo of Mordred	1	1	bx9	head	7							0
+Sadun the Tormented	1	1	by3	head	7							0
+Muxog, Naburite Drinker	1	1	by1	head	7							0
+The Omicron Sentinel	1	1	by2	head	7							0
+Abholos, the Eldritch Horror	1	1	bx7	head	7							0
+doomknightx	1	1	bx8	head	7							0
+ancientbarb1	1	1	bz1	head	7							0
+ancientbarb2	1	1	bz1	head	7							0
+ancientbarb3	1	1	bz1	head	7							0
+coldcrow	1	1	by2	head	7							0
+legionguardnecro	1	1	bx7	head	7							0
+*end, do not remove*												0

@@ -1,0 +1,61 @@
+DESCRIPTION
+
+D2_txt-Checker_Page-Maker.exe
+This program will generate web pages from Diablo 2 Lord of Destruction text files.
+The web pages created are meant to be simple documentation for the features (unique items, rune words, etc) in the files.
+If there is a spelling mistake on a row of the files (case sensitive, so "Fire Ball" isn't the same as "Fire ball"), then that row is skipped.
+The items or features from a skipped row will not be included in the web page, but that row will be mentioned while the program runs, so you can fix it.
+While the program runs, it should open a simple console window, with a sentence stating its current process, such as parsing (reading) a file,
+  or generating a web page.  If errors and typos are found, then the item being investigated should be displayed, along with the offending property.
+The program should conclude with the line "Press enter to continue..."
+The program processes files in this order: cubemain.txt, itemstatcost.txt, sets.txt and setitems.txt, uniqueitems.txt, runes.txt, gems.txt,
+	armor.txt, weapons.txt, monstats.txt, montype.txt, monequip.txt, magicprefix.txt, magicsuffix.txt
+
+Pages created:
+BossStats.html          - Stats (Resistances, HP, MonPropID, etc) for Boss-flagged monsters
+Gems.html               - Stats of gems and runes
+MonProps.html           - Monster's special properties (e.g. 10% Chance to cast Level 25 FireBall when Struck)
+Prefixes.html           - A table of Magic & Rare Prefixes, row filter not supported well on Chrome
+Suffixes.html           - A table of Magic & Rare Suffixes, row filter not supported well on Chrome
+RecipesCraft.html       - Cube recipes with Crafted Item inputs (Socketing, upgrading, crafting)
+RecipesMagical.html     - Cube recipes with Magical Item inputs (Socketing, crafting, disenchanting)
+RecipesNormal.html      - Cube recipes with Normal Item inputs (Socketing, quality upgrading)
+RecipesOther.html       - Cube recipes with Other inputs (gem/rune upgrading, item recharing, dyes, etc)
+RecipesRare.html        - Cube recipes with Rare Item inputs (Socketing, rerolling
+RecipesSet.html         - Cube recipes with Set Item inputs (Socketing, upgrading)
+RecipesUnique.html      - Cube recipes with Unique Item inputs (Socketing, upgrading)
+Runewords.html          - Name, item class, rune order, and stats
+Sets.html               - Name, items, and completion bonuses
+Unique Armor.html       - For uniques where the base item exists in armor.txt
+Unique Jewelry.html     - For unique rings and amulets.
+Unique Stuff.html       - Mostly unique jewels and charms, but also quivers in HU 1.5
+Unique Weapons.html     - For uniques where the base item exists in weapons.txt
+WhiteArmors.html        - Stats for base armors organized by tier, includes automods
+WhiteWeapons.html       - Stats for base weapons organized by tier, includes automods
+
+Properties.txt
+This file is a modified version of the Properties.txt file in the excel folder of the Diablo 2 text files.
+The "*desc" column of the file has been changed to include special descriptions that are understood by my page-making program.
+Example:
++min-max Fire Damage to Attack			- The "min-max" will be replaced with the numbers in the file, if the numbers are the same then only one is used
++min% Change of Level max param on Strike	- "min" and "max"  will be replaced, "param" will be replaced with the skill name as it appears in skills.txt
+
+You are welcome to change the descriptions as you see fit, just remember to save the file in the appropriate format (csv, tabs instead of commas, no formulas, etc)
+Note that some final webpage description will include stuff like "200/25 seconds duration", this means "8 seconds duration" because my program doesn't bother to do the math.
+
+
+INSTRUCTIONS
+
+1) Make sure you have a folder containing all the text files (decompressed .mpq files place these in data/global/excel/)
+2) Make sure that my version of Properties.txt has been moved to that file, overwriting the file there (maybe check that the older file had no new properties)
+3) Run D2_txt-Checker_Page-Maker.exe, you can hit the "Pause Break" key on the keyboard to stop it, and the space bar to resume.
+4) If the window that pops up shows errors, like "Viperfork: prop5 - Skill rabies not found", then that row will be skipped
+	- Consider correcting that line and property of the file.  The skill in the example above should be "Rabies".
+5) The resulting web pages should be in the "Webpages" folder.  If that folder already exists, then the pages are added to it, overwriting existing pages.
+6) Currently the Unique Items web pages have place-holders for .gif images.
+	- If you have a folder in the WebPages folder named "Images", where each image is named "XXXX.gif" where XXXX is found in the "invfile" column, then the image will be included in the final web page.
+
+
+CONCLUSION
+
+That should just about cover everything.  I only made the program as a personal convenience, so I apologize if something is missing or the program contains a bug.

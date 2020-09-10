@@ -1,0 +1,4 @@
+main type	socket type	eol
+armo	2jew	0
+weap	2jew	0
+shie	2jew	0

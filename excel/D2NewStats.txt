@@ -1,0 +1,44 @@
+*Name	StrOnly	StatOnly	tblIDx	Font	Color	Xleft	Xright	Y	Stat	Font2	Color2	RiN	Xleft2	Xright2	Y2	*eol
+firepierce			firepiercestatdesc	12	1	154	154	478	passive_fire_pierce	1	0	1	201	201	475	0
+coldpierce			coldpiercestatdesc	12	3	155	155	509	passive_cold_pierce	1	0	1	201	201	506	0
+lightpierce			lightpiercestatdesc	12	9	168	168	540	passive_ltng_pierce	1	0	1	201	201	537	0
+poispierce			poispiercestatdesc	12	2	161	161	571	passive_pois_pierce	1	0	1	201	201	568	0
+firesorb			firesorbstatdesc	12	1	261	261	478	item_absorbfire_percent	1	0		307	307	475	0
+coldsorb			coldsorbstatdesc	12	3	262	262	509	item_absorbcold_percent	1	0		307	307	506	0
+lightsorb			lightsorbstatdesc	12	9	275	275	540	item_absorblight_percent	1	0		307	307	537	0
+FHR			hitrecoverdesc	12	0	74	74	421	item_fastergethitrate	1	0		112	112	418	0
+PDR			pdreductiondesc	12	0	309	309	421	normal_damage_reduction	1	0		355	355	418	0
+MDR			mdreductiondesc	12	0	181	181	421	magic_damage_reduction	1	0		233	233	418	0
+magpierce			magpiercestatdescpage	12	0	159	159	602	passive_mag_pierce	1	0	1	201	201	599	0
+physpierce			physpiercestatdescpage	12	4	167	167	633	passive_phys_pierce	1	0	1	201	201	630	0
+magsorb			magsorbstatsc	12	0	266	266	602	item_absorbmagic_percent	1	0		307	307	599	0
+poissorb			poissorbstatsc	12	2	268	268	571	item_absorbpois_percent	1	0		307	307	568	0
+FCR			castratedescstatsc	12	0	67	67	359	item_fastercastrate	1	0		112	112	356	0
+IAS			iasdescstatsc	12	0	72	72	390	item_fasterattackrate	1	0		112	112	387	0
+crushdesc			crushdescstatsc	12	0	418	418	359	item_crushingblow	1	0		472	472	356	0
+deadlydesc	1		deadlydescstatsc	12	0	419	419	390		1	0		472	472	387	0
+curse_resistance			curseresdescstat	12	0	426	426	421	curse_resistance	1	0		472	472	418	0
+goldfinddesc			goldfinddescstatsc	12	0	293	293	385	item_goldbonus	1	0		355	355	387	0
+magicfinddesc			magicfinddescstatsc	12	0	174	174	385	item_magicbonus	1	0		233	233	387	0
+FBR			blockratedescstatsc	12	0	187	187	359	item_fasterblockrate	1	0		233	233	356	0
+poisreducedesc			poisreducedescstatsc	12	0	319	319	359	item_poisonlengthresist	1	0		355	355	356	0
+fireresist		1							fireresist	1	0	1	473	473	475	0
+coldresist		1							coldresist	1	0	1	473	473	506	0
+lightresist		1							lightresist	1	0	1	473	473	537	0
+poisresist		1							poisonresist	1	0	1	473	473	568	0
+fire_mastery desc			firemasterystatdesc	12	1	54	54	478	passive_fire_mastery	1	0	1	95	95	475	0
+cold_mastery desc			coldmasterystatdesc	12	3	55	55	509	passive_cold_mastery	1	0	1	95	95	506	0
+ltng_mastery desc			lightmasterystatdesc	12	9	68	68	540	passive_ltng_mastery	1	0	1	95	95	537	0
+pois_mastery desc			poismasterystatdesc	12	2	61	61	571	passive_pois_mastery	1	0	1	95	95	568	0
+mag_mastery desc			magmasterystatdesc	12	0	59	59	602	passive_mag_mastery	1	0	1	95	95	599	0
+fireres desc	1		fireresstatdesc	12	1	377	377	478								0
+coldres desc	1		coldresstatdesc	12	3	378	378	509								0
+lightres desc	1		lightresstatdesc	12	9	391	391	540								0
+poisres desc	1		poisresstatdesc	12	2	384	384	571								0
+magres desc			magresstatdesc	12	0	382	382	602	magicresist	1	0	1	473	473	599	0
+physres desc			physresstatdesc	12	4	390	390	633	damageresist	1	0	1	473	473	630	0
+lifeafterkill			healafterkilldesc	12	0	72	72	328	item_healafterkill	1	0		112	112	325	0
+manaafterkill			manaafterkilldesc	12	0	436	436	328	item_manaafterkill	1	0		472	472	325	0
+lifeleech			lifeleechdesc	12	0	49	49	292	lifedrainmindam	1	0		112	112	294	0
+lifeleech			manaleechdesc	12	0	413	413	292	manadrainmindam	1	0		472	472	294	0
+phys_mastery desc			physmasterystatdesc	12	4	67	67	633	passive_phys_mastery	1	0	1	95	95	630	0

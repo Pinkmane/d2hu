@@ -1,0 +1,169 @@
+Superunique	Name	Class	hcIdx	MonSound	Mod1	Mod2	Mod3	MinGrp	MaxGrp	EClass	AutoPos	Stacks	Replaceable	Utrans	Utrans(N)	Utrans(H)	TC	TC(N)	TC(H)	*eol
+Bishibosh	Bishibosh	bishibosh	0		8	30	0	4	4	0	1	0		1	1	1	Act 1 Super A	Act 1 (N) Super A	Act 1 (H) Super A	0
+Bonebreak	Bonebreak	skeleton2	1		5	23	30	8	8	0	0	0		5	5	5	Act 1 Super A	Act 1 (N) Super A	Act 1 (H) Super A	0
+Coldcrow	Coldcrow	coldcrow	2		30	25	6	8	8	0	1	0	1	18	18	18	Coldcrow	Coldcrow (N)	Coldcrow (H)	0
+Rakanishu	Rakanishu	goatman2	3		17	6	30	7	7	0	0	0	1	29	29	29	Act 1 Super B	Act 1 (N) Super B	Act 1 (H) Super B	0
+Treehead WoodFist	Treehead WoodFist	brute2	4		6	27	30	6	6	0	0	0	1	4	4	4	Act 1 Super B	Act 1 (N) Super B	Act 1 (H) Super B	0
+Griswold	Griswold	griswold	5		30	25	6	0	0	0	0	0	1	17	17	17	Griswold	Griswold (N)	Griswold (H)	0
+The Summoner	The Summoner	bloodorb	6		25	27	0	0	0	0	0	0		0	0	0	Act 1 Super B	Act 1 (N) Super B	Act 1 (H) Super B	0
+Pitspawn Fouldog	Pitspawn Fouldog	bighead1	7		18	29	0	8	8	0	1	0		31	31	31	Act 1 Super C	Act 1 (N) Super C	Act 1 (H) Super C	0
+Flamespike the Crawler	Flamespike the Crawler	quillrat4	8		9	25	0	8	8	0	0	0		16	16	16	Act 1 Super C	Act 1 (N) Super C	Act 1 (H) Super C	0
+Boneash	Boneash	vampire6	9		6	5	0	6	6	0	0	0		15	15	15	Mortanius	Mortanius (N)	Mortanius (H)	0
+Radament	Radament	radament	10		25	29	0	9	9	0	0	0		30	30	30	Radament	Radament (N)	Radament (H)	0
+Bloodwitch the Wild	Bloodwitch the Wild	juggernaut	11		5	28	0	0	0	0	0	0		29	29	29	Juggernaut	Juggernaut (N)	Juggernaut (H)	0
+Fangskin	Fangskin	cantor6	12		10	29	30	4	4	0	0	0		14	14	14	Ardual	Ardual (N)	Ardual (H)	0
+Beetleburst	Beetleburst	scarab4	13		6	28	30	8	8	0	1	0	1	13	13	13	Act 2 Super B	Act 2 (N) Super A	Act 2 (H) Super A	0
+Leatherarm	Leatherarm	willowisp5	14		25	29	0	2	2	0	0	0		25	25	25	Glyph2	Glyph2 (N)	Glyph2 (H)	0
+Coldworm the Burrower	Coldworm the Burrower	maggotqueen1	15		30	27	0	2	2	0	0	0		13	13	13	Maggot	Maggot (N)	Maggot (H)	0
+Fire Eye	Fire Eye	reanimatedhorde6	16		6	27	0	1	1	0	0	0		12	12	12	Knight	Knight (N)	Knight (H)	0
+Dark Elder	Dark Elder	sandraider5	17		8	28	0	8	8	0	0	0	1	27	27	27	Act 2 Super C	Act 2 (N) Super B	Act 2 (H) Super B	0
+The Countess	The Countess	countess	18	countess	6	30	15	2	2	0	0	0		0	0	0	Countess	Countess (N)	Countess (H)	0
+Ancient Kaa the Soulless	Ancient Kaa the Soulless	D1DarkMage1	19		30	29	10	4	4	0	0	0		11	11	11	Act 3 Super B	Act 1 (H) Super A	Act 5 (H) Super A	0
+The Smith	The Smith	smith	20	smith	5	6	7	0	0	0	0	0		26	26	26	Hammer	Hammer (N)	Hammer (H)	0
+Web Mage the Burning	Web Mage the Burning	sszak	21		6	28	10	10	10	0	0	0		19	19	19	Sszak	Sszak (N)	Sszak (H)	0
+Witch Doctor Endugu	Witch Doctor Endugu	chimera	22		27	29	0	6	6	0	0	0		20	20	20	Chimera	Chimera (N)	Chimera (H)	0
+Stormtree	Stormtree	skullcrush	23		5	30	0	13	13	0	0	0	1	35	35	35	Act 3 Super C	Act 3 (N) Super B	Act 3 (H) Super B	0
+Sarina the Battlemaid	Sarina the Battlemaid	vilemother5	24		18	30	25	8	8	0	0	0	1	36	36	36	Book	Book (N)	Book (H)	0
+Icehawk Riftwing	Icehawk Riftwing	batdemon4	25		6	17	0	10	10	0	1	0		21	21	21	Act 3 Super C	Act 3 (N) Super B	Act 3 (H) Super B	0
+CouncilDummy	CouncilDummy	councilmemberx	26		0	0	0	0	0	0	0	0		36	36	36				0
+Wyand Voidfinger	Wyand Voidfinger	councilmember5	27		25	27	6	2	2	0	0	0		38	38	38	Council	Council (N)	Council (H)	0
+XX	XX	councilmemberx	28		0	0	0	0	0	0	0	0		23	23	23				0
+Maffer Dragonhand	Maffer Dragonhand	councilmember6	29		28	5	6	2	2	0	0	0		23	23	23	Council	Council (N)	Council (H)	0
+XXX	XXX	councilmemberx	30		0	0	0	0	0	0	0	0		37	37	37				0
+XXXX	XXXX	councilmemberx	31		0	0	0	0	0	0	0	0		22	22	22				0
+Winged Death	Winged Death	megademon3	32		5	30	0	8	8	0	0	0		24	24	24	Act 5 Super A	Act 4 (N) Super B	Act 4 (H) Super B	0
+The Tormentor	The Tormentor	doomknight3	33		10	29	6	6	6	0	0	0		9	9	9	Act 5 Super B	Act 4 (N) Super B	Act 4 (H) Super B	0
+Taintbreeder	Taintbreeder	vilemother3	34		5	30	6	6	6	0	0	0		10	10	10	Act 5 Super A	Act 4 (N) Super B	Act 4 (H) Super B	0
+Riftwraith the Cannibal	Riftwraith the Cannibal	regurgitator3	35		5	30	6	6	6	0	0	0		25	25	25	Act 5 Super A	Act 4 (N) Super B	Act 4 (H) Super B	0
+Infector of Souls	Infector of Souls	moloch	36		23	29	30	0	0	0	1	0		26	26	26	Seal	Seal (N)	Seal (H)	0
+Lord De Seis	Lord De Seis	deseis	37		17	29	30	0	0	0	1	0		11	11	11	Seal	Seal (N)	Seal (H)	0
+Grand Vizier of Chaos	Grand Vizier of Chaos	amon	38		6	18	30	0	0	0	1	0		26	26	26	Seal	Seal (N)	Seal (H)	0
+XXXXX	XXXXX	hellbovine	39		0	0	0	0	0	0	1	0		27	27	27				0
+Corpsefire	Corpsefire	fallenshaman6	40		25	29	0	4	4	0	1	0		25	25	25	Act 1 Super A	Act 1 (N) Super A	Act 1 (H) Super A	0
+The Feature Creep	The Feature Creep	hephasto	41	smithdemon	9	29	0	0	0	0	0	0		20	20	20	Haphesto	Haphesto (N)	Haphesto (H)	0
+Expansion																				0
+Siege Boss	Siege Boss	overseer1	42		8	27	0	10	10	1	0	1		7	7	7	Shenk	Shenk (N)	Shenk (H)	0
+Ancient Barbarian 1	Ancient Barbarian 1	ancientbarb1	43		0	0	0	0	0	1	0	1		25	25	25	Ancient	Ancient (N)	Ancient (H)	0
+Ancient Barbarian 2	Ancient Barbarian 2	ancientbarb2	44		0	0	0	0	0	1	0	1		26	26	26	Ancient	Ancient (N)	Ancient (H)	0
+Ancient Barbarian 3	Ancient Barbarian 3	ancientbarb3	45		0	0	0	0	0	1	0	1		11	11	11	Ancient	Ancient (N)	Ancient (H)	0
+Axe Dweller	Axe Dweller	reanimatedhorde5	46		5	30	0	8	8	1	0	0		20	20	20	Act 1 (N) Super C	Act 5 (N) Super A	Act 5 (H) Super A	0
+Bonesaw Breaker	Bonesaw Breaker	Anodized Elite	47		6	30	0	6	6	1	0	0		35	35	35	A5SuperUni	A5SuperUni (N)	A5SuperUni (H)	0
+Dac Farren	Dac Farren	Dac Farren	48		9	29	0	8	8	1	0	0	1	36	36	36	A5SuperUni	A5SuperUni (N)	A5SuperUni (H)	0
+Megaflow Rectifier	Megaflow Rectifier	minion11	49		6	30	0	8	8	1	0	0	1	21	21	21	Act 1 (N) Super A	Act 5 (N) Super A	Act 5 (H) Super A	0
+Eyeback Unleashed	Eyeback Unleashed	Eyeback Unleashed	50		5	30	0	8	8	1	0	0		8	8	8	A5SuperUni	A5SuperUni (N)	A5SuperUni (H)	0
+Threash Socket	Threash Socket	Threash Socket	51		7	29	0	8	8	1	0	0		37	37	37	A5SuperUni	A5SuperUni (N)	A5SuperUni (H)	0
+Pindleskin	Pindleskin	acaste	52		29	30	15	5	5	1	0	0		22	22	22	Acaste	Acaste (N)	Acaste (H)	0
+Snapchip Shatter	Snapchip Shatter	Snapchip Shatter	53		23	28	0	8	8	1	0	0		23	23	23	A5SuperUni	A5SuperUni (N)	A5SuperUni (H)	0
+Anodized Elite	Anodized Elite	putriddefiler5	54		5	30	27	10	10	1	0	0		38	38	38	Act 1 (N) Super C	Act 5 (N) Super B	Act 5 (H) Super B	0
+Vinvear Molech	Vinvear Molech	Vinvear Molech	55		17	25	0	8	8	1	0	0		23	23	23	A5SuperUni	A5SuperUni (N)	A5SuperUni (H)	0
+Sharp Tooth Sayer	Sharp Tooth Sayer	Sharp Tooth Sayer	56		6	25	0	8	8	1	0	0	1	24	24	24	A5SuperUni	A5SuperUni (N)	A5SuperUni (H)	0
+Magma Torquer	Magma Torquer	Magma Torquer	57		5	27	30	5	5	1	0	0		9	9	9	A5SuperUni	A5SuperUni (N)	A5SuperUni (H)	0
+Blaze Ripper	Blaze Ripper	Blaze Ripper	58		28	27	0	5	5	1	0	0		10	10	10	A5SuperUni	A5SuperUni (N)	A5SuperUni (H)	0
+Frozenstein	Frozenstein	whitedragon	59		18	27	30	0	0	1	0	0		19	19	19	White	White (N)	White (H)	0
+Nihlathak Boss	Nihlathak	nihlathakboss	60		27	30	15	2	2	1	0	1		28	28	28	Nihlathak Item	Nihlathak Item (N)	Nihlathak Item (H)	0
+Baal Subject 1	Baal Subject 1	baphomet	61		17	30	29	2	2	0	0	1		29	29	29	Baphomet	Baphomet (N)	Baphomet (H)	0
+Baal Subject 2	Baal Subject 2	boneking	62		7	30	25	3	3	0	0	1		21	21	21	Baphomet	Baphomet (N)	Baphomet (H)	0
+Baal Subject 3	Baal Subject 3	asmodeus	63		9	30	25	4	4	1	0	1		36	36	36	Baphomet	Baphomet (N)	Baphomet (H)	0
+Baal Subject 4	Baal Subject 4	glasya	64		18	30	10	2	2	1	0	1		20	20	20	Baphomet	Baphomet (N)	Baphomet (H)	0
+Baal Subject 5	Baal Subject 5	shadowlord	65		27	30	15	1	1	1	0	1		20	20	20	Darkness	Darkness (N)	Darkness (H)	0
+Devilspit	Devilspit	fallen4	66		5	25	0	8	8	0	0	0		6	6	6	Act 1 Super B	Act 1 (N) Super B	Act 1 (H) Super B	0
+Painsoul	Painsoul	wraith7	67		6	23	0	8	8	1	0	0		7	7	7	Act 1 Super C	Act 1 (N) Super C	Act 1 (H) Super C	0
+Viperbite	Viperbite	clawviper3	68		5	8	0	12	12	0	0	0		29	29	29	Act 2 Super C	Act 2 (N) Super B	Act 2 (H) Super B	0
+Whipstab	Whipstab	supertower	69		9	29	0	2	2	0	0	0		14	14	14	Act 2 Super C	Act 2 (N) Super B	Act 2 (H) Super B	0
+Fleshfeeder	Fleshfeeder	superspire	70		17	29	0	0	0	0	0	0		10	10	10	Act 2 Super C	Act 2 (N) Super C	Act 2 (H) Super C	0
+Skullcrush	Skullcrush	hatestorm	71		6	29	0	4	4	0	0	0		11	11	11	General	General (N)	General (H)	0
+Deathsend	Deathsend	sandleaper5	72		5	6	0	10	10	0	0	0		12	12	12	Act 4 Super B	Act 4 (N) Super A	Act 4 (H) Super A	0
+Soulrift	Soulrift	fingermage3	73		27	6	0	8	8	0	0	0		13	13	13	Act 5 Super A	Act 4 (N) Super B	Act 4 (H) Super B	0
+Frostmage	Frostmage	skmage_coldx	74		18	29	30	0	0	0	0	0		27	27	27	Act 3 Champ C	Act 3 (N) Champ B	Act 3 (H) Champ B	0
+Firemage	Firemage	skmage_firex	75		9	29	30	0	0	0	0	0		7	7	7	Act 3 Champ C	Act 3 (N) Champ B	Act 3 (H) Champ B	0
+Litmage	Litmage	skmage_ltngx	76		17	29	30	0	0	0	0	0		4	4	4	Act 3 Champ C	Act 3 (N) Champ B	Act 3 (H) Champ B	0
+Plaguemage	Plaguemage	skmage_poisx	77		10	29	30	0	0	0	0	0		16	16	16	Act 3 Champ C	Act 3 (N) Champ B	Act 3 (H) Champ B	0
+Megashaman	Megashaman	fetishshaman5	78		29	30	6	12	12	0	0	0		29	29	29	Glyph4	Glyph4 (N)	Glyph4 (H)	0
+Mithia	Mithia	madae	79		8	27	10	4	4	0	0	0		0	0	0	Mithia	Mithia (N)	Mithia (H)	0
+Guardianx	Guardianx	construct	80		10	29	0	2	2	0	0	0		0	0	0	Guardian	Guardian (N)	Guardian (H)	0
+Vindicator	Vindicator	doomknight2	81		23	29	0	8	8	0	0	0		8	8	8	Act 4 Super B	Act 4 (N) Super A	Act 4 (H) Super A	0
+VaultSwarm	VaultSwarm	swarm5	82		5	10	0	10	10	0	0	0		7	7	7	Act 2 (N) Super A	Act 5 (N) Super C	Act 5 (H) Super C	0
+VaultSpirit	VaultSpirit	wraith8	83		5	30	0	10	10	0	0	0		4	4	4	Act 2 (N) Super A	Act 5 (N) Super C	Act 5 (H) Super C	0
+VaultBat	VaultBat	batdemon6	84		5	27	0	10	10	0	0	0		5	5	5	Act 2 (N) Super A	Act 5 (N) Super C	Act 5 (H) Super C	0
+VaultBore	VaultBore	blunderbore5	85		5	25	0	10	10	0	0	0		4	4	10	Act 2 (N) Super A	Act 5 (N) Super C	Act 5 (H) Super C	0
+VaultHead	VaultHead	bighead6	86		5	29	0	10	10	0	0	0		7	7	7	Act 2 (N) Super A	Act 5 (N) Super C	Act 5 (H) Super C	0
+DoomFiend	DoomFiend	doomknightx	87		10			6	6	0	0	0		4	4	4	Titan	Titan (N)	Titan (H)	0
+TitanGolem	TitanGolem	titan2	88		8	30	0	2	2	0	0	0		0	0	0	Titan	Titan (N)	Titan (H)	0
+Belial	Belial	belial	89		30	10	25	0	0	0	0	0		0	0	0	Belial	Belial (N)	Belial (H)	0
+Azmodan	Azmodan	azmodan	90		30	10	23	0	0	0	0	0		0	0	0	Azmodan	Azmodan (N)	Azmodan (H)	0
+Samhain	Samhain	samhain	91		29	10	6	0	0	0	0	0		0	0	0	Samhain	Samhain (N)	Samhain (H)	0
+Frostreborn	Frostreborn	coldskullx	92		18	29	30	2	2	0	0	0		27	27	27	Act 2 (N) Unique C	Act 5 (N) Unique C	Act 5 (H) Unique C	0
+Firereborn	Firereborn	fireskullx	93		9	29	30	2	2	0	0	0		7	7	7	Act 2 (N) Unique C	Act 5 (N) Unique C	Act 5 (H) Unique C	0
+Litreborn	Litreborn	litskullx	94		17	29	30	2	2	0	0	0		4	4	4	Act 2 (N) Unique C	Act 5 (N) Unique C	Act 5 (H) Unique C	0
+Plaguereborn	Plaguereborn	plagueskullx	95		10	29	30	2	2	0	0	0		16	16	16	Act 2 (N) Unique C	Act 5 (N) Unique C	Act 5 (H) Unique C	0
+Core	Core	crownest5	96		30	0	0	6	6	0	0	0		4	4	4	Glyph1	Glyph1 (N)	Glyph1 (H)	0
+Firefrog	Firefrog	frogdemon1	97		29	9	30	3	3	0	0	0		7	7	7	Act 3 Super C	Act 3 (N) Super B	Act 3 (H) Super B	0
+Coldfrog	Coldfrog	frogdemon2	98		29	18	30	3	3	0	0	0		27	27	27	Act 3 Super C	Act 3 (N) Super B	Act 3 (H) Super B	0
+Slimefrog	Slimefrog	frogdemon3	99		29	5	30	3	3	0	0	0		4	4	4	Act 3 Super C	Act 3 (N) Super B	Act 3 (H) Super B	0
+SuperZombie	SuperZombie	zombie6	100		23	28	0	8	8	0	0	0		8	8	8	Act 1 Super B	Act 1 (N) Super B	Act 1 (H) Super B	0
+SuperRogue	SuperRogue	cr_lancer4	101		5	17	0	8	8	0	0	0		7	7	7	Act 1 Super C	Act 1 (N) Super C	Act 1 (H) Super C	0
+SuperPanther	SuperPanther	lindwyrm	102		6	0	0	6	6	0	0	0		8	8	8	lindwyrm	lindwyrm (N)	lindwyrm (H)	0
+SuperMaggot	SuperMaggot	sandmaggotx	103		5	30	0	9	9	0	0	0		5	5	5	Glyph3	Glyph3 (N)	Glyph3 (H)	0
+SuperArcher	SuperArcher	sk_archer5	104		29	28	0	7	7	0	0	0		4	4	10	Act 3 Super A	Act 2 (N) Super C	Act 2 (H) Super C	0
+SuperMummy	SuperMummy	mummy5	105		5	23	0	9	9	0	0	0		7	7	7	Act 3 Super B	Act 3 (N) Super B	Act 3 (H) Super B	0
+SuperVampire	SuperVampire	vatimir	106		9	29	0	6	6	0	0	0		4	4	4	Glyph5	Glyph5 (N)	Glyph5 (H)	0
+SuperFetish	SuperFetish	bonefetish5	107		5	30	0	9	9	0	0	0		16	16	16	Act 4 Super A	Act 3 (N) Super C	Act 3 (H) Super C	0
+SuperBaboon	SuperBaboon	baboon5	108		5	8	0	9	9	0	0	0		27	27	27	Act 3 Super C	Act 3 (N) Super B	Act 3 (H) Super B	0
+Ismail Vilehand	Ismail Vilehand	councilmember3	109		5	25	10	2	2	0	0	0		36	36	36	Council	Council (N)	Council (H)	0
+Toorc Icefist	Toorc Icefist	councilmember2	110		5	18	30	2	2	0	0	0		23	23	23	Council	Council (N)	Council (H)	0
+Geleb Flamefinger	Geleb Flamefinger	councilmember1	111		5	9	30	2	2	0	0	0		37	37	37	Council	Council (N)	Council (H)	0
+Bremm Sparkfist	Bremm Sparkfist	councilmember4	112		5	17	6	2	2	0	0	0		22	22	22	Council	Council (N)	Council (H)	0
+SuperBugbear	SuperBugbear	bugbearz	113		5	6	0	2	2	0	0	0		0	0	0	Act 2 (N) Super C	Act 5 (N) Super C	Act 5 (H) Super C	0
+SuperWyrm	SuperWyrm	wyrmz	114		5	5	0	2	2	0	0	0		0	0	0	Act 2 (N) Super C	Act 5 (N) Super C	Act 5 (H) Super C	0
+SuperCurst	SuperCurst	curstguardz	115		5	25	0	2	2	0	0	0		0	0	0	Act 2 (N) Super C	Act 5 (N) Super C	Act 5 (H) Super C	0
+SuperMarilith	SuperMarilith	marilithz	116		5	27	0	2	2	0	0	0		0	0	0	Act 2 (N) Super C	Act 5 (N) Super C	Act 5 (H) Super C	0
+BaalTentay	BaalTentay	baaltentacley	117		9	17	6	0	0	0	0	0		0	0	0	Tentacle	Tentacle (N)	Tentacle (H)	0
+BaalTentax	BaalTentax	baaltentaclex	118		18	23	7	0	0	0	0	0		0	0	0	Tentacle	Tentacle (N)	Tentacle (H)	0
+SuperClay	SuperClay	claygolemz	119		8	30	0	4	4	0	0	0		0	0	0	Act 1 (N) Super B	Act 5 (N) Super B	Act 5 (H) Super B	0
+SuperBlood	SuperBlood	bloodgolemz	120		8	30	0	4	4	0	0	0		0	0	0	Act 1 (N) Super B	Act 5 (N) Super B	Act 5 (H) Super B	0
+SuperIron	SuperIron	irongolemz	121		8	30	0	4	4	0	0	0		0	0	0	Act 1 (N) Super B	Act 5 (N) Super B	Act 5 (H) Super B	0
+SuperFire	SuperFire	firegolemz	122		8	30	0	4	4	0	0	0		0	0	0	Act 1 (N) Super B	Act 5 (N) Super B	Act 5 (H) Super B	0
+ShenkCatapult	ShenkCatapult	catapultx	123		30	25	0	5	5	0	0	0		0	0	0				0
+SuperSuc	SuperSuc	Vinvear Molech	124		6	28	0	9	9	1	0	0		10	10	10	A5SuperUni	A5SuperUni (N)	A5SuperUni (H)	0
+The Cow King	The Cow King	kingcow	125		6	29	30	14	14	0	0	0		27	27	27	CowCharm	CowCharm (N)	CowCharm (H)	0
+ShadowMan1	ShadowMan1	shadowspirit1	126		30	0	0	2	2	0	0	0		0	0	0	Baphomet	Baphomet (N)	Baphomet (H)	0
+ShadowMan2	ShadowMan2	shadowspirit2	127		30	0	0	2	2	0	0	0		0	0	0	Titan	Titan (N)	Titan (H)	0
+ShadowMan3	ShadowMan3	shadowspirit3	128		30	0	0	2	2	0	0	0		0	0	0	Asmodeus	Asmodeus (N)	Asmodeus (H)	0
+ShadowMan4	ShadowMan4	shadowspirit4	129		30	0	0	2	2	0	0	0		0	0	0	Titan	Titan (N)	Titan (H)	0
+ShadowMan5	ShadowMan5	shadowspirit5	130		30	0	0	2	2	0	0	0		0	0	0	Darkness	Darkness (N)	Darkness (H)	0
+Leoric	Leoric	skeletonking	131		30	5	23	0	0	0	0	0		0	0	0	Leoric	Leoric (N)	Leoric (H)	0
+AntiDruid	AntiDruid	antidruid	132		30	10	0	1	1	0	0	0		0	0	0	AntiDruid	AntiDruid (N)	AntiDruid (H)	0
+Ankheg	Ankheg	ankheg	133		30	10	0	0	0	0	0	0		0	0	0	Ankheg	Ankheg (N)	Ankheg (H)	0
+Lazarus	Lazarus	lazarus	134		30	27	0	3	3	0	0	0		0	0	0	Seal	Seal (N)	Seal (H)	0
+SuperGarg	SuperGarg	supergarg	135		29	18	30	4	4	0	0	0		0	0	0	Act 3 Super A	Act 2 (N) Super C	Act 2 (H) Super C	0
+Exploder2	Exploder2	Eyemonster1	136		30	29	6	8	8	0	0	0		0	0	0	Mithia	Mithia (N)	Mithia (H)	0
+DarkPriest	DarkPriest	cantor4	137		17	29	0	6	6	0	0	0		28	28	28	Act 4 Super A	Act 3 (N) Super C	Act 3 (H) Super C	0
+SkullChamp	SkullChamp	doomknight1	138		5	23	30	9	9	0	0	0		10	10	10	Act 4 Super B	Act 4 (N) Super A	Act 4 (H) Super A	0
+SuperAnguish	SuperAnguish	cr_archer7	139		30	29	0	6	6	0	0	0		8	8	8	Act 2 Super A	Act 1 (N) Super C	Act 1 (H) Super C	0
+DeathMosquito	DeathMosquito	mosquito4	140		6	23	30	9	9	0	0	0		12	12	12	Act 3 Super C	Act 3 (N) Super B	Act 3 (H) Super B	0
+Juggernaut2	Bloodwitch the Wild	juggernaut2	141		6	5	0	0	0	0	0	0		29	29	29	Ore	Ore	Ore	0
+SoulStealer	SoulStealer	soulstealerboss	142		6	5	0	0	0	0	0	0		29	29	29	SoulStealer			0
+SoulmancerA4	SoulmancerA4	legionguardnecro	143		30	10	5	0	0	0	0	0		0	0	0	LegionGuard4	LegionGuard4 (N)	LegionGuard4 (H)	0
+LegionTPBoss	LegionTPBoss	orbofheroes	144		29	17	9	0	0	0	0	0		0	0	0				0
+SoulmancerA2	SoulmancerA2	legionguardnecro	145		30	10	6	0	0	0	0	0		0	0	0	LegionGuard2	LegionGuard2 (N)	LegionGuard2 (H)	0
+SoulmancerA1	SoulmancerA1	legionguardnecro	146		30	10	7	0	0	0	0	0		0	0	0	LegionGuard1	LegionGuard1 (N)	LegionGuard1 (H)	0
+SoulmancerA3	SoulmancerA3	legionguardnecro	147		30	10	25	0	0	0	0	0		0	0	0	LegionGuard3	LegionGuard3 (N)	LegionGuard3 (H)	0
+Scarlet	Scarlet	scarlet	148		5	30	0	0	0	0	0	0		5	5	5		Scarlet		0
+SorrowLord	SorrowLord	sorrowlord	149		6	7	30	0	0	0	0	0		5	5	5			SorrowLord	0
+Pious	Pious	pious	150		5	30	18	0	0	0	0	0		5	5	5	Pious	Pious (N)	Pious (H)	0
+Alexius	Alexius	alexius	151		27	30	17	0	0	0	0	0		5	5	5	Alexius	Alexius (N)	Alexius (H)	0
+Martel	Martel	martel	152		7	30	9	0	0	0	0	0		5	5	5	Martel	Martel (N)	Martel (H)	0
+Kannli	Kannli	kannli	153		5	30	9	0	0	0	0	0		5	5	5	Kannli	Kannli (N)	Kannli (H)	0
+Asteroth	Asteroth	asteroth	154		25	30	29	0	0	0	0	0		5	5	5	Asteroth	Asteroth (N)	Asteroth (H)	0
+CoolPlayer	CoolPlayer	coolplayer	155		17	30	29	0	0	0	0	0		5	5	5	CoolPlayer	CoolPlayer (N)	CoolPlayer (H)	0
+FuryCury	FuryCury	furycury	156		6	30	7	0	0	0	0	0		5	5	5	FuryCury	FuryCury (N)	FuryCury (H)	0
+DrRodriguez	DrRodriguez	drrodriguez	157		29	30	29	0	0	0	0	0		5	5	5	DrRod	DrRod (N)	DrRod (H)	0
+Nazgul	Nazgul	nazgul	158		23	30	25	0	0	0	0	0		5	5	5	Nazgul	Nazgul (N)	Nazgul (H)	0
+Hod	Hod	hod	159		6	30	10	6	6	0	0	0		5	5	5	Hod	Hod (N)	Hod (H)	0
+Chekka	Chekka	chekka	160		6	30	29	6	6	0	0	0		5	5	5	Chekka	Chekka (N)	Chekka (H)	0
+Yelsne	Yelsne	yelsne	161		6	30	10	6	6	0	0	0		5	5	5	Yelsne	Yelsne (N)	Yelsne (H)	0
+Abholos	Abholos	abholos	162		7	23	10	8	8	0	0	0		5	5	5	Abholos	Abholos(N)	Abholos(H)	0
+Muxog	Muxog	muxog	163		7	17	0	0	8	0	0	0		5	5	5	Azial	Azial (N)	POSBoss	0
+Sadun	Sadun	sadun	164		23	28	0	0	8	0	0	0		5	5	5	Azial	Azial (N)	POSBoss	0
+Ignis	Ignis	ignis	165		7	29	0	0	8	0	0	0		5	5	5	Azial	Azial (N)	POSBoss	0
+The Omicron Sentinel	The Omicron Sentinel	omicronsentinel	166		25	18	0	0	8	0	0	0		5	5	5	Azial	Azial (N)	POSBoss	0

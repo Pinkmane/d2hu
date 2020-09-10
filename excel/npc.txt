@@ -1,0 +1,18 @@
+npc	buy mult	sell mult	rep mult	questflag A	questbuymult A	questsellmult A	questrepmult A	questflag B	questbuymult B	questsellmult B	questrepmult B	questflag C	questbuymult C	questsellmult C	questrepmult C	max buy	max buy (N)	max buy (H)
+gheed	256	1024	32													10000	55000	80000
+charsi	256	1024	32													10000	55000	80000
+akara	256	1024	32													10000	55000	80000
+lysander	256	1024	32													20000	60000	85000
+drognan	256	1024	32													20000	60000	85000
+elzix	256	1024	32													20000	60000	85000
+fara	256	1024	32													20000	60000	85000
+hratli	256	1024	32													30000	65000	90000
+alkor	256	1024	32													30000	65000	90000
+ormus	256	1024	32													30000	65000	90000
+asheara	256	1024	32													30000	65000	90000
+jamella	256	1024	32													40000	70000	95000
+halbu	256	1024	32													40000	70000	95000
+malah	256	1024	32													50000	75000	100000
+drehya	256	1024	32													50000	75000	100000
+larzuk	256	1024	32													50000	75000	100000
+nihlathak	256	1024	32													50000	75000	100000
